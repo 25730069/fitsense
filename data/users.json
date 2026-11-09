@@ -1,0 +1,3933 @@
+[
+ {
+  "user_id": "U000",
+  "data_type": "real",
+  "gender": "여성",
+  "height_cm": 162,
+  "weight_kg": 53,
+  "shoulder_cm": null,
+  "chest_cm": null,
+  "waist_cm": null,
+  "hip_cm": null,
+  "thigh_cm": null,
+  "arm_cm": null,
+  "fit_preference": null,
+  "meta": {
+   "source": "json",
+   "real": [
+    "height_cm",
+    "weight_kg"
+   ],
+   "dummy": [],
+   "unknown": [
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ]
+  }
+ },
+ {
+  "user_id": "U001",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 148,
+  "weight_kg": 42,
+  "shoulder_cm": 36,
+  "chest_cm": 72,
+  "waist_cm": 58,
+  "hip_cm": 81,
+  "thigh_cm": 48,
+  "arm_cm": 50,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U002",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 171,
+  "weight_kg": 49,
+  "shoulder_cm": 40,
+  "chest_cm": 87,
+  "waist_cm": 67,
+  "hip_cm": 94,
+  "thigh_cm": 58,
+  "arm_cm": 57,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U003",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 169,
+  "weight_kg": 52,
+  "shoulder_cm": 41,
+  "chest_cm": 84,
+  "waist_cm": 69,
+  "hip_cm": 96,
+  "thigh_cm": 56,
+  "arm_cm": 57,
+  "fit_preference": "슬림 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U004",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 165,
+  "weight_kg": 54,
+  "shoulder_cm": 39,
+  "chest_cm": 85,
+  "waist_cm": 70,
+  "hip_cm": 94,
+  "thigh_cm": 52,
+  "arm_cm": 53,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U005",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 161,
+  "weight_kg": 64,
+  "shoulder_cm": 39,
+  "chest_cm": 85,
+  "waist_cm": 72,
+  "hip_cm": 97,
+  "thigh_cm": 57,
+  "arm_cm": 55,
+  "fit_preference": "여유 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U006",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 156,
+  "weight_kg": 46,
+  "shoulder_cm": 36,
+  "chest_cm": 74,
+  "waist_cm": 59,
+  "hip_cm": 85,
+  "thigh_cm": 52,
+  "arm_cm": 54,
+  "fit_preference": "여유 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U007",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 156,
+  "weight_kg": 48,
+  "shoulder_cm": 36,
+  "chest_cm": 76,
+  "waist_cm": 57,
+  "hip_cm": 88,
+  "thigh_cm": 52,
+  "arm_cm": 53,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U008",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 161,
+  "weight_kg": 59,
+  "shoulder_cm": 38,
+  "chest_cm": 91,
+  "waist_cm": 66,
+  "hip_cm": 96,
+  "thigh_cm": 56,
+  "arm_cm": 55,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U009",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 154,
+  "weight_kg": 60,
+  "shoulder_cm": 36,
+  "chest_cm": 85,
+  "waist_cm": 67,
+  "hip_cm": 92,
+  "thigh_cm": 55,
+  "arm_cm": 50,
+  "fit_preference": "여유 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U010",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 161,
+  "weight_kg": 61,
+  "shoulder_cm": 40,
+  "chest_cm": 90,
+  "waist_cm": 73,
+  "hip_cm": 100,
+  "thigh_cm": 61,
+  "arm_cm": 54,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U011",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 160,
+  "weight_kg": 43,
+  "shoulder_cm": 38,
+  "chest_cm": 80,
+  "waist_cm": 59,
+  "hip_cm": 86,
+  "thigh_cm": 51,
+  "arm_cm": 54,
+  "fit_preference": "슬림 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U012",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 153,
+  "weight_kg": 61,
+  "shoulder_cm": 36,
+  "chest_cm": 84,
+  "waist_cm": 63,
+  "hip_cm": 90,
+  "thigh_cm": 54,
+  "arm_cm": 54,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U013",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 162,
+  "weight_kg": 54,
+  "shoulder_cm": 39,
+  "chest_cm": 84,
+  "waist_cm": 67,
+  "hip_cm": 97,
+  "thigh_cm": 57,
+  "arm_cm": 55,
+  "fit_preference": "여유 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U014",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 150,
+  "weight_kg": 48,
+  "shoulder_cm": 38,
+  "chest_cm": 73,
+  "waist_cm": 59,
+  "hip_cm": 82,
+  "thigh_cm": 50,
+  "arm_cm": 49,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U015",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 153,
+  "weight_kg": 49,
+  "shoulder_cm": 36,
+  "chest_cm": 78,
+  "waist_cm": 57,
+  "hip_cm": 88,
+  "thigh_cm": 51,
+  "arm_cm": 51,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U016",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 164,
+  "weight_kg": 60,
+  "shoulder_cm": 38,
+  "chest_cm": 85,
+  "waist_cm": 68,
+  "hip_cm": 100,
+  "thigh_cm": 61,
+  "arm_cm": 54,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U017",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 155,
+  "weight_kg": 48,
+  "shoulder_cm": 40,
+  "chest_cm": 78,
+  "waist_cm": 59,
+  "hip_cm": 89,
+  "thigh_cm": 53,
+  "arm_cm": 53,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U018",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 153,
+  "weight_kg": 45,
+  "shoulder_cm": 35,
+  "chest_cm": 80,
+  "waist_cm": 57,
+  "hip_cm": 90,
+  "thigh_cm": 54,
+  "arm_cm": 51,
+  "fit_preference": "여유 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U019",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 171,
+  "weight_kg": 64,
+  "shoulder_cm": 43,
+  "chest_cm": 97,
+  "waist_cm": 75,
+  "hip_cm": 104,
+  "thigh_cm": 59,
+  "arm_cm": 57,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U020",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 159,
+  "weight_kg": 57,
+  "shoulder_cm": 39,
+  "chest_cm": 84,
+  "waist_cm": 66,
+  "hip_cm": 96,
+  "thigh_cm": 57,
+  "arm_cm": 53,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U021",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 163,
+  "weight_kg": 64,
+  "shoulder_cm": 40,
+  "chest_cm": 92,
+  "waist_cm": 72,
+  "hip_cm": 105,
+  "thigh_cm": 62,
+  "arm_cm": 55,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U022",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 161,
+  "weight_kg": 47,
+  "shoulder_cm": 38,
+  "chest_cm": 78,
+  "waist_cm": 66,
+  "hip_cm": 92,
+  "thigh_cm": 52,
+  "arm_cm": 55,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U023",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 158,
+  "weight_kg": 57,
+  "shoulder_cm": 38,
+  "chest_cm": 82,
+  "waist_cm": 69,
+  "hip_cm": 95,
+  "thigh_cm": 60,
+  "arm_cm": 52,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U024",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 148,
+  "weight_kg": 52,
+  "shoulder_cm": 35,
+  "chest_cm": 72,
+  "waist_cm": 62,
+  "hip_cm": 89,
+  "thigh_cm": 52,
+  "arm_cm": 49,
+  "fit_preference": "슬림 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U025",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 173,
+  "weight_kg": 75,
+  "shoulder_cm": 42,
+  "chest_cm": 103,
+  "waist_cm": 84,
+  "hip_cm": 108,
+  "thigh_cm": 68,
+  "arm_cm": 60,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U026",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 156,
+  "weight_kg": 44,
+  "shoulder_cm": 38,
+  "chest_cm": 76,
+  "waist_cm": 59,
+  "hip_cm": 90,
+  "thigh_cm": 55,
+  "arm_cm": 52,
+  "fit_preference": "슬림 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U027",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 151,
+  "weight_kg": 57,
+  "shoulder_cm": 36,
+  "chest_cm": 81,
+  "waist_cm": 66,
+  "hip_cm": 89,
+  "thigh_cm": 51,
+  "arm_cm": 50,
+  "fit_preference": "슬림 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U028",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 160,
+  "weight_kg": 63,
+  "shoulder_cm": 39,
+  "chest_cm": 91,
+  "waist_cm": 65,
+  "hip_cm": 98,
+  "thigh_cm": 58,
+  "arm_cm": 52,
+  "fit_preference": "슬림 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U029",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 157,
+  "weight_kg": 63,
+  "shoulder_cm": 37,
+  "chest_cm": 88,
+  "waist_cm": 68,
+  "hip_cm": 97,
+  "thigh_cm": 59,
+  "arm_cm": 54,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U030",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 164,
+  "weight_kg": 60,
+  "shoulder_cm": 39,
+  "chest_cm": 91,
+  "waist_cm": 71,
+  "hip_cm": 97,
+  "thigh_cm": 57,
+  "arm_cm": 56,
+  "fit_preference": "여유 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U031",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 164,
+  "weight_kg": 45,
+  "shoulder_cm": 38,
+  "chest_cm": 82,
+  "waist_cm": 62,
+  "hip_cm": 90,
+  "thigh_cm": 53,
+  "arm_cm": 54,
+  "fit_preference": "여유 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U032",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 156,
+  "weight_kg": 65,
+  "shoulder_cm": 37,
+  "chest_cm": 88,
+  "waist_cm": 70,
+  "hip_cm": 99,
+  "thigh_cm": 60,
+  "arm_cm": 54,
+  "fit_preference": "여유 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U033",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 164,
+  "weight_kg": 61,
+  "shoulder_cm": 39,
+  "chest_cm": 90,
+  "waist_cm": 73,
+  "hip_cm": 100,
+  "thigh_cm": 59,
+  "arm_cm": 55,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U034",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 168,
+  "weight_kg": 57,
+  "shoulder_cm": 42,
+  "chest_cm": 86,
+  "waist_cm": 72,
+  "hip_cm": 101,
+  "thigh_cm": 62,
+  "arm_cm": 56,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U035",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 161,
+  "weight_kg": 60,
+  "shoulder_cm": 39,
+  "chest_cm": 86,
+  "waist_cm": 67,
+  "hip_cm": 98,
+  "thigh_cm": 60,
+  "arm_cm": 53,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U036",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 155,
+  "weight_kg": 48,
+  "shoulder_cm": 39,
+  "chest_cm": 76,
+  "waist_cm": 62,
+  "hip_cm": 87,
+  "thigh_cm": 52,
+  "arm_cm": 51,
+  "fit_preference": "여유 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U037",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 171,
+  "weight_kg": 57,
+  "shoulder_cm": 41,
+  "chest_cm": 89,
+  "waist_cm": 73,
+  "hip_cm": 94,
+  "thigh_cm": 55,
+  "arm_cm": 59,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U038",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 164,
+  "weight_kg": 65,
+  "shoulder_cm": 41,
+  "chest_cm": 94,
+  "waist_cm": 71,
+  "hip_cm": 102,
+  "thigh_cm": 63,
+  "arm_cm": 58,
+  "fit_preference": "여유 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U039",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 165,
+  "weight_kg": 68,
+  "shoulder_cm": 40,
+  "chest_cm": 97,
+  "waist_cm": 72,
+  "hip_cm": 106,
+  "thigh_cm": 63,
+  "arm_cm": 52,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U040",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 161,
+  "weight_kg": 52,
+  "shoulder_cm": 40,
+  "chest_cm": 84,
+  "waist_cm": 62,
+  "hip_cm": 89,
+  "thigh_cm": 51,
+  "arm_cm": 53,
+  "fit_preference": "여유 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U041",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 154,
+  "weight_kg": 45,
+  "shoulder_cm": 37,
+  "chest_cm": 76,
+  "waist_cm": 58,
+  "hip_cm": 79,
+  "thigh_cm": 49,
+  "arm_cm": 53,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U042",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 150,
+  "weight_kg": 41,
+  "shoulder_cm": 35,
+  "chest_cm": 69,
+  "waist_cm": 54,
+  "hip_cm": 80,
+  "thigh_cm": 45,
+  "arm_cm": 52,
+  "fit_preference": "여유 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U043",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 170,
+  "weight_kg": 63,
+  "shoulder_cm": 42,
+  "chest_cm": 95,
+  "waist_cm": 71,
+  "hip_cm": 104,
+  "thigh_cm": 61,
+  "arm_cm": 57,
+  "fit_preference": "슬림 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U044",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 161,
+  "weight_kg": 51,
+  "shoulder_cm": 40,
+  "chest_cm": 84,
+  "waist_cm": 61,
+  "hip_cm": 94,
+  "thigh_cm": 56,
+  "arm_cm": 53,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U045",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 151,
+  "weight_kg": 62,
+  "shoulder_cm": 37,
+  "chest_cm": 82,
+  "waist_cm": 67,
+  "hip_cm": 94,
+  "thigh_cm": 55,
+  "arm_cm": 51,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U046",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 157,
+  "weight_kg": 69,
+  "shoulder_cm": 38,
+  "chest_cm": 92,
+  "waist_cm": 71,
+  "hip_cm": 100,
+  "thigh_cm": 60,
+  "arm_cm": 52,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U047",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 165,
+  "weight_kg": 59,
+  "shoulder_cm": 38,
+  "chest_cm": 89,
+  "waist_cm": 69,
+  "hip_cm": 99,
+  "thigh_cm": 61,
+  "arm_cm": 56,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U048",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 154,
+  "weight_kg": 55,
+  "shoulder_cm": 38,
+  "chest_cm": 81,
+  "waist_cm": 64,
+  "hip_cm": 91,
+  "thigh_cm": 55,
+  "arm_cm": 53,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U049",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 164,
+  "weight_kg": 50,
+  "shoulder_cm": 39,
+  "chest_cm": 85,
+  "waist_cm": 68,
+  "hip_cm": 95,
+  "thigh_cm": 56,
+  "arm_cm": 57,
+  "fit_preference": "슬림 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U050",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 167,
+  "weight_kg": 61,
+  "shoulder_cm": 42,
+  "chest_cm": 90,
+  "waist_cm": 68,
+  "hip_cm": 103,
+  "thigh_cm": 63,
+  "arm_cm": 57,
+  "fit_preference": "슬림 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U051",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 152,
+  "weight_kg": 39,
+  "shoulder_cm": 36,
+  "chest_cm": 69,
+  "waist_cm": 51,
+  "hip_cm": 80,
+  "thigh_cm": 47,
+  "arm_cm": 52,
+  "fit_preference": "슬림 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U052",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 156,
+  "weight_kg": 56,
+  "shoulder_cm": 37,
+  "chest_cm": 83,
+  "waist_cm": 69,
+  "hip_cm": 98,
+  "thigh_cm": 58,
+  "arm_cm": 51,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U053",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 165,
+  "weight_kg": 56,
+  "shoulder_cm": 40,
+  "chest_cm": 91,
+  "waist_cm": 66,
+  "hip_cm": 99,
+  "thigh_cm": 61,
+  "arm_cm": 54,
+  "fit_preference": "여유 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U054",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 165,
+  "weight_kg": 58,
+  "shoulder_cm": 40,
+  "chest_cm": 90,
+  "waist_cm": 73,
+  "hip_cm": 97,
+  "thigh_cm": 57,
+  "arm_cm": 56,
+  "fit_preference": "여유 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U055",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 159,
+  "weight_kg": 53,
+  "shoulder_cm": 37,
+  "chest_cm": 82,
+  "waist_cm": 63,
+  "hip_cm": 91,
+  "thigh_cm": 54,
+  "arm_cm": 53,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U056",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 159,
+  "weight_kg": 43,
+  "shoulder_cm": 35,
+  "chest_cm": 73,
+  "waist_cm": 56,
+  "hip_cm": 87,
+  "thigh_cm": 53,
+  "arm_cm": 53,
+  "fit_preference": "슬림 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U057",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 173,
+  "weight_kg": 50,
+  "shoulder_cm": 41,
+  "chest_cm": 83,
+  "waist_cm": 68,
+  "hip_cm": 100,
+  "thigh_cm": 58,
+  "arm_cm": 60,
+  "fit_preference": "여유 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U058",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 162,
+  "weight_kg": 52,
+  "shoulder_cm": 38,
+  "chest_cm": 82,
+  "waist_cm": 66,
+  "hip_cm": 94,
+  "thigh_cm": 55,
+  "arm_cm": 55,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U059",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 167,
+  "weight_kg": 52,
+  "shoulder_cm": 37,
+  "chest_cm": 85,
+  "waist_cm": 67,
+  "hip_cm": 95,
+  "thigh_cm": 54,
+  "arm_cm": 57,
+  "fit_preference": "슬림 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U060",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 163,
+  "weight_kg": 48,
+  "shoulder_cm": 39,
+  "chest_cm": 83,
+  "waist_cm": 61,
+  "hip_cm": 90,
+  "thigh_cm": 53,
+  "arm_cm": 55,
+  "fit_preference": "여유 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U061",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 161,
+  "weight_kg": 49,
+  "shoulder_cm": 39,
+  "chest_cm": 80,
+  "waist_cm": 60,
+  "hip_cm": 92,
+  "thigh_cm": 54,
+  "arm_cm": 54,
+  "fit_preference": "여유 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U062",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 167,
+  "weight_kg": 47,
+  "shoulder_cm": 39,
+  "chest_cm": 84,
+  "waist_cm": 63,
+  "hip_cm": 90,
+  "thigh_cm": 54,
+  "arm_cm": 58,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U063",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 159,
+  "weight_kg": 43,
+  "shoulder_cm": 38,
+  "chest_cm": 75,
+  "waist_cm": 64,
+  "hip_cm": 85,
+  "thigh_cm": 51,
+  "arm_cm": 54,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U064",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 162,
+  "weight_kg": 64,
+  "shoulder_cm": 39,
+  "chest_cm": 91,
+  "waist_cm": 74,
+  "hip_cm": 97,
+  "thigh_cm": 59,
+  "arm_cm": 56,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U065",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 163,
+  "weight_kg": 57,
+  "shoulder_cm": 38,
+  "chest_cm": 84,
+  "waist_cm": 67,
+  "hip_cm": 96,
+  "thigh_cm": 56,
+  "arm_cm": 53,
+  "fit_preference": "여유 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U066",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 150,
+  "weight_kg": 50,
+  "shoulder_cm": 36,
+  "chest_cm": 79,
+  "waist_cm": 57,
+  "hip_cm": 88,
+  "thigh_cm": 51,
+  "arm_cm": 53,
+  "fit_preference": "여유 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U067",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 157,
+  "weight_kg": 58,
+  "shoulder_cm": 38,
+  "chest_cm": 87,
+  "waist_cm": 67,
+  "hip_cm": 94,
+  "thigh_cm": 54,
+  "arm_cm": 53,
+  "fit_preference": "여유 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U068",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 160,
+  "weight_kg": 55,
+  "shoulder_cm": 38,
+  "chest_cm": 84,
+  "waist_cm": 68,
+  "hip_cm": 97,
+  "thigh_cm": 59,
+  "arm_cm": 54,
+  "fit_preference": "슬림 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U069",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 159,
+  "weight_kg": 52,
+  "shoulder_cm": 37,
+  "chest_cm": 82,
+  "waist_cm": 62,
+  "hip_cm": 95,
+  "thigh_cm": 55,
+  "arm_cm": 53,
+  "fit_preference": "슬림 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U070",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 160,
+  "weight_kg": 64,
+  "shoulder_cm": 37,
+  "chest_cm": 89,
+  "waist_cm": 72,
+  "hip_cm": 100,
+  "thigh_cm": 59,
+  "arm_cm": 54,
+  "fit_preference": "여유 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U071",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 157,
+  "weight_kg": 41,
+  "shoulder_cm": 38,
+  "chest_cm": 72,
+  "waist_cm": 56,
+  "hip_cm": 81,
+  "thigh_cm": 49,
+  "arm_cm": 53,
+  "fit_preference": "슬림 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U072",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 158,
+  "weight_kg": 60,
+  "shoulder_cm": 39,
+  "chest_cm": 86,
+  "waist_cm": 64,
+  "hip_cm": 97,
+  "thigh_cm": 57,
+  "arm_cm": 53,
+  "fit_preference": "슬림 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U073",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 154,
+  "weight_kg": 55,
+  "shoulder_cm": 39,
+  "chest_cm": 77,
+  "waist_cm": 64,
+  "hip_cm": 89,
+  "thigh_cm": 57,
+  "arm_cm": 51,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U074",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 161,
+  "weight_kg": 48,
+  "shoulder_cm": 38,
+  "chest_cm": 79,
+  "waist_cm": 61,
+  "hip_cm": 91,
+  "thigh_cm": 57,
+  "arm_cm": 53,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U075",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 164,
+  "weight_kg": 50,
+  "shoulder_cm": 41,
+  "chest_cm": 83,
+  "waist_cm": 68,
+  "hip_cm": 92,
+  "thigh_cm": 53,
+  "arm_cm": 57,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U076",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 160,
+  "weight_kg": 63,
+  "shoulder_cm": 38,
+  "chest_cm": 93,
+  "waist_cm": 74,
+  "hip_cm": 93,
+  "thigh_cm": 54,
+  "arm_cm": 57,
+  "fit_preference": "여유 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U077",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 158,
+  "weight_kg": 48,
+  "shoulder_cm": 36,
+  "chest_cm": 77,
+  "waist_cm": 62,
+  "hip_cm": 86,
+  "thigh_cm": 51,
+  "arm_cm": 53,
+  "fit_preference": "여유 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U078",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 164,
+  "weight_kg": 45,
+  "shoulder_cm": 40,
+  "chest_cm": 77,
+  "waist_cm": 61,
+  "hip_cm": 94,
+  "thigh_cm": 56,
+  "arm_cm": 54,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U079",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 157,
+  "weight_kg": 51,
+  "shoulder_cm": 38,
+  "chest_cm": 80,
+  "waist_cm": 68,
+  "hip_cm": 89,
+  "thigh_cm": 52,
+  "arm_cm": 53,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U080",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 159,
+  "weight_kg": 45,
+  "shoulder_cm": 38,
+  "chest_cm": 80,
+  "waist_cm": 57,
+  "hip_cm": 90,
+  "thigh_cm": 54,
+  "arm_cm": 53,
+  "fit_preference": "슬림 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U081",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 169,
+  "weight_kg": 67,
+  "shoulder_cm": 40,
+  "chest_cm": 97,
+  "waist_cm": 72,
+  "hip_cm": 104,
+  "thigh_cm": 62,
+  "arm_cm": 56,
+  "fit_preference": "여유 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U082",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 158,
+  "weight_kg": 42,
+  "shoulder_cm": 37,
+  "chest_cm": 76,
+  "waist_cm": 61,
+  "hip_cm": 85,
+  "thigh_cm": 50,
+  "arm_cm": 53,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U083",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 156,
+  "weight_kg": 54,
+  "shoulder_cm": 38,
+  "chest_cm": 79,
+  "waist_cm": 59,
+  "hip_cm": 93,
+  "thigh_cm": 52,
+  "arm_cm": 51,
+  "fit_preference": "슬림 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U084",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 166,
+  "weight_kg": 62,
+  "shoulder_cm": 39,
+  "chest_cm": 90,
+  "waist_cm": 72,
+  "hip_cm": 102,
+  "thigh_cm": 58,
+  "arm_cm": 56,
+  "fit_preference": "슬림 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U085",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 175,
+  "weight_kg": 51,
+  "shoulder_cm": 43,
+  "chest_cm": 86,
+  "waist_cm": 71,
+  "hip_cm": 100,
+  "thigh_cm": 57,
+  "arm_cm": 58,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U086",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 156,
+  "weight_kg": 53,
+  "shoulder_cm": 37,
+  "chest_cm": 81,
+  "waist_cm": 61,
+  "hip_cm": 92,
+  "thigh_cm": 55,
+  "arm_cm": 52,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U087",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 160,
+  "weight_kg": 57,
+  "shoulder_cm": 40,
+  "chest_cm": 83,
+  "waist_cm": 64,
+  "hip_cm": 96,
+  "thigh_cm": 58,
+  "arm_cm": 55,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U088",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 161,
+  "weight_kg": 53,
+  "shoulder_cm": 39,
+  "chest_cm": 84,
+  "waist_cm": 61,
+  "hip_cm": 88,
+  "thigh_cm": 52,
+  "arm_cm": 55,
+  "fit_preference": "여유 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U089",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 158,
+  "weight_kg": 48,
+  "shoulder_cm": 37,
+  "chest_cm": 75,
+  "waist_cm": 61,
+  "hip_cm": 90,
+  "thigh_cm": 54,
+  "arm_cm": 54,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U090",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 158,
+  "weight_kg": 51,
+  "shoulder_cm": 37,
+  "chest_cm": 78,
+  "waist_cm": 62,
+  "hip_cm": 93,
+  "thigh_cm": 54,
+  "arm_cm": 50,
+  "fit_preference": "여유 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U091",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 151,
+  "weight_kg": 40,
+  "shoulder_cm": 35,
+  "chest_cm": 72,
+  "waist_cm": 55,
+  "hip_cm": 78,
+  "thigh_cm": 48,
+  "arm_cm": 52,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U092",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 166,
+  "weight_kg": 73,
+  "shoulder_cm": 39,
+  "chest_cm": 95,
+  "waist_cm": 78,
+  "hip_cm": 108,
+  "thigh_cm": 67,
+  "arm_cm": 56,
+  "fit_preference": "슬림 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U093",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 161,
+  "weight_kg": 56,
+  "shoulder_cm": 37,
+  "chest_cm": 84,
+  "waist_cm": 70,
+  "hip_cm": 96,
+  "thigh_cm": 59,
+  "arm_cm": 57,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U094",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 161,
+  "weight_kg": 55,
+  "shoulder_cm": 39,
+  "chest_cm": 81,
+  "waist_cm": 70,
+  "hip_cm": 96,
+  "thigh_cm": 55,
+  "arm_cm": 55,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U095",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 168,
+  "weight_kg": 63,
+  "shoulder_cm": 42,
+  "chest_cm": 91,
+  "waist_cm": 75,
+  "hip_cm": 103,
+  "thigh_cm": 62,
+  "arm_cm": 57,
+  "fit_preference": "여유 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U096",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 164,
+  "weight_kg": 52,
+  "shoulder_cm": 41,
+  "chest_cm": 86,
+  "waist_cm": 70,
+  "hip_cm": 95,
+  "thigh_cm": 55,
+  "arm_cm": 55,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U097",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 157,
+  "weight_kg": 61,
+  "shoulder_cm": 36,
+  "chest_cm": 87,
+  "waist_cm": 72,
+  "hip_cm": 96,
+  "thigh_cm": 56,
+  "arm_cm": 52,
+  "fit_preference": "여유 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U098",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 169,
+  "weight_kg": 54,
+  "shoulder_cm": 40,
+  "chest_cm": 88,
+  "waist_cm": 71,
+  "hip_cm": 97,
+  "thigh_cm": 59,
+  "arm_cm": 56,
+  "fit_preference": "여유 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U099",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 159,
+  "weight_kg": 64,
+  "shoulder_cm": 38,
+  "chest_cm": 89,
+  "waist_cm": 72,
+  "hip_cm": 99,
+  "thigh_cm": 58,
+  "arm_cm": 55,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U100",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 172,
+  "weight_kg": 55,
+  "shoulder_cm": 42,
+  "chest_cm": 93,
+  "waist_cm": 68,
+  "hip_cm": 103,
+  "thigh_cm": 63,
+  "arm_cm": 56,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U101",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 160,
+  "weight_kg": 60,
+  "shoulder_cm": 39,
+  "chest_cm": 84,
+  "waist_cm": 73,
+  "hip_cm": 96,
+  "thigh_cm": 58,
+  "arm_cm": 53,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U102",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 165,
+  "weight_kg": 57,
+  "shoulder_cm": 38,
+  "chest_cm": 83,
+  "waist_cm": 65,
+  "hip_cm": 97,
+  "thigh_cm": 57,
+  "arm_cm": 57,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U103",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 164,
+  "weight_kg": 59,
+  "shoulder_cm": 39,
+  "chest_cm": 88,
+  "waist_cm": 67,
+  "hip_cm": 99,
+  "thigh_cm": 57,
+  "arm_cm": 55,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U104",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 162,
+  "weight_kg": 52,
+  "shoulder_cm": 39,
+  "chest_cm": 82,
+  "waist_cm": 67,
+  "hip_cm": 92,
+  "thigh_cm": 57,
+  "arm_cm": 53,
+  "fit_preference": "슬림 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U105",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 166,
+  "weight_kg": 63,
+  "shoulder_cm": 40,
+  "chest_cm": 87,
+  "waist_cm": 68,
+  "hip_cm": 105,
+  "thigh_cm": 61,
+  "arm_cm": 58,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U106",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 150,
+  "weight_kg": 44,
+  "shoulder_cm": 36,
+  "chest_cm": 73,
+  "waist_cm": 55,
+  "hip_cm": 82,
+  "thigh_cm": 53,
+  "arm_cm": 49,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U107",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 162,
+  "weight_kg": 62,
+  "shoulder_cm": 39,
+  "chest_cm": 87,
+  "waist_cm": 71,
+  "hip_cm": 98,
+  "thigh_cm": 61,
+  "arm_cm": 56,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U108",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 166,
+  "weight_kg": 61,
+  "shoulder_cm": 41,
+  "chest_cm": 86,
+  "waist_cm": 76,
+  "hip_cm": 99,
+  "thigh_cm": 59,
+  "arm_cm": 55,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U109",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 168,
+  "weight_kg": 56,
+  "shoulder_cm": 41,
+  "chest_cm": 89,
+  "waist_cm": 67,
+  "hip_cm": 102,
+  "thigh_cm": 59,
+  "arm_cm": 56,
+  "fit_preference": "슬림 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U110",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 159,
+  "weight_kg": 60,
+  "shoulder_cm": 37,
+  "chest_cm": 90,
+  "waist_cm": 70,
+  "hip_cm": 95,
+  "thigh_cm": 58,
+  "arm_cm": 55,
+  "fit_preference": "슬림 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U111",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 160,
+  "weight_kg": 51,
+  "shoulder_cm": 38,
+  "chest_cm": 83,
+  "waist_cm": 66,
+  "hip_cm": 92,
+  "thigh_cm": 55,
+  "arm_cm": 55,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U112",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 175,
+  "weight_kg": 58,
+  "shoulder_cm": 42,
+  "chest_cm": 91,
+  "waist_cm": 72,
+  "hip_cm": 105,
+  "thigh_cm": 61,
+  "arm_cm": 58,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U113",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 156,
+  "weight_kg": 46,
+  "shoulder_cm": 37,
+  "chest_cm": 75,
+  "waist_cm": 60,
+  "hip_cm": 86,
+  "thigh_cm": 50,
+  "arm_cm": 52,
+  "fit_preference": "슬림 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U114",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 155,
+  "weight_kg": 55,
+  "shoulder_cm": 38,
+  "chest_cm": 81,
+  "waist_cm": 65,
+  "hip_cm": 91,
+  "thigh_cm": 53,
+  "arm_cm": 53,
+  "fit_preference": "슬림 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U115",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 158,
+  "weight_kg": 62,
+  "shoulder_cm": 38,
+  "chest_cm": 87,
+  "waist_cm": 69,
+  "hip_cm": 96,
+  "thigh_cm": 58,
+  "arm_cm": 52,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U116",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 164,
+  "weight_kg": 59,
+  "shoulder_cm": 38,
+  "chest_cm": 90,
+  "waist_cm": 71,
+  "hip_cm": 102,
+  "thigh_cm": 61,
+  "arm_cm": 54,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U117",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 160,
+  "weight_kg": 56,
+  "shoulder_cm": 39,
+  "chest_cm": 83,
+  "waist_cm": 67,
+  "hip_cm": 98,
+  "thigh_cm": 55,
+  "arm_cm": 55,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U118",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 170,
+  "weight_kg": 65,
+  "shoulder_cm": 40,
+  "chest_cm": 97,
+  "waist_cm": 76,
+  "hip_cm": 108,
+  "thigh_cm": 64,
+  "arm_cm": 58,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U119",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 155,
+  "weight_kg": 43,
+  "shoulder_cm": 36,
+  "chest_cm": 73,
+  "waist_cm": 60,
+  "hip_cm": 83,
+  "thigh_cm": 50,
+  "arm_cm": 51,
+  "fit_preference": "여유 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U120",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 168,
+  "weight_kg": 57,
+  "shoulder_cm": 41,
+  "chest_cm": 92,
+  "waist_cm": 72,
+  "hip_cm": 99,
+  "thigh_cm": 59,
+  "arm_cm": 56,
+  "fit_preference": "여유 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U121",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 156,
+  "weight_kg": 56,
+  "shoulder_cm": 38,
+  "chest_cm": 80,
+  "waist_cm": 67,
+  "hip_cm": 93,
+  "thigh_cm": 57,
+  "arm_cm": 52,
+  "fit_preference": "여유 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U122",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 162,
+  "weight_kg": 62,
+  "shoulder_cm": 38,
+  "chest_cm": 92,
+  "waist_cm": 72,
+  "hip_cm": 100,
+  "thigh_cm": 57,
+  "arm_cm": 55,
+  "fit_preference": "여유 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U123",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 150,
+  "weight_kg": 42,
+  "shoulder_cm": 34,
+  "chest_cm": 67,
+  "waist_cm": 53,
+  "hip_cm": 79,
+  "thigh_cm": 46,
+  "arm_cm": 50,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U124",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 167,
+  "weight_kg": 59,
+  "shoulder_cm": 41,
+  "chest_cm": 86,
+  "waist_cm": 68,
+  "hip_cm": 99,
+  "thigh_cm": 58,
+  "arm_cm": 57,
+  "fit_preference": "슬림 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U125",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 160,
+  "weight_kg": 52,
+  "shoulder_cm": 38,
+  "chest_cm": 81,
+  "waist_cm": 60,
+  "hip_cm": 90,
+  "thigh_cm": 53,
+  "arm_cm": 55,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U126",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 153,
+  "weight_kg": 39,
+  "shoulder_cm": 38,
+  "chest_cm": 70,
+  "waist_cm": 54,
+  "hip_cm": 83,
+  "thigh_cm": 51,
+  "arm_cm": 53,
+  "fit_preference": "슬림 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U127",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 157,
+  "weight_kg": 64,
+  "shoulder_cm": 35,
+  "chest_cm": 86,
+  "waist_cm": 69,
+  "hip_cm": 98,
+  "thigh_cm": 58,
+  "arm_cm": 54,
+  "fit_preference": "여유 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U128",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 156,
+  "weight_kg": 47,
+  "shoulder_cm": 37,
+  "chest_cm": 74,
+  "waist_cm": 58,
+  "hip_cm": 86,
+  "thigh_cm": 49,
+  "arm_cm": 53,
+  "fit_preference": "여유 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U129",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 175,
+  "weight_kg": 74,
+  "shoulder_cm": 43,
+  "chest_cm": 103,
+  "waist_cm": 85,
+  "hip_cm": 114,
+  "thigh_cm": 70,
+  "arm_cm": 58,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "user_id": "U130",
+  "data_type": "dummy",
+  "gender": "여성",
+  "height_cm": 156,
+  "weight_kg": 50,
+  "shoulder_cm": 37,
+  "chest_cm": 79,
+  "waist_cm": 56,
+  "hip_cm": 87,
+  "thigh_cm": 51,
+  "arm_cm": 54,
+  "fit_preference": "기본 핏",
+  "meta": {
+   "source": "json",
+   "real": [],
+   "dummy": [
+    "height_cm",
+    "weight_kg",
+    "shoulder_cm",
+    "chest_cm",
+    "waist_cm",
+    "hip_cm",
+    "thigh_cm",
+    "arm_cm",
+    "fit_preference"
+   ],
+   "unknown": []
+  }
+ }
+]

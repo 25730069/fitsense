@@ -1,0 +1,4106 @@
+[
+  {
+    "id": 1,
+    "brand": "유니클로",
+    "itemName": "캐시미어 크루넥 니트",
+    "category": "상의",
+    "subCategory": "니트/가디건",
+    "gender": "여성",
+    "labeledSize": "M",
+    "price": 93000,
+    "colors": [
+      "black",
+      "navy",
+      "grey"
+    ],
+    "imageUrl": "https://image.example.com/products/1.jpg",
+    "productUrl": "https://www.example.com/products/1",
+    "measurements": {
+      "chestCircumference": 109.5,
+      "frontLength": 98.0,
+      "sleeveLength": 50.3,
+      "backWidth": 43.4
+    }
+  },
+  {
+    "id": 2,
+    "brand": "지오다노",
+    "itemName": "베이직 반소매 티셔츠",
+    "category": "상의",
+    "subCategory": "티셔츠",
+    "gender": "남성",
+    "labeledSize": "M",
+    "price": 55000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/2.jpg",
+    "productUrl": "https://www.example.com/products/2",
+    "measurements": {
+      "chestCircumference": 103.9,
+      "frontLength": 96.1,
+      "sleeveLength": 37.7,
+      "backWidth": 45.2
+    }
+  },
+  {
+    "id": 3,
+    "brand": "H&M",
+    "itemName": "A라인 미디 스커트",
+    "category": "원피스/스커트",
+    "subCategory": "스커트",
+    "gender": "여성",
+    "labeledSize": "M",
+    "price": 46000,
+    "colors": [
+      "black",
+      "navy",
+      "grey"
+    ],
+    "imageUrl": "https://image.example.com/products/3.jpg",
+    "productUrl": "https://www.example.com/products/3",
+    "measurements": {
+      "chestCircumference": 91.3,
+      "waistCircumference": 72.8,
+      "totalLength": 89.7,
+      "shoulderWidth": 41.3
+    }
+  },
+  {
+    "id": 4,
+    "brand": "미쏘",
+    "itemName": "데님 자켓",
+    "category": "아우터",
+    "subCategory": "자켓/점퍼",
+    "gender": "공용",
+    "labeledSize": "S",
+    "price": 15000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/4.jpg",
+    "productUrl": "https://www.example.com/products/4",
+    "measurements": {
+      "chestCircumference": 117.1,
+      "frontLength": 58.9,
+      "sleeveLength": 62.4,
+      "backWidth": 44.9
+    }
+  },
+  {
+    "id": 5,
+    "brand": "유니클로",
+    "itemName": "플리츠 롱 스커트",
+    "category": "원피스/스커트",
+    "subCategory": "스커트",
+    "gender": "남성",
+    "labeledSize": "L",
+    "price": 148000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/5.jpg",
+    "productUrl": "https://www.example.com/products/5",
+    "measurements": {
+      "chestCircumference": 100.4,
+      "waistCircumference": 80.7,
+      "totalLength": 93.6,
+      "shoulderWidth": 40.0
+    }
+  },
+  {
+    "id": 6,
+    "brand": "스파오",
+    "itemName": "원턱 스트레이트 슬랙스",
+    "category": "하의",
+    "subCategory": "팬츠/슬랙스",
+    "gender": "남성",
+    "labeledSize": "L",
+    "price": 89000,
+    "colors": [
+      "white",
+      "blue",
+      "yellow"
+    ],
+    "imageUrl": "https://image.example.com/products/6.jpg",
+    "productUrl": "https://www.example.com/products/6",
+    "measurements": {
+      "waistCircumference": 80.8,
+      "hipCircumference": 98.6,
+      "thighCircumference": 65.7,
+      "totalLength": 96.5,
+      "hemWidth": 21.9
+    }
+  },
+  {
+    "id": 7,
+    "brand": "스파오",
+    "itemName": "플리츠 롱 스커트",
+    "category": "원피스/스커트",
+    "subCategory": "스커트",
+    "gender": "남성",
+    "labeledSize": "M",
+    "price": 66000,
+    "colors": [
+      "black",
+      "navy",
+      "grey"
+    ],
+    "imageUrl": "https://image.example.com/products/7.jpg",
+    "productUrl": "https://www.example.com/products/7",
+    "measurements": {
+      "chestCircumference": 87.5,
+      "waistCircumference": 79.0,
+      "totalLength": 104.7,
+      "shoulderWidth": 38.5
+    }
+  },
+  {
+    "id": 8,
+    "brand": "탑텐",
+    "itemName": "미니 데님 스커트",
+    "category": "원피스/스커트",
+    "subCategory": "스커트",
+    "gender": "여성",
+    "labeledSize": "L",
+    "price": 34000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/8.jpg",
+    "productUrl": "https://www.example.com/products/8",
+    "measurements": {
+      "chestCircumference": 83.3,
+      "waistCircumference": 75.0,
+      "totalLength": 91.4,
+      "shoulderWidth": 35.4
+    }
+  },
+  {
+    "id": 9,
+    "brand": "무신사 스탠다드",
+    "itemName": "치노 팬츠",
+    "category": "하의",
+    "subCategory": "팬츠/슬랙스",
+    "gender": "공용",
+    "labeledSize": "S",
+    "price": 55000,
+    "colors": [
+      "white",
+      "black"
+    ],
+    "imageUrl": "https://image.example.com/products/9.jpg",
+    "productUrl": "https://www.example.com/products/9",
+    "measurements": {
+      "waistCircumference": 91.6,
+      "hipCircumference": 103.1,
+      "thighCircumference": 55.5,
+      "totalLength": 104.5,
+      "hemWidth": 23.8
+    }
+  },
+  {
+    "id": 10,
+    "brand": "에잇세컨즈",
+    "itemName": "오버핏 그래픽 티셔츠",
+    "category": "상의",
+    "subCategory": "티셔츠",
+    "gender": "여성",
+    "labeledSize": "S",
+    "price": 160000,
+    "colors": [
+      "white",
+      "black"
+    ],
+    "imageUrl": "https://image.example.com/products/10.jpg",
+    "productUrl": "https://www.example.com/products/10",
+    "measurements": {
+      "chestCircumference": 98.7,
+      "frontLength": 81.5,
+      "sleeveLength": 57.4,
+      "backWidth": 45.8
+    }
+  },
+  {
+    "id": 11,
+    "brand": "미쏘",
+    "itemName": "슬림 스팬 슬랙스",
+    "category": "하의",
+    "subCategory": "팬츠/슬랙스",
+    "gender": "남성",
+    "labeledSize": "XL",
+    "price": 160000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/11.jpg",
+    "productUrl": "https://www.example.com/products/11",
+    "measurements": {
+      "waistCircumference": 93.0,
+      "hipCircumference": 91.0,
+      "thighCircumference": 59.1,
+      "totalLength": 90.9,
+      "hemWidth": 21.8
+    }
+  },
+  {
+    "id": 12,
+    "brand": "스파오",
+    "itemName": "테일러드 블레이저",
+    "category": "아우터",
+    "subCategory": "블레이저",
+    "gender": "남성",
+    "labeledSize": "M",
+    "price": 19000,
+    "colors": [
+      "white",
+      "black"
+    ],
+    "imageUrl": "https://image.example.com/products/12.jpg",
+    "productUrl": "https://www.example.com/products/12",
+    "measurements": {
+      "chestCircumference": 96.3,
+      "frontLength": 88.5,
+      "sleeveLength": 34.7,
+      "backWidth": 43.2
+    }
+  },
+  {
+    "id": 13,
+    "brand": "플랙",
+    "itemName": "체크 플란넬 셔츠",
+    "category": "상의",
+    "subCategory": "셔츠/블라우스",
+    "gender": "남성",
+    "labeledSize": "XL",
+    "price": 148000,
+    "colors": [
+      "black",
+      "navy",
+      "grey"
+    ],
+    "imageUrl": "https://image.example.com/products/13.jpg",
+    "productUrl": "https://www.example.com/products/13",
+    "measurements": {
+      "chestCircumference": 105.5,
+      "frontLength": 77.3,
+      "sleeveLength": 37.4,
+      "backWidth": 52.4
+    }
+  },
+  {
+    "id": 14,
+    "brand": "무신사 스탠다드",
+    "itemName": "실크 블라우스",
+    "category": "상의",
+    "subCategory": "셔츠/블라우스",
+    "gender": "남성",
+    "labeledSize": "M",
+    "price": 27000,
+    "colors": [
+      "black",
+      "navy",
+      "grey"
+    ],
+    "imageUrl": "https://image.example.com/products/14.jpg",
+    "productUrl": "https://www.example.com/products/14",
+    "measurements": {
+      "chestCircumference": 131.9,
+      "frontLength": 85.9,
+      "sleeveLength": 67.3,
+      "backWidth": 49.2
+    }
+  },
+  {
+    "id": 15,
+    "brand": "무신사 스탠다드",
+    "itemName": "플리츠 롱 스커트",
+    "category": "원피스/스커트",
+    "subCategory": "스커트",
+    "gender": "공용",
+    "labeledSize": "S",
+    "price": 55000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/15.jpg",
+    "productUrl": "https://www.example.com/products/15",
+    "measurements": {
+      "chestCircumference": 105.0,
+      "waistCircumference": 71.6,
+      "totalLength": 89.5,
+      "shoulderWidth": 37.2
+    }
+  },
+  {
+    "id": 16,
+    "brand": "무신사 스탠다드",
+    "itemName": "트렌치 코트",
+    "category": "아우터",
+    "subCategory": "코트",
+    "gender": "남성",
+    "labeledSize": "L",
+    "price": 110000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/16.jpg",
+    "productUrl": "https://www.example.com/products/16",
+    "measurements": {
+      "chestCircumference": 90.4,
+      "frontLength": 54.8,
+      "sleeveLength": 41.3,
+      "backWidth": 53.6
+    }
+  },
+  {
+    "id": 17,
+    "brand": "컨셉원",
+    "itemName": "라이더 자켓",
+    "category": "아우터",
+    "subCategory": "자켓/점퍼",
+    "gender": "남성",
+    "labeledSize": "L",
+    "price": 148000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/17.jpg",
+    "productUrl": "https://www.example.com/products/17",
+    "measurements": {
+      "chestCircumference": 91.5,
+      "frontLength": 96.2,
+      "sleeveLength": 64.4,
+      "backWidth": 43.5
+    }
+  },
+  {
+    "id": 18,
+    "brand": "플랙",
+    "itemName": "원턱 스트레이트 슬랙스",
+    "category": "하의",
+    "subCategory": "팬츠/슬랙스",
+    "gender": "여성",
+    "labeledSize": "M",
+    "price": 15000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/18.jpg",
+    "productUrl": "https://www.example.com/products/18",
+    "measurements": {
+      "waistCircumference": 85.5,
+      "hipCircumference": 90.3,
+      "thighCircumference": 57.1,
+      "totalLength": 97.1,
+      "hemWidth": 21.0
+    }
+  },
+  {
+    "id": 19,
+    "brand": "플랙",
+    "itemName": "캐시미어 크루넥 니트",
+    "category": "상의",
+    "subCategory": "니트/가디건",
+    "gender": "남성",
+    "labeledSize": "M",
+    "price": 239000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/19.jpg",
+    "productUrl": "https://www.example.com/products/19",
+    "measurements": {
+      "chestCircumference": 114.7,
+      "frontLength": 66.2,
+      "sleeveLength": 53.8,
+      "backWidth": 53.4
+    }
+  },
+  {
+    "id": 20,
+    "brand": "유니클로",
+    "itemName": "실크 블라우스",
+    "category": "상의",
+    "subCategory": "셔츠/블라우스",
+    "gender": "공용",
+    "labeledSize": "S",
+    "price": 34000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/20.jpg",
+    "productUrl": "https://www.example.com/products/20",
+    "measurements": {
+      "chestCircumference": 128.8,
+      "frontLength": 84.7,
+      "sleeveLength": 38.5,
+      "backWidth": 49.1
+    }
+  },
+  {
+    "id": 21,
+    "brand": "지오다노",
+    "itemName": "실크 블라우스",
+    "category": "상의",
+    "subCategory": "셔츠/블라우스",
+    "gender": "공용",
+    "labeledSize": "L",
+    "price": 27000,
+    "colors": [
+      "white",
+      "black"
+    ],
+    "imageUrl": "https://image.example.com/products/21.jpg",
+    "productUrl": "https://www.example.com/products/21",
+    "measurements": {
+      "chestCircumference": 92.1,
+      "frontLength": 76.5,
+      "sleeveLength": 30.8,
+      "backWidth": 44.8
+    }
+  },
+  {
+    "id": 22,
+    "brand": "자라",
+    "itemName": "치노 팬츠",
+    "category": "하의",
+    "subCategory": "팬츠/슬랙스",
+    "gender": "남성",
+    "labeledSize": "L",
+    "price": 210000,
+    "colors": [
+      "white",
+      "black"
+    ],
+    "imageUrl": "https://image.example.com/products/22.jpg",
+    "productUrl": "https://www.example.com/products/22",
+    "measurements": {
+      "waistCircumference": 82.0,
+      "hipCircumference": 114.2,
+      "thighCircumference": 54.2,
+      "totalLength": 103.7,
+      "hemWidth": 22.7
+    }
+  },
+  {
+    "id": 23,
+    "brand": "유니클로",
+    "itemName": "옥스포드 셔츠",
+    "category": "상의",
+    "subCategory": "셔츠/블라우스",
+    "gender": "공용",
+    "labeledSize": "XL",
+    "price": 160000,
+    "colors": [
+      "white",
+      "black"
+    ],
+    "imageUrl": "https://image.example.com/products/23.jpg",
+    "productUrl": "https://www.example.com/products/23",
+    "measurements": {
+      "chestCircumference": 127.9,
+      "frontLength": 57.0,
+      "sleeveLength": 64.8,
+      "backWidth": 56.1
+    }
+  },
+  {
+    "id": 24,
+    "brand": "무신사 스탠다드",
+    "itemName": "후드 집업 점퍼",
+    "category": "아우터",
+    "subCategory": "자켓/점퍼",
+    "gender": "공용",
+    "labeledSize": "L",
+    "price": 19000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/24.jpg",
+    "productUrl": "https://www.example.com/products/24",
+    "measurements": {
+      "chestCircumference": 131.2,
+      "frontLength": 63.5,
+      "sleeveLength": 34.3,
+      "backWidth": 43.6
+    }
+  },
+  {
+    "id": 25,
+    "brand": "지오다노",
+    "itemName": "와이드 데님 팬츠",
+    "category": "하의",
+    "subCategory": "데님팬츠",
+    "gender": "남성",
+    "labeledSize": "XL",
+    "price": 185000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/25.jpg",
+    "productUrl": "https://www.example.com/products/25",
+    "measurements": {
+      "waistCircumference": 79.3,
+      "hipCircumference": 102.3,
+      "thighCircumference": 67.3,
+      "totalLength": 102.1,
+      "hemWidth": 22.1
+    }
+  },
+  {
+    "id": 26,
+    "brand": "무신사 스탠다드",
+    "itemName": "라이더 자켓",
+    "category": "아우터",
+    "subCategory": "자켓/점퍼",
+    "gender": "공용",
+    "labeledSize": "S",
+    "price": 19000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/26.jpg",
+    "productUrl": "https://www.example.com/products/26",
+    "measurements": {
+      "chestCircumference": 132.0,
+      "frontLength": 92.5,
+      "sleeveLength": 47.6,
+      "backWidth": 54.5
+    }
+  },
+  {
+    "id": 27,
+    "brand": "자라",
+    "itemName": "후드 집업 점퍼",
+    "category": "아우터",
+    "subCategory": "자켓/점퍼",
+    "gender": "여성",
+    "labeledSize": "L",
+    "price": 79000,
+    "colors": [
+      "white",
+      "black"
+    ],
+    "imageUrl": "https://image.example.com/products/27.jpg",
+    "productUrl": "https://www.example.com/products/27",
+    "measurements": {
+      "chestCircumference": 94.7,
+      "frontLength": 68.3,
+      "sleeveLength": 63.0,
+      "backWidth": 49.9
+    }
+  },
+  {
+    "id": 28,
+    "brand": "마인드브릿지",
+    "itemName": "테일러드 블레이저",
+    "category": "아우터",
+    "subCategory": "블레이저",
+    "gender": "여성",
+    "labeledSize": "S",
+    "price": 89000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/28.jpg",
+    "productUrl": "https://www.example.com/products/28",
+    "measurements": {
+      "chestCircumference": 116.9,
+      "frontLength": 88.8,
+      "sleeveLength": 35.8,
+      "backWidth": 45.5
+    }
+  },
+  {
+    "id": 29,
+    "brand": "미쏘",
+    "itemName": "울 블렌드 싱글 코트",
+    "category": "아우터",
+    "subCategory": "코트",
+    "gender": "남성",
+    "labeledSize": "L",
+    "price": 46000,
+    "colors": [
+      "white",
+      "blue",
+      "yellow"
+    ],
+    "imageUrl": "https://image.example.com/products/29.jpg",
+    "productUrl": "https://www.example.com/products/29",
+    "measurements": {
+      "chestCircumference": 104.2,
+      "frontLength": 59.1,
+      "sleeveLength": 34.2,
+      "backWidth": 58.8
+    }
+  },
+  {
+    "id": 30,
+    "brand": "스파오",
+    "itemName": "테일러드 블레이저",
+    "category": "아우터",
+    "subCategory": "블레이저",
+    "gender": "공용",
+    "labeledSize": "M",
+    "price": 19000,
+    "colors": [
+      "black",
+      "navy",
+      "grey"
+    ],
+    "imageUrl": "https://image.example.com/products/30.jpg",
+    "productUrl": "https://www.example.com/products/30",
+    "measurements": {
+      "chestCircumference": 127.5,
+      "frontLength": 76.5,
+      "sleeveLength": 43.3,
+      "backWidth": 43.5
+    }
+  },
+  {
+    "id": 31,
+    "brand": "스파오",
+    "itemName": "실크 블라우스",
+    "category": "상의",
+    "subCategory": "셔츠/블라우스",
+    "gender": "여성",
+    "labeledSize": "M",
+    "price": 125000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/31.jpg",
+    "productUrl": "https://www.example.com/products/31",
+    "measurements": {
+      "chestCircumference": 98.1,
+      "frontLength": 66.0,
+      "sleeveLength": 38.3,
+      "backWidth": 47.3
+    }
+  },
+  {
+    "id": 32,
+    "brand": "미쏘",
+    "itemName": "베이직 반소매 티셔츠",
+    "category": "상의",
+    "subCategory": "티셔츠",
+    "gender": "여성",
+    "labeledSize": "S",
+    "price": 55000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/32.jpg",
+    "productUrl": "https://www.example.com/products/32",
+    "measurements": {
+      "chestCircumference": 128.5,
+      "frontLength": 60.6,
+      "sleeveLength": 55.2,
+      "backWidth": 43.7
+    }
+  },
+  {
+    "id": 33,
+    "brand": "에잇세컨즈",
+    "itemName": "숏 패딩 점퍼",
+    "category": "아우터",
+    "subCategory": "패딩",
+    "gender": "남성",
+    "labeledSize": "XL",
+    "price": 46000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/33.jpg",
+    "productUrl": "https://www.example.com/products/33",
+    "measurements": {
+      "chestCircumference": 124.8,
+      "frontLength": 81.1,
+      "sleeveLength": 45.3,
+      "backWidth": 42.4
+    }
+  },
+  {
+    "id": 34,
+    "brand": "에잇세컨즈",
+    "itemName": "트렌치 코트",
+    "category": "아우터",
+    "subCategory": "코트",
+    "gender": "여성",
+    "labeledSize": "XL",
+    "price": 19000,
+    "colors": [
+      "white",
+      "blue",
+      "yellow"
+    ],
+    "imageUrl": "https://image.example.com/products/34.jpg",
+    "productUrl": "https://www.example.com/products/34",
+    "measurements": {
+      "chestCircumference": 125.6,
+      "frontLength": 71.3,
+      "sleeveLength": 65.3,
+      "backWidth": 46.6
+    }
+  },
+  {
+    "id": 35,
+    "brand": "마인드브릿지",
+    "itemName": "캐시미어 크루넥 니트",
+    "category": "상의",
+    "subCategory": "니트/가디건",
+    "gender": "공용",
+    "labeledSize": "L",
+    "price": 110000,
+    "colors": [
+      "white",
+      "blue",
+      "yellow"
+    ],
+    "imageUrl": "https://image.example.com/products/35.jpg",
+    "productUrl": "https://www.example.com/products/35",
+    "measurements": {
+      "chestCircumference": 106.4,
+      "frontLength": 59.4,
+      "sleeveLength": 34.8,
+      "backWidth": 45.3
+    }
+  },
+  {
+    "id": 36,
+    "brand": "지오다노",
+    "itemName": "버뮤다 쇼츠",
+    "category": "하의",
+    "subCategory": "쇼츠/버뮤다",
+    "gender": "여성",
+    "labeledSize": "XL",
+    "price": 160000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/36.jpg",
+    "productUrl": "https://www.example.com/products/36",
+    "measurements": {
+      "waistCircumference": 87.3,
+      "hipCircumference": 103.3,
+      "thighCircumference": 54.8,
+      "totalLength": 94.4,
+      "hemWidth": 18.2
+    }
+  },
+  {
+    "id": 37,
+    "brand": "무신사 스탠다드",
+    "itemName": "플리츠 롱 스커트",
+    "category": "원피스/스커트",
+    "subCategory": "스커트",
+    "gender": "여성",
+    "labeledSize": "S",
+    "price": 125000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/37.jpg",
+    "productUrl": "https://www.example.com/products/37",
+    "measurements": {
+      "chestCircumference": 97.9,
+      "waistCircumference": 75.1,
+      "totalLength": 96.7,
+      "shoulderWidth": 40.5
+    }
+  },
+  {
+    "id": 38,
+    "brand": "플랙",
+    "itemName": "치노 팬츠",
+    "category": "하의",
+    "subCategory": "팬츠/슬랙스",
+    "gender": "남성",
+    "labeledSize": "L",
+    "price": 42000,
+    "colors": [
+      "white",
+      "blue",
+      "yellow"
+    ],
+    "imageUrl": "https://image.example.com/products/38.jpg",
+    "productUrl": "https://www.example.com/products/38",
+    "measurements": {
+      "waistCircumference": 76.2,
+      "hipCircumference": 114.5,
+      "thighCircumference": 58.5,
+      "totalLength": 90.7,
+      "hemWidth": 25.7
+    }
+  },
+  {
+    "id": 39,
+    "brand": "자라",
+    "itemName": "헤비웨이트 맨투맨",
+    "category": "상의",
+    "subCategory": "후드/맨투맨",
+    "gender": "공용",
+    "labeledSize": "S",
+    "price": 125000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/39.jpg",
+    "productUrl": "https://www.example.com/products/39",
+    "measurements": {
+      "chestCircumference": 133.4,
+      "frontLength": 78.7,
+      "sleeveLength": 40.6,
+      "backWidth": 55.9
+    }
+  },
+  {
+    "id": 40,
+    "brand": "탑텐",
+    "itemName": "카고 조거 팬츠",
+    "category": "하의",
+    "subCategory": "팬츠/슬랙스",
+    "gender": "남성",
+    "labeledSize": "XL",
+    "price": 42000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/40.jpg",
+    "productUrl": "https://www.example.com/products/40",
+    "measurements": {
+      "waistCircumference": 67.6,
+      "hipCircumference": 109.1,
+      "thighCircumference": 61.8,
+      "totalLength": 106.0,
+      "hemWidth": 19.7
+    }
+  },
+  {
+    "id": 41,
+    "brand": "자라",
+    "itemName": "오버핏 그래픽 티셔츠",
+    "category": "상의",
+    "subCategory": "티셔츠",
+    "gender": "공용",
+    "labeledSize": "M",
+    "price": 185000,
+    "colors": [
+      "black",
+      "navy",
+      "grey"
+    ],
+    "imageUrl": "https://image.example.com/products/41.jpg",
+    "productUrl": "https://www.example.com/products/41",
+    "measurements": {
+      "chestCircumference": 91.8,
+      "frontLength": 69.9,
+      "sleeveLength": 45.4,
+      "backWidth": 56.5
+    }
+  },
+  {
+    "id": 42,
+    "brand": "미쏘",
+    "itemName": "플리츠 롱 스커트",
+    "category": "원피스/스커트",
+    "subCategory": "스커트",
+    "gender": "남성",
+    "labeledSize": "L",
+    "price": 27000,
+    "colors": [
+      "white",
+      "blue",
+      "yellow"
+    ],
+    "imageUrl": "https://image.example.com/products/42.jpg",
+    "productUrl": "https://www.example.com/products/42",
+    "measurements": {
+      "chestCircumference": 92.3,
+      "waistCircumference": 81.4,
+      "totalLength": 80.1,
+      "shoulderWidth": 38.4
+    }
+  },
+  {
+    "id": 43,
+    "brand": "지오다노",
+    "itemName": "플리츠 롱 스커트",
+    "category": "원피스/스커트",
+    "subCategory": "스커트",
+    "gender": "공용",
+    "labeledSize": "L",
+    "price": 46000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/43.jpg",
+    "productUrl": "https://www.example.com/products/43",
+    "measurements": {
+      "chestCircumference": 100.3,
+      "waistCircumference": 73.3,
+      "totalLength": 105.0,
+      "shoulderWidth": 41.8
+    }
+  },
+  {
+    "id": 44,
+    "brand": "유니클로",
+    "itemName": "하프 집업 니트",
+    "category": "상의",
+    "subCategory": "니트/가디건",
+    "gender": "남성",
+    "labeledSize": "M",
+    "price": 110000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/44.jpg",
+    "productUrl": "https://www.example.com/products/44",
+    "measurements": {
+      "chestCircumference": 90.4,
+      "frontLength": 109.2,
+      "sleeveLength": 63.7,
+      "backWidth": 55.9
+    }
+  },
+  {
+    "id": 45,
+    "brand": "플랙",
+    "itemName": "오버핏 후디",
+    "category": "상의",
+    "subCategory": "후드/맨투맨",
+    "gender": "남성",
+    "labeledSize": "M",
+    "price": 160000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/45.jpg",
+    "productUrl": "https://www.example.com/products/45",
+    "measurements": {
+      "chestCircumference": 127.7,
+      "frontLength": 74.6,
+      "sleeveLength": 41.3,
+      "backWidth": 57.4
+    }
+  },
+  {
+    "id": 46,
+    "brand": "미쏘",
+    "itemName": "체크 플란넬 셔츠",
+    "category": "상의",
+    "subCategory": "셔츠/블라우스",
+    "gender": "공용",
+    "labeledSize": "XL",
+    "price": 210000,
+    "colors": [
+      "white",
+      "black"
+    ],
+    "imageUrl": "https://image.example.com/products/46.jpg",
+    "productUrl": "https://www.example.com/products/46",
+    "measurements": {
+      "chestCircumference": 115.7,
+      "frontLength": 96.7,
+      "sleeveLength": 31.2,
+      "backWidth": 55.4
+    }
+  },
+  {
+    "id": 47,
+    "brand": "스파오",
+    "itemName": "라운드넥 크롭 가디건",
+    "category": "상의",
+    "subCategory": "니트/가디건",
+    "gender": "여성",
+    "labeledSize": "XL",
+    "price": 55000,
+    "colors": [
+      "black",
+      "navy",
+      "grey"
+    ],
+    "imageUrl": "https://image.example.com/products/47.jpg",
+    "productUrl": "https://www.example.com/products/47",
+    "measurements": {
+      "chestCircumference": 90.9,
+      "frontLength": 54.5,
+      "sleeveLength": 55.5,
+      "backWidth": 46.8
+    }
+  },
+  {
+    "id": 48,
+    "brand": "탑텐",
+    "itemName": "슬림 스팬 슬랙스",
+    "category": "하의",
+    "subCategory": "팬츠/슬랙스",
+    "gender": "남성",
+    "labeledSize": "XL",
+    "price": 210000,
+    "colors": [
+      "white",
+      "blue",
+      "yellow"
+    ],
+    "imageUrl": "https://image.example.com/products/48.jpg",
+    "productUrl": "https://www.example.com/products/48",
+    "measurements": {
+      "waistCircumference": 76.0,
+      "hipCircumference": 113.9,
+      "thighCircumference": 57.6,
+      "totalLength": 95.0,
+      "hemWidth": 21.4
+    }
+  },
+  {
+    "id": 49,
+    "brand": "미쏘",
+    "itemName": "라이더 자켓",
+    "category": "아우터",
+    "subCategory": "자켓/점퍼",
+    "gender": "여성",
+    "labeledSize": "S",
+    "price": 160000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/49.jpg",
+    "productUrl": "https://www.example.com/products/49",
+    "measurements": {
+      "chestCircumference": 108.5,
+      "frontLength": 76.3,
+      "sleeveLength": 67.3,
+      "backWidth": 50.9
+    }
+  },
+  {
+    "id": 50,
+    "brand": "마인드브릿지",
+    "itemName": "옥스포드 셔츠",
+    "category": "상의",
+    "subCategory": "셔츠/블라우스",
+    "gender": "여성",
+    "labeledSize": "S",
+    "price": 110000,
+    "colors": [
+      "white",
+      "black"
+    ],
+    "imageUrl": "https://image.example.com/products/50.jpg",
+    "productUrl": "https://www.example.com/products/50",
+    "measurements": {
+      "chestCircumference": 95.5,
+      "frontLength": 97.7,
+      "sleeveLength": 63.5,
+      "backWidth": 53.9
+    }
+  },
+  {
+    "id": 51,
+    "brand": "무신사 스탠다드",
+    "itemName": "트렌치 코트",
+    "category": "아우터",
+    "subCategory": "코트",
+    "gender": "남성",
+    "labeledSize": "S",
+    "price": 148000,
+    "colors": [
+      "white",
+      "blue",
+      "yellow"
+    ],
+    "imageUrl": "https://image.example.com/products/51.jpg",
+    "productUrl": "https://www.example.com/products/51",
+    "measurements": {
+      "chestCircumference": 125.7,
+      "frontLength": 104.2,
+      "sleeveLength": 64.7,
+      "backWidth": 56.8
+    }
+  },
+  {
+    "id": 52,
+    "brand": "에잇세컨즈",
+    "itemName": "오버핏 후디",
+    "category": "상의",
+    "subCategory": "후드/맨투맨",
+    "gender": "공용",
+    "labeledSize": "M",
+    "price": 55000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/52.jpg",
+    "productUrl": "https://www.example.com/products/52",
+    "measurements": {
+      "chestCircumference": 115.8,
+      "frontLength": 81.1,
+      "sleeveLength": 65.4,
+      "backWidth": 47.2
+    }
+  },
+  {
+    "id": 53,
+    "brand": "컨셉원",
+    "itemName": "오버핏 그래픽 티셔츠",
+    "category": "상의",
+    "subCategory": "티셔츠",
+    "gender": "여성",
+    "labeledSize": "L",
+    "price": 42000,
+    "colors": [
+      "white",
+      "black"
+    ],
+    "imageUrl": "https://image.example.com/products/53.jpg",
+    "productUrl": "https://www.example.com/products/53",
+    "measurements": {
+      "chestCircumference": 120.0,
+      "frontLength": 107.2,
+      "sleeveLength": 67.2,
+      "backWidth": 53.4
+    }
+  },
+  {
+    "id": 54,
+    "brand": "H&M",
+    "itemName": "후드 집업 점퍼",
+    "category": "아우터",
+    "subCategory": "자켓/점퍼",
+    "gender": "여성",
+    "labeledSize": "M",
+    "price": 160000,
+    "colors": [
+      "black",
+      "navy",
+      "grey"
+    ],
+    "imageUrl": "https://image.example.com/products/54.jpg",
+    "productUrl": "https://www.example.com/products/54",
+    "measurements": {
+      "chestCircumference": 111.1,
+      "frontLength": 74.2,
+      "sleeveLength": 55.1,
+      "backWidth": 55.1
+    }
+  },
+  {
+    "id": 55,
+    "brand": "H&M",
+    "itemName": "원턱 스트레이트 슬랙스",
+    "category": "하의",
+    "subCategory": "팬츠/슬랙스",
+    "gender": "남성",
+    "labeledSize": "L",
+    "price": 160000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/55.jpg",
+    "productUrl": "https://www.example.com/products/55",
+    "measurements": {
+      "waistCircumference": 74.0,
+      "hipCircumference": 104.0,
+      "thighCircumference": 61.4,
+      "totalLength": 100.4,
+      "hemWidth": 20.7
+    }
+  },
+  {
+    "id": 56,
+    "brand": "미쏘",
+    "itemName": "원턱 스트레이트 슬랙스",
+    "category": "하의",
+    "subCategory": "팬츠/슬랙스",
+    "gender": "여성",
+    "labeledSize": "XL",
+    "price": 79000,
+    "colors": [
+      "black",
+      "navy",
+      "grey"
+    ],
+    "imageUrl": "https://image.example.com/products/56.jpg",
+    "productUrl": "https://www.example.com/products/56",
+    "measurements": {
+      "waistCircumference": 80.5,
+      "hipCircumference": 108.1,
+      "thighCircumference": 52.4,
+      "totalLength": 99.5,
+      "hemWidth": 21.2
+    }
+  },
+  {
+    "id": 57,
+    "brand": "유니클로",
+    "itemName": "오버핏 그래픽 티셔츠",
+    "category": "상의",
+    "subCategory": "티셔츠",
+    "gender": "공용",
+    "labeledSize": "L",
+    "price": 93000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/57.jpg",
+    "productUrl": "https://www.example.com/products/57",
+    "measurements": {
+      "chestCircumference": 109.2,
+      "frontLength": 84.8,
+      "sleeveLength": 63.0,
+      "backWidth": 44.3
+    }
+  },
+  {
+    "id": 58,
+    "brand": "자라",
+    "itemName": "울 블렌드 싱글 코트",
+    "category": "아우터",
+    "subCategory": "코트",
+    "gender": "여성",
+    "labeledSize": "M",
+    "price": 42000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/58.jpg",
+    "productUrl": "https://www.example.com/products/58",
+    "measurements": {
+      "chestCircumference": 92.8,
+      "frontLength": 92.7,
+      "sleeveLength": 50.9,
+      "backWidth": 50.2
+    }
+  },
+  {
+    "id": 59,
+    "brand": "컨셉원",
+    "itemName": "오버핏 후디",
+    "category": "상의",
+    "subCategory": "후드/맨투맨",
+    "gender": "여성",
+    "labeledSize": "S",
+    "price": 31000,
+    "colors": [
+      "black",
+      "navy",
+      "grey"
+    ],
+    "imageUrl": "https://image.example.com/products/59.jpg",
+    "productUrl": "https://www.example.com/products/59",
+    "measurements": {
+      "chestCircumference": 105.1,
+      "frontLength": 88.6,
+      "sleeveLength": 47.4,
+      "backWidth": 52.4
+    }
+  },
+  {
+    "id": 60,
+    "brand": "탑텐",
+    "itemName": "슬림 스팬 슬랙스",
+    "category": "하의",
+    "subCategory": "팬츠/슬랙스",
+    "gender": "공용",
+    "labeledSize": "S",
+    "price": 34000,
+    "colors": [
+      "white",
+      "blue",
+      "yellow"
+    ],
+    "imageUrl": "https://image.example.com/products/60.jpg",
+    "productUrl": "https://www.example.com/products/60",
+    "measurements": {
+      "waistCircumference": 67.1,
+      "hipCircumference": 108.6,
+      "thighCircumference": 61.1,
+      "totalLength": 103.3,
+      "hemWidth": 18.1
+    }
+  },
+  {
+    "id": 61,
+    "brand": "스파오",
+    "itemName": "카고 조거 팬츠",
+    "category": "하의",
+    "subCategory": "팬츠/슬랙스",
+    "gender": "공용",
+    "labeledSize": "S",
+    "price": 31000,
+    "colors": [
+      "white",
+      "blue",
+      "yellow"
+    ],
+    "imageUrl": "https://image.example.com/products/61.jpg",
+    "productUrl": "https://www.example.com/products/61",
+    "measurements": {
+      "waistCircumference": 67.8,
+      "hipCircumference": 98.7,
+      "thighCircumference": 59.0,
+      "totalLength": 99.9,
+      "hemWidth": 18.8
+    }
+  },
+  {
+    "id": 62,
+    "brand": "스파오",
+    "itemName": "원턱 스트레이트 슬랙스",
+    "category": "하의",
+    "subCategory": "팬츠/슬랙스",
+    "gender": "여성",
+    "labeledSize": "S",
+    "price": 42000,
+    "colors": [
+      "black",
+      "navy",
+      "grey"
+    ],
+    "imageUrl": "https://image.example.com/products/62.jpg",
+    "productUrl": "https://www.example.com/products/62",
+    "measurements": {
+      "waistCircumference": 86.9,
+      "hipCircumference": 107.6,
+      "thighCircumference": 58.7,
+      "totalLength": 103.3,
+      "hemWidth": 23.2
+    }
+  },
+  {
+    "id": 63,
+    "brand": "플랙",
+    "itemName": "헤비웨이트 맨투맨",
+    "category": "상의",
+    "subCategory": "후드/맨투맨",
+    "gender": "공용",
+    "labeledSize": "L",
+    "price": 160000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/63.jpg",
+    "productUrl": "https://www.example.com/products/63",
+    "measurements": {
+      "chestCircumference": 94.2,
+      "frontLength": 103.3,
+      "sleeveLength": 63.1,
+      "backWidth": 50.2
+    }
+  },
+  {
+    "id": 64,
+    "brand": "마인드브릿지",
+    "itemName": "카고 조거 팬츠",
+    "category": "하의",
+    "subCategory": "팬츠/슬랙스",
+    "gender": "여성",
+    "labeledSize": "M",
+    "price": 19000,
+    "colors": [
+      "black",
+      "navy",
+      "grey"
+    ],
+    "imageUrl": "https://image.example.com/products/64.jpg",
+    "productUrl": "https://www.example.com/products/64",
+    "measurements": {
+      "waistCircumference": 81.6,
+      "hipCircumference": 108.8,
+      "thighCircumference": 52.2,
+      "totalLength": 95.0,
+      "hemWidth": 23.5
+    }
+  },
+  {
+    "id": 65,
+    "brand": "스파오",
+    "itemName": "데님 자켓",
+    "category": "아우터",
+    "subCategory": "자켓/점퍼",
+    "gender": "여성",
+    "labeledSize": "M",
+    "price": 46000,
+    "colors": [
+      "white",
+      "blue",
+      "yellow"
+    ],
+    "imageUrl": "https://image.example.com/products/65.jpg",
+    "productUrl": "https://www.example.com/products/65",
+    "measurements": {
+      "chestCircumference": 104.0,
+      "frontLength": 54.3,
+      "sleeveLength": 53.9,
+      "backWidth": 43.1
+    }
+  },
+  {
+    "id": 66,
+    "brand": "에잇세컨즈",
+    "itemName": "미니 데님 스커트",
+    "category": "원피스/스커트",
+    "subCategory": "스커트",
+    "gender": "남성",
+    "labeledSize": "L",
+    "price": 79000,
+    "colors": [
+      "white",
+      "blue",
+      "yellow"
+    ],
+    "imageUrl": "https://image.example.com/products/66.jpg",
+    "productUrl": "https://www.example.com/products/66",
+    "measurements": {
+      "chestCircumference": 96.2,
+      "waistCircumference": 77.7,
+      "totalLength": 110.7,
+      "shoulderWidth": 35.8
+    }
+  },
+  {
+    "id": 67,
+    "brand": "플랙",
+    "itemName": "체크 플란넬 셔츠",
+    "category": "상의",
+    "subCategory": "셔츠/블라우스",
+    "gender": "공용",
+    "labeledSize": "L",
+    "price": 93000,
+    "colors": [
+      "white",
+      "black"
+    ],
+    "imageUrl": "https://image.example.com/products/67.jpg",
+    "productUrl": "https://www.example.com/products/67",
+    "measurements": {
+      "chestCircumference": 108.1,
+      "frontLength": 102.6,
+      "sleeveLength": 49.1,
+      "backWidth": 54.3
+    }
+  },
+  {
+    "id": 68,
+    "brand": "플랙",
+    "itemName": "오버핏 그래픽 티셔츠",
+    "category": "상의",
+    "subCategory": "티셔츠",
+    "gender": "남성",
+    "labeledSize": "L",
+    "price": 210000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/68.jpg",
+    "productUrl": "https://www.example.com/products/68",
+    "measurements": {
+      "chestCircumference": 97.7,
+      "frontLength": 98.0,
+      "sleeveLength": 65.9,
+      "backWidth": 53.6
+    }
+  },
+  {
+    "id": 69,
+    "brand": "미쏘",
+    "itemName": "숏 패딩 점퍼",
+    "category": "아우터",
+    "subCategory": "패딩",
+    "gender": "남성",
+    "labeledSize": "S",
+    "price": 185000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/69.jpg",
+    "productUrl": "https://www.example.com/products/69",
+    "measurements": {
+      "chestCircumference": 102.0,
+      "frontLength": 104.7,
+      "sleeveLength": 62.9,
+      "backWidth": 55.5
+    }
+  },
+  {
+    "id": 70,
+    "brand": "탑텐",
+    "itemName": "슬림 스팬 슬랙스",
+    "category": "하의",
+    "subCategory": "팬츠/슬랙스",
+    "gender": "공용",
+    "labeledSize": "M",
+    "price": 19000,
+    "colors": [
+      "black",
+      "navy",
+      "grey"
+    ],
+    "imageUrl": "https://image.example.com/products/70.jpg",
+    "productUrl": "https://www.example.com/products/70",
+    "measurements": {
+      "waistCircumference": 85.2,
+      "hipCircumference": 92.4,
+      "thighCircumference": 52.3,
+      "totalLength": 100.1,
+      "hemWidth": 18.2
+    }
+  },
+  {
+    "id": 71,
+    "brand": "탑텐",
+    "itemName": "하프 집업 니트",
+    "category": "상의",
+    "subCategory": "니트/가디건",
+    "gender": "공용",
+    "labeledSize": "M",
+    "price": 93000,
+    "colors": [
+      "white",
+      "black"
+    ],
+    "imageUrl": "https://image.example.com/products/71.jpg",
+    "productUrl": "https://www.example.com/products/71",
+    "measurements": {
+      "chestCircumference": 100.0,
+      "frontLength": 101.1,
+      "sleeveLength": 38.1,
+      "backWidth": 44.0
+    }
+  },
+  {
+    "id": 72,
+    "brand": "지오다노",
+    "itemName": "와이드 데님 팬츠",
+    "category": "하의",
+    "subCategory": "데님팬츠",
+    "gender": "남성",
+    "labeledSize": "XL",
+    "price": 125000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/72.jpg",
+    "productUrl": "https://www.example.com/products/72",
+    "measurements": {
+      "waistCircumference": 78.9,
+      "hipCircumference": 107.4,
+      "thighCircumference": 59.8,
+      "totalLength": 103.6,
+      "hemWidth": 20.0
+    }
+  },
+  {
+    "id": 73,
+    "brand": "지오다노",
+    "itemName": "울 블렌드 싱글 코트",
+    "category": "아우터",
+    "subCategory": "코트",
+    "gender": "여성",
+    "labeledSize": "L",
+    "price": 46000,
+    "colors": [
+      "black",
+      "navy",
+      "grey"
+    ],
+    "imageUrl": "https://image.example.com/products/73.jpg",
+    "productUrl": "https://www.example.com/products/73",
+    "measurements": {
+      "chestCircumference": 130.9,
+      "frontLength": 56.2,
+      "sleeveLength": 66.0,
+      "backWidth": 57.7
+    }
+  },
+  {
+    "id": 74,
+    "brand": "자라",
+    "itemName": "카고 조거 팬츠",
+    "category": "하의",
+    "subCategory": "팬츠/슬랙스",
+    "gender": "공용",
+    "labeledSize": "S",
+    "price": 46000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/74.jpg",
+    "productUrl": "https://www.example.com/products/74",
+    "measurements": {
+      "waistCircumference": 66.4,
+      "hipCircumference": 100.0,
+      "thighCircumference": 65.6,
+      "totalLength": 101.3,
+      "hemWidth": 24.6
+    }
+  },
+  {
+    "id": 75,
+    "brand": "스파오",
+    "itemName": "베이직 반소매 티셔츠",
+    "category": "상의",
+    "subCategory": "티셔츠",
+    "gender": "여성",
+    "labeledSize": "L",
+    "price": 27000,
+    "colors": [
+      "white",
+      "black"
+    ],
+    "imageUrl": "https://image.example.com/products/75.jpg",
+    "productUrl": "https://www.example.com/products/75",
+    "measurements": {
+      "chestCircumference": 91.7,
+      "frontLength": 89.8,
+      "sleeveLength": 48.3,
+      "backWidth": 58.3
+    }
+  },
+  {
+    "id": 76,
+    "brand": "마인드브릿지",
+    "itemName": "하프 집업 니트",
+    "category": "상의",
+    "subCategory": "니트/가디건",
+    "gender": "여성",
+    "labeledSize": "S",
+    "price": 15000,
+    "colors": [
+      "black",
+      "navy",
+      "grey"
+    ],
+    "imageUrl": "https://image.example.com/products/76.jpg",
+    "productUrl": "https://www.example.com/products/76",
+    "measurements": {
+      "chestCircumference": 118.3,
+      "frontLength": 61.8,
+      "sleeveLength": 32.4,
+      "backWidth": 58.4
+    }
+  },
+  {
+    "id": 77,
+    "brand": "유니클로",
+    "itemName": "원턱 스트레이트 슬랙스",
+    "category": "하의",
+    "subCategory": "팬츠/슬랙스",
+    "gender": "남성",
+    "labeledSize": "XL",
+    "price": 55000,
+    "colors": [
+      "white",
+      "blue",
+      "yellow"
+    ],
+    "imageUrl": "https://image.example.com/products/77.jpg",
+    "productUrl": "https://www.example.com/products/77",
+    "measurements": {
+      "waistCircumference": 65.1,
+      "hipCircumference": 106.0,
+      "thighCircumference": 53.5,
+      "totalLength": 106.1,
+      "hemWidth": 24.6
+    }
+  },
+  {
+    "id": 78,
+    "brand": "마인드브릿지",
+    "itemName": "라이더 자켓",
+    "category": "아우터",
+    "subCategory": "자켓/점퍼",
+    "gender": "여성",
+    "labeledSize": "M",
+    "price": 55000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/78.jpg",
+    "productUrl": "https://www.example.com/products/78",
+    "measurements": {
+      "chestCircumference": 133.3,
+      "frontLength": 52.3,
+      "sleeveLength": 44.8,
+      "backWidth": 56.5
+    }
+  },
+  {
+    "id": 79,
+    "brand": "유니클로",
+    "itemName": "에센셜 크루 넥 티셔츠",
+    "category": "상의",
+    "subCategory": "티셔츠",
+    "gender": "여성",
+    "labeledSize": "L",
+    "price": 66000,
+    "colors": [
+      "white",
+      "blue",
+      "yellow"
+    ],
+    "imageUrl": "https://image.example.com/products/79.jpg",
+    "productUrl": "https://www.example.com/products/79",
+    "measurements": {
+      "chestCircumference": 111.9,
+      "frontLength": 88.5,
+      "sleeveLength": 35.0,
+      "backWidth": 43.5
+    }
+  },
+  {
+    "id": 80,
+    "brand": "H&M",
+    "itemName": "슬림 스팬 슬랙스",
+    "category": "하의",
+    "subCategory": "팬츠/슬랙스",
+    "gender": "여성",
+    "labeledSize": "XL",
+    "price": 31000,
+    "colors": [
+      "black",
+      "navy",
+      "grey"
+    ],
+    "imageUrl": "https://image.example.com/products/80.jpg",
+    "productUrl": "https://www.example.com/products/80",
+    "measurements": {
+      "waistCircumference": 65.3,
+      "hipCircumference": 105.8,
+      "thighCircumference": 60.7,
+      "totalLength": 105.5,
+      "hemWidth": 18.3
+    }
+  },
+  {
+    "id": 81,
+    "brand": "자라",
+    "itemName": "셔츠 원피스",
+    "category": "원피스/스커트",
+    "subCategory": "원피스",
+    "gender": "공용",
+    "labeledSize": "L",
+    "price": 185000,
+    "colors": [
+      "black",
+      "navy",
+      "grey"
+    ],
+    "imageUrl": "https://image.example.com/products/81.jpg",
+    "productUrl": "https://www.example.com/products/81",
+    "measurements": {
+      "chestCircumference": 93.0,
+      "waistCircumference": 75.3,
+      "totalLength": 99.4,
+      "shoulderWidth": 40.4
+    }
+  },
+  {
+    "id": 82,
+    "brand": "지오다노",
+    "itemName": "바람막이 쉘 자켓",
+    "category": "아우터",
+    "subCategory": "자켓/점퍼",
+    "gender": "공용",
+    "labeledSize": "XL",
+    "price": 185000,
+    "colors": [
+      "black",
+      "navy",
+      "grey"
+    ],
+    "imageUrl": "https://image.example.com/products/82.jpg",
+    "productUrl": "https://www.example.com/products/82",
+    "measurements": {
+      "chestCircumference": 94.3,
+      "frontLength": 51.5,
+      "sleeveLength": 41.3,
+      "backWidth": 56.9
+    }
+  },
+  {
+    "id": 83,
+    "brand": "자라",
+    "itemName": "옥스포드 셔츠",
+    "category": "상의",
+    "subCategory": "셔츠/블라우스",
+    "gender": "여성",
+    "labeledSize": "M",
+    "price": 89000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/83.jpg",
+    "productUrl": "https://www.example.com/products/83",
+    "measurements": {
+      "chestCircumference": 97.3,
+      "frontLength": 104.4,
+      "sleeveLength": 61.9,
+      "backWidth": 58.0
+    }
+  },
+  {
+    "id": 84,
+    "brand": "컨셉원",
+    "itemName": "에센셜 크루 넥 티셔츠",
+    "category": "상의",
+    "subCategory": "티셔츠",
+    "gender": "남성",
+    "labeledSize": "L",
+    "price": 148000,
+    "colors": [
+      "black",
+      "navy",
+      "grey"
+    ],
+    "imageUrl": "https://image.example.com/products/84.jpg",
+    "productUrl": "https://www.example.com/products/84",
+    "measurements": {
+      "chestCircumference": 95.6,
+      "frontLength": 79.1,
+      "sleeveLength": 62.3,
+      "backWidth": 45.0
+    }
+  },
+  {
+    "id": 85,
+    "brand": "지오다노",
+    "itemName": "울 블렌드 싱글 코트",
+    "category": "아우터",
+    "subCategory": "코트",
+    "gender": "여성",
+    "labeledSize": "M",
+    "price": 160000,
+    "colors": [
+      "black",
+      "navy",
+      "grey"
+    ],
+    "imageUrl": "https://image.example.com/products/85.jpg",
+    "productUrl": "https://www.example.com/products/85",
+    "measurements": {
+      "chestCircumference": 112.4,
+      "frontLength": 88.8,
+      "sleeveLength": 52.1,
+      "backWidth": 51.7
+    }
+  },
+  {
+    "id": 86,
+    "brand": "탑텐",
+    "itemName": "버뮤다 쇼츠",
+    "category": "하의",
+    "subCategory": "쇼츠/버뮤다",
+    "gender": "공용",
+    "labeledSize": "L",
+    "price": 15000,
+    "colors": [
+      "white",
+      "blue",
+      "yellow"
+    ],
+    "imageUrl": "https://image.example.com/products/86.jpg",
+    "productUrl": "https://www.example.com/products/86",
+    "measurements": {
+      "waistCircumference": 84.9,
+      "hipCircumference": 108.5,
+      "thighCircumference": 60.2,
+      "totalLength": 104.2,
+      "hemWidth": 23.3
+    }
+  },
+  {
+    "id": 87,
+    "brand": "컨셉원",
+    "itemName": "버뮤다 쇼츠",
+    "category": "하의",
+    "subCategory": "쇼츠/버뮤다",
+    "gender": "남성",
+    "labeledSize": "M",
+    "price": 148000,
+    "colors": [
+      "white",
+      "black"
+    ],
+    "imageUrl": "https://image.example.com/products/87.jpg",
+    "productUrl": "https://www.example.com/products/87",
+    "measurements": {
+      "waistCircumference": 89.2,
+      "hipCircumference": 114.3,
+      "thighCircumference": 56.5,
+      "totalLength": 106.1,
+      "hemWidth": 21.5
+    }
+  },
+  {
+    "id": 88,
+    "brand": "에잇세컨즈",
+    "itemName": "후드 집업 점퍼",
+    "category": "아우터",
+    "subCategory": "자켓/점퍼",
+    "gender": "여성",
+    "labeledSize": "L",
+    "price": 34000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/88.jpg",
+    "productUrl": "https://www.example.com/products/88",
+    "measurements": {
+      "chestCircumference": 123.7,
+      "frontLength": 99.5,
+      "sleeveLength": 57.3,
+      "backWidth": 54.7
+    }
+  },
+  {
+    "id": 89,
+    "brand": "자라",
+    "itemName": "후드 집업 점퍼",
+    "category": "아우터",
+    "subCategory": "자켓/점퍼",
+    "gender": "공용",
+    "labeledSize": "S",
+    "price": 34000,
+    "colors": [
+      "black",
+      "navy",
+      "grey"
+    ],
+    "imageUrl": "https://image.example.com/products/89.jpg",
+    "productUrl": "https://www.example.com/products/89",
+    "measurements": {
+      "chestCircumference": 95.2,
+      "frontLength": 83.3,
+      "sleeveLength": 36.7,
+      "backWidth": 53.5
+    }
+  },
+  {
+    "id": 90,
+    "brand": "자라",
+    "itemName": "베이직 반소매 티셔츠",
+    "category": "상의",
+    "subCategory": "티셔츠",
+    "gender": "여성",
+    "labeledSize": "S",
+    "price": 210000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/90.jpg",
+    "productUrl": "https://www.example.com/products/90",
+    "measurements": {
+      "chestCircumference": 113.7,
+      "frontLength": 54.5,
+      "sleeveLength": 66.0,
+      "backWidth": 52.9
+    }
+  },
+  {
+    "id": 91,
+    "brand": "플랙",
+    "itemName": "헤비웨이트 맨투맨",
+    "category": "상의",
+    "subCategory": "후드/맨투맨",
+    "gender": "공용",
+    "labeledSize": "M",
+    "price": 125000,
+    "colors": [
+      "white",
+      "blue",
+      "yellow"
+    ],
+    "imageUrl": "https://image.example.com/products/91.jpg",
+    "productUrl": "https://www.example.com/products/91",
+    "measurements": {
+      "chestCircumference": 113.7,
+      "frontLength": 71.3,
+      "sleeveLength": 50.3,
+      "backWidth": 46.3
+    }
+  },
+  {
+    "id": 92,
+    "brand": "미쏘",
+    "itemName": "캐시미어 크루넥 니트",
+    "category": "상의",
+    "subCategory": "니트/가디건",
+    "gender": "공용",
+    "labeledSize": "XL",
+    "price": 15000,
+    "colors": [
+      "white",
+      "black"
+    ],
+    "imageUrl": "https://image.example.com/products/92.jpg",
+    "productUrl": "https://www.example.com/products/92",
+    "measurements": {
+      "chestCircumference": 97.6,
+      "frontLength": 50.3,
+      "sleeveLength": 55.3,
+      "backWidth": 53.6
+    }
+  },
+  {
+    "id": 93,
+    "brand": "스파오",
+    "itemName": "옥스포드 셔츠",
+    "category": "상의",
+    "subCategory": "셔츠/블라우스",
+    "gender": "남성",
+    "labeledSize": "L",
+    "price": 19000,
+    "colors": [
+      "white",
+      "black"
+    ],
+    "imageUrl": "https://image.example.com/products/93.jpg",
+    "productUrl": "https://www.example.com/products/93",
+    "measurements": {
+      "chestCircumference": 123.5,
+      "frontLength": 61.1,
+      "sleeveLength": 47.3,
+      "backWidth": 52.5
+    }
+  },
+  {
+    "id": 94,
+    "brand": "무신사 스탠다드",
+    "itemName": "데님 자켓",
+    "category": "아우터",
+    "subCategory": "자켓/점퍼",
+    "gender": "남성",
+    "labeledSize": "M",
+    "price": 46000,
+    "colors": [
+      "white",
+      "black"
+    ],
+    "imageUrl": "https://image.example.com/products/94.jpg",
+    "productUrl": "https://www.example.com/products/94",
+    "measurements": {
+      "chestCircumference": 121.3,
+      "frontLength": 68.3,
+      "sleeveLength": 39.3,
+      "backWidth": 50.0
+    }
+  },
+  {
+    "id": 95,
+    "brand": "스파오",
+    "itemName": "뷔스티에 원피스",
+    "category": "원피스/스커트",
+    "subCategory": "원피스",
+    "gender": "공용",
+    "labeledSize": "S",
+    "price": 46000,
+    "colors": [
+      "white",
+      "black"
+    ],
+    "imageUrl": "https://image.example.com/products/95.jpg",
+    "productUrl": "https://www.example.com/products/95",
+    "measurements": {
+      "chestCircumference": 92.9,
+      "waistCircumference": 72.0,
+      "totalLength": 110.8,
+      "shoulderWidth": 37.4
+    }
+  },
+  {
+    "id": 96,
+    "brand": "탑텐",
+    "itemName": "버뮤다 쇼츠",
+    "category": "하의",
+    "subCategory": "쇼츠/버뮤다",
+    "gender": "남성",
+    "labeledSize": "S",
+    "price": 19000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/96.jpg",
+    "productUrl": "https://www.example.com/products/96",
+    "measurements": {
+      "waistCircumference": 79.4,
+      "hipCircumference": 113.8,
+      "thighCircumference": 61.7,
+      "totalLength": 107.3,
+      "hemWidth": 24.5
+    }
+  },
+  {
+    "id": 97,
+    "brand": "마인드브릿지",
+    "itemName": "치노 팬츠",
+    "category": "하의",
+    "subCategory": "팬츠/슬랙스",
+    "gender": "남성",
+    "labeledSize": "XL",
+    "price": 34000,
+    "colors": [
+      "white",
+      "black"
+    ],
+    "imageUrl": "https://image.example.com/products/97.jpg",
+    "productUrl": "https://www.example.com/products/97",
+    "measurements": {
+      "waistCircumference": 69.9,
+      "hipCircumference": 94.9,
+      "thighCircumference": 64.5,
+      "totalLength": 92.7,
+      "hemWidth": 18.8
+    }
+  },
+  {
+    "id": 98,
+    "brand": "에잇세컨즈",
+    "itemName": "버뮤다 쇼츠",
+    "category": "하의",
+    "subCategory": "쇼츠/버뮤다",
+    "gender": "여성",
+    "labeledSize": "XL",
+    "price": 210000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/98.jpg",
+    "productUrl": "https://www.example.com/products/98",
+    "measurements": {
+      "waistCircumference": 72.0,
+      "hipCircumference": 105.4,
+      "thighCircumference": 66.6,
+      "totalLength": 101.9,
+      "hemWidth": 21.1
+    }
+  },
+  {
+    "id": 99,
+    "brand": "플랙",
+    "itemName": "라운드넥 크롭 가디건",
+    "category": "상의",
+    "subCategory": "니트/가디건",
+    "gender": "공용",
+    "labeledSize": "XL",
+    "price": 55000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/99.jpg",
+    "productUrl": "https://www.example.com/products/99",
+    "measurements": {
+      "chestCircumference": 92.3,
+      "frontLength": 81.9,
+      "sleeveLength": 36.3,
+      "backWidth": 51.3
+    }
+  },
+  {
+    "id": 100,
+    "brand": "스파오",
+    "itemName": "트렌치 코트",
+    "category": "아우터",
+    "subCategory": "코트",
+    "gender": "남성",
+    "labeledSize": "XL",
+    "price": 46000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/100.jpg",
+    "productUrl": "https://www.example.com/products/100",
+    "measurements": {
+      "chestCircumference": 131.8,
+      "frontLength": 60.9,
+      "sleeveLength": 57.9,
+      "backWidth": 46.9
+    }
+  },
+  {
+    "id": 101,
+    "brand": "컨셉원",
+    "itemName": "테일러드 블레이저",
+    "category": "아우터",
+    "subCategory": "블레이저",
+    "gender": "남성",
+    "labeledSize": "L",
+    "price": 31000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/101.jpg",
+    "productUrl": "https://www.example.com/products/101",
+    "measurements": {
+      "chestCircumference": 119.4,
+      "frontLength": 77.5,
+      "sleeveLength": 55.1,
+      "backWidth": 49.3
+    }
+  },
+  {
+    "id": 102,
+    "brand": "스파오",
+    "itemName": "라운드넥 크롭 가디건",
+    "category": "상의",
+    "subCategory": "니트/가디건",
+    "gender": "여성",
+    "labeledSize": "L",
+    "price": 19000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/102.jpg",
+    "productUrl": "https://www.example.com/products/102",
+    "measurements": {
+      "chestCircumference": 108.9,
+      "frontLength": 76.0,
+      "sleeveLength": 47.7,
+      "backWidth": 47.3
+    }
+  },
+  {
+    "id": 103,
+    "brand": "무신사 스탠다드",
+    "itemName": "헤비웨이트 맨투맨",
+    "category": "상의",
+    "subCategory": "후드/맨투맨",
+    "gender": "여성",
+    "labeledSize": "S",
+    "price": 79000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/103.jpg",
+    "productUrl": "https://www.example.com/products/103",
+    "measurements": {
+      "chestCircumference": 107.1,
+      "frontLength": 100.4,
+      "sleeveLength": 62.4,
+      "backWidth": 58.3
+    }
+  },
+  {
+    "id": 104,
+    "brand": "유니클로",
+    "itemName": "캐시미어 크루넥 니트",
+    "category": "상의",
+    "subCategory": "니트/가디건",
+    "gender": "여성",
+    "labeledSize": "XL",
+    "price": 34000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/104.jpg",
+    "productUrl": "https://www.example.com/products/104",
+    "measurements": {
+      "chestCircumference": 109.8,
+      "frontLength": 56.9,
+      "sleeveLength": 59.3,
+      "backWidth": 47.2
+    }
+  },
+  {
+    "id": 105,
+    "brand": "무신사 스탠다드",
+    "itemName": "옥스포드 셔츠",
+    "category": "상의",
+    "subCategory": "셔츠/블라우스",
+    "gender": "공용",
+    "labeledSize": "S",
+    "price": 239000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/105.jpg",
+    "productUrl": "https://www.example.com/products/105",
+    "measurements": {
+      "chestCircumference": 91.4,
+      "frontLength": 58.3,
+      "sleeveLength": 56.6,
+      "backWidth": 55.3
+    }
+  },
+  {
+    "id": 106,
+    "brand": "미쏘",
+    "itemName": "체크 플란넬 셔츠",
+    "category": "상의",
+    "subCategory": "셔츠/블라우스",
+    "gender": "남성",
+    "labeledSize": "XL",
+    "price": 19000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/106.jpg",
+    "productUrl": "https://www.example.com/products/106",
+    "measurements": {
+      "chestCircumference": 133.0,
+      "frontLength": 65.4,
+      "sleeveLength": 54.4,
+      "backWidth": 44.0
+    }
+  },
+  {
+    "id": 107,
+    "brand": "마인드브릿지",
+    "itemName": "하프 집업 니트",
+    "category": "상의",
+    "subCategory": "니트/가디건",
+    "gender": "공용",
+    "labeledSize": "L",
+    "price": 239000,
+    "colors": [
+      "white",
+      "black"
+    ],
+    "imageUrl": "https://image.example.com/products/107.jpg",
+    "productUrl": "https://www.example.com/products/107",
+    "measurements": {
+      "chestCircumference": 117.8,
+      "frontLength": 56.2,
+      "sleeveLength": 40.5,
+      "backWidth": 54.4
+    }
+  },
+  {
+    "id": 108,
+    "brand": "무신사 스탠다드",
+    "itemName": "울 블렌드 싱글 코트",
+    "category": "아우터",
+    "subCategory": "코트",
+    "gender": "여성",
+    "labeledSize": "S",
+    "price": 15000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/108.jpg",
+    "productUrl": "https://www.example.com/products/108",
+    "measurements": {
+      "chestCircumference": 91.6,
+      "frontLength": 107.2,
+      "sleeveLength": 55.3,
+      "backWidth": 59.8
+    }
+  },
+  {
+    "id": 109,
+    "brand": "미쏘",
+    "itemName": "베이직 반소매 티셔츠",
+    "category": "상의",
+    "subCategory": "티셔츠",
+    "gender": "공용",
+    "labeledSize": "M",
+    "price": 239000,
+    "colors": [
+      "white",
+      "blue",
+      "yellow"
+    ],
+    "imageUrl": "https://image.example.com/products/109.jpg",
+    "productUrl": "https://www.example.com/products/109",
+    "measurements": {
+      "chestCircumference": 120.7,
+      "frontLength": 80.3,
+      "sleeveLength": 32.3,
+      "backWidth": 59.3
+    }
+  },
+  {
+    "id": 110,
+    "brand": "탑텐",
+    "itemName": "플리츠 롱 스커트",
+    "category": "원피스/스커트",
+    "subCategory": "스커트",
+    "gender": "남성",
+    "labeledSize": "M",
+    "price": 210000,
+    "colors": [
+      "white",
+      "blue",
+      "yellow"
+    ],
+    "imageUrl": "https://image.example.com/products/110.jpg",
+    "productUrl": "https://www.example.com/products/110",
+    "measurements": {
+      "chestCircumference": 104.2,
+      "waistCircumference": 77.7,
+      "totalLength": 90.0,
+      "shoulderWidth": 36.1
+    }
+  },
+  {
+    "id": 111,
+    "brand": "플랙",
+    "itemName": "실크 블라우스",
+    "category": "상의",
+    "subCategory": "셔츠/블라우스",
+    "gender": "여성",
+    "labeledSize": "L",
+    "price": 79000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/111.jpg",
+    "productUrl": "https://www.example.com/products/111",
+    "measurements": {
+      "chestCircumference": 91.8,
+      "frontLength": 105.9,
+      "sleeveLength": 54.4,
+      "backWidth": 58.5
+    }
+  },
+  {
+    "id": 112,
+    "brand": "자라",
+    "itemName": "하프 집업 니트",
+    "category": "상의",
+    "subCategory": "니트/가디건",
+    "gender": "남성",
+    "labeledSize": "L",
+    "price": 27000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/112.jpg",
+    "productUrl": "https://www.example.com/products/112",
+    "measurements": {
+      "chestCircumference": 134.7,
+      "frontLength": 72.2,
+      "sleeveLength": 38.4,
+      "backWidth": 56.9
+    }
+  },
+  {
+    "id": 113,
+    "brand": "유니클로",
+    "itemName": "오버핏 후디",
+    "category": "상의",
+    "subCategory": "후드/맨투맨",
+    "gender": "남성",
+    "labeledSize": "XL",
+    "price": 125000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/113.jpg",
+    "productUrl": "https://www.example.com/products/113",
+    "measurements": {
+      "chestCircumference": 121.0,
+      "frontLength": 53.4,
+      "sleeveLength": 40.2,
+      "backWidth": 52.9
+    }
+  },
+  {
+    "id": 114,
+    "brand": "H&M",
+    "itemName": "치노 팬츠",
+    "category": "하의",
+    "subCategory": "팬츠/슬랙스",
+    "gender": "공용",
+    "labeledSize": "S",
+    "price": 93000,
+    "colors": [
+      "black",
+      "navy",
+      "grey"
+    ],
+    "imageUrl": "https://image.example.com/products/114.jpg",
+    "productUrl": "https://www.example.com/products/114",
+    "measurements": {
+      "waistCircumference": 70.1,
+      "hipCircumference": 93.0,
+      "thighCircumference": 52.8,
+      "totalLength": 105.4,
+      "hemWidth": 24.0
+    }
+  },
+  {
+    "id": 115,
+    "brand": "플랙",
+    "itemName": "베이직 반소매 티셔츠",
+    "category": "상의",
+    "subCategory": "티셔츠",
+    "gender": "공용",
+    "labeledSize": "S",
+    "price": 55000,
+    "colors": [
+      "white",
+      "black"
+    ],
+    "imageUrl": "https://image.example.com/products/115.jpg",
+    "productUrl": "https://www.example.com/products/115",
+    "measurements": {
+      "chestCircumference": 111.6,
+      "frontLength": 73.5,
+      "sleeveLength": 60.1,
+      "backWidth": 46.1
+    }
+  },
+  {
+    "id": 116,
+    "brand": "에잇세컨즈",
+    "itemName": "후드 집업 점퍼",
+    "category": "아우터",
+    "subCategory": "자켓/점퍼",
+    "gender": "여성",
+    "labeledSize": "L",
+    "price": 93000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/116.jpg",
+    "productUrl": "https://www.example.com/products/116",
+    "measurements": {
+      "chestCircumference": 114.8,
+      "frontLength": 106.1,
+      "sleeveLength": 48.9,
+      "backWidth": 49.7
+    }
+  },
+  {
+    "id": 117,
+    "brand": "에잇세컨즈",
+    "itemName": "버뮤다 쇼츠",
+    "category": "하의",
+    "subCategory": "쇼츠/버뮤다",
+    "gender": "여성",
+    "labeledSize": "L",
+    "price": 42000,
+    "colors": [
+      "white",
+      "blue",
+      "yellow"
+    ],
+    "imageUrl": "https://image.example.com/products/117.jpg",
+    "productUrl": "https://www.example.com/products/117",
+    "measurements": {
+      "waistCircumference": 85.8,
+      "hipCircumference": 110.1,
+      "thighCircumference": 61.2,
+      "totalLength": 107.0,
+      "hemWidth": 19.5
+    }
+  },
+  {
+    "id": 118,
+    "brand": "컨셉원",
+    "itemName": "에센셜 크루 넥 티셔츠",
+    "category": "상의",
+    "subCategory": "티셔츠",
+    "gender": "여성",
+    "labeledSize": "L",
+    "price": 19000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/118.jpg",
+    "productUrl": "https://www.example.com/products/118",
+    "measurements": {
+      "chestCircumference": 120.7,
+      "frontLength": 93.6,
+      "sleeveLength": 65.4,
+      "backWidth": 47.4
+    }
+  },
+  {
+    "id": 119,
+    "brand": "유니클로",
+    "itemName": "옥스포드 셔츠",
+    "category": "상의",
+    "subCategory": "셔츠/블라우스",
+    "gender": "공용",
+    "labeledSize": "S",
+    "price": 27000,
+    "colors": [
+      "white",
+      "black"
+    ],
+    "imageUrl": "https://image.example.com/products/119.jpg",
+    "productUrl": "https://www.example.com/products/119",
+    "measurements": {
+      "chestCircumference": 126.5,
+      "frontLength": 95.2,
+      "sleeveLength": 45.5,
+      "backWidth": 48.8
+    }
+  },
+  {
+    "id": 120,
+    "brand": "탑텐",
+    "itemName": "숏 패딩 점퍼",
+    "category": "아우터",
+    "subCategory": "패딩",
+    "gender": "공용",
+    "labeledSize": "M",
+    "price": 239000,
+    "colors": [
+      "white",
+      "blue",
+      "yellow"
+    ],
+    "imageUrl": "https://image.example.com/products/120.jpg",
+    "productUrl": "https://www.example.com/products/120",
+    "measurements": {
+      "chestCircumference": 92.0,
+      "frontLength": 82.5,
+      "sleeveLength": 37.9,
+      "backWidth": 49.9
+    }
+  },
+  {
+    "id": 121,
+    "brand": "탑텐",
+    "itemName": "캐시미어 크루넥 니트",
+    "category": "상의",
+    "subCategory": "니트/가디건",
+    "gender": "남성",
+    "labeledSize": "XL",
+    "price": 27000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/121.jpg",
+    "productUrl": "https://www.example.com/products/121",
+    "measurements": {
+      "chestCircumference": 125.6,
+      "frontLength": 90.6,
+      "sleeveLength": 55.8,
+      "backWidth": 57.7
+    }
+  },
+  {
+    "id": 122,
+    "brand": "무신사 스탠다드",
+    "itemName": "에센셜 크루 넥 티셔츠",
+    "category": "상의",
+    "subCategory": "티셔츠",
+    "gender": "여성",
+    "labeledSize": "S",
+    "price": 46000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/122.jpg",
+    "productUrl": "https://www.example.com/products/122",
+    "measurements": {
+      "chestCircumference": 104.8,
+      "frontLength": 65.9,
+      "sleeveLength": 64.2,
+      "backWidth": 45.5
+    }
+  },
+  {
+    "id": 123,
+    "brand": "미쏘",
+    "itemName": "슬림 스팬 슬랙스",
+    "category": "하의",
+    "subCategory": "팬츠/슬랙스",
+    "gender": "남성",
+    "labeledSize": "L",
+    "price": 19000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/123.jpg",
+    "productUrl": "https://www.example.com/products/123",
+    "measurements": {
+      "waistCircumference": 77.4,
+      "hipCircumference": 95.5,
+      "thighCircumference": 67.0,
+      "totalLength": 105.5,
+      "hemWidth": 18.1
+    }
+  },
+  {
+    "id": 124,
+    "brand": "지오다노",
+    "itemName": "헤비웨이트 맨투맨",
+    "category": "상의",
+    "subCategory": "후드/맨투맨",
+    "gender": "공용",
+    "labeledSize": "S",
+    "price": 89000,
+    "colors": [
+      "white",
+      "black"
+    ],
+    "imageUrl": "https://image.example.com/products/124.jpg",
+    "productUrl": "https://www.example.com/products/124",
+    "measurements": {
+      "chestCircumference": 109.7,
+      "frontLength": 105.9,
+      "sleeveLength": 66.4,
+      "backWidth": 47.2
+    }
+  },
+  {
+    "id": 125,
+    "brand": "탑텐",
+    "itemName": "치노 팬츠",
+    "category": "하의",
+    "subCategory": "팬츠/슬랙스",
+    "gender": "공용",
+    "labeledSize": "S",
+    "price": 31000,
+    "colors": [
+      "white",
+      "black"
+    ],
+    "imageUrl": "https://image.example.com/products/125.jpg",
+    "productUrl": "https://www.example.com/products/125",
+    "measurements": {
+      "waistCircumference": 94.4,
+      "hipCircumference": 108.4,
+      "thighCircumference": 52.9,
+      "totalLength": 92.5,
+      "hemWidth": 18.6
+    }
+  },
+  {
+    "id": 126,
+    "brand": "에잇세컨즈",
+    "itemName": "실크 블라우스",
+    "category": "상의",
+    "subCategory": "셔츠/블라우스",
+    "gender": "남성",
+    "labeledSize": "M",
+    "price": 42000,
+    "colors": [
+      "white",
+      "blue",
+      "yellow"
+    ],
+    "imageUrl": "https://image.example.com/products/126.jpg",
+    "productUrl": "https://www.example.com/products/126",
+    "measurements": {
+      "chestCircumference": 118.2,
+      "frontLength": 66.4,
+      "sleeveLength": 67.5,
+      "backWidth": 54.0
+    }
+  },
+  {
+    "id": 127,
+    "brand": "자라",
+    "itemName": "하프 집업 니트",
+    "category": "상의",
+    "subCategory": "니트/가디건",
+    "gender": "공용",
+    "labeledSize": "L",
+    "price": 79000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/127.jpg",
+    "productUrl": "https://www.example.com/products/127",
+    "measurements": {
+      "chestCircumference": 130.9,
+      "frontLength": 96.3,
+      "sleeveLength": 53.3,
+      "backWidth": 43.9
+    }
+  },
+  {
+    "id": 128,
+    "brand": "미쏘",
+    "itemName": "베이직 반소매 티셔츠",
+    "category": "상의",
+    "subCategory": "티셔츠",
+    "gender": "남성",
+    "labeledSize": "S",
+    "price": 15000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/128.jpg",
+    "productUrl": "https://www.example.com/products/128",
+    "measurements": {
+      "chestCircumference": 97.6,
+      "frontLength": 56.0,
+      "sleeveLength": 35.5,
+      "backWidth": 58.6
+    }
+  },
+  {
+    "id": 129,
+    "brand": "무신사 스탠다드",
+    "itemName": "치노 팬츠",
+    "category": "하의",
+    "subCategory": "팬츠/슬랙스",
+    "gender": "공용",
+    "labeledSize": "XL",
+    "price": 79000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/129.jpg",
+    "productUrl": "https://www.example.com/products/129",
+    "measurements": {
+      "waistCircumference": 78.9,
+      "hipCircumference": 99.5,
+      "thighCircumference": 53.7,
+      "totalLength": 107.6,
+      "hemWidth": 23.0
+    }
+  },
+  {
+    "id": 130,
+    "brand": "스파오",
+    "itemName": "데님 자켓",
+    "category": "아우터",
+    "subCategory": "자켓/점퍼",
+    "gender": "여성",
+    "labeledSize": "XL",
+    "price": 55000,
+    "colors": [
+      "white",
+      "black"
+    ],
+    "imageUrl": "https://image.example.com/products/130.jpg",
+    "productUrl": "https://www.example.com/products/130",
+    "measurements": {
+      "chestCircumference": 98.4,
+      "frontLength": 108.5,
+      "sleeveLength": 62.2,
+      "backWidth": 46.2
+    }
+  },
+  {
+    "id": 131,
+    "brand": "지오다노",
+    "itemName": "바람막이 쉘 자켓",
+    "category": "아우터",
+    "subCategory": "자켓/점퍼",
+    "gender": "남성",
+    "labeledSize": "L",
+    "price": 31000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/131.jpg",
+    "productUrl": "https://www.example.com/products/131",
+    "measurements": {
+      "chestCircumference": 126.6,
+      "frontLength": 102.3,
+      "sleeveLength": 61.3,
+      "backWidth": 56.5
+    }
+  },
+  {
+    "id": 132,
+    "brand": "컨셉원",
+    "itemName": "와이드 데님 팬츠",
+    "category": "하의",
+    "subCategory": "데님팬츠",
+    "gender": "공용",
+    "labeledSize": "XL",
+    "price": 19000,
+    "colors": [
+      "white",
+      "black"
+    ],
+    "imageUrl": "https://image.example.com/products/132.jpg",
+    "productUrl": "https://www.example.com/products/132",
+    "measurements": {
+      "waistCircumference": 69.6,
+      "hipCircumference": 91.9,
+      "thighCircumference": 57.8,
+      "totalLength": 102.7,
+      "hemWidth": 18.8
+    }
+  },
+  {
+    "id": 133,
+    "brand": "유니클로",
+    "itemName": "캐시미어 크루넥 니트",
+    "category": "상의",
+    "subCategory": "니트/가디건",
+    "gender": "공용",
+    "labeledSize": "S",
+    "price": 34000,
+    "colors": [
+      "black",
+      "navy",
+      "grey"
+    ],
+    "imageUrl": "https://image.example.com/products/133.jpg",
+    "productUrl": "https://www.example.com/products/133",
+    "measurements": {
+      "chestCircumference": 103.6,
+      "frontLength": 53.9,
+      "sleeveLength": 41.2,
+      "backWidth": 58.6
+    }
+  },
+  {
+    "id": 134,
+    "brand": "탑텐",
+    "itemName": "치노 팬츠",
+    "category": "하의",
+    "subCategory": "팬츠/슬랙스",
+    "gender": "공용",
+    "labeledSize": "S",
+    "price": 55000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/134.jpg",
+    "productUrl": "https://www.example.com/products/134",
+    "measurements": {
+      "waistCircumference": 80.8,
+      "hipCircumference": 102.6,
+      "thighCircumference": 59.0,
+      "totalLength": 107.0,
+      "hemWidth": 22.3
+    }
+  },
+  {
+    "id": 135,
+    "brand": "스파오",
+    "itemName": "A라인 미디 스커트",
+    "category": "원피스/스커트",
+    "subCategory": "스커트",
+    "gender": "여성",
+    "labeledSize": "S",
+    "price": 93000,
+    "colors": [
+      "white",
+      "blue",
+      "yellow"
+    ],
+    "imageUrl": "https://image.example.com/products/135.jpg",
+    "productUrl": "https://www.example.com/products/135",
+    "measurements": {
+      "chestCircumference": 103.1,
+      "waistCircumference": 80.8,
+      "totalLength": 101.5,
+      "shoulderWidth": 37.1
+    }
+  },
+  {
+    "id": 136,
+    "brand": "H&M",
+    "itemName": "와이드 데님 팬츠",
+    "category": "하의",
+    "subCategory": "데님팬츠",
+    "gender": "공용",
+    "labeledSize": "S",
+    "price": 55000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/136.jpg",
+    "productUrl": "https://www.example.com/products/136",
+    "measurements": {
+      "waistCircumference": 91.8,
+      "hipCircumference": 111.5,
+      "thighCircumference": 60.7,
+      "totalLength": 96.3,
+      "hemWidth": 25.1
+    }
+  },
+  {
+    "id": 137,
+    "brand": "자라",
+    "itemName": "미니 데님 스커트",
+    "category": "원피스/스커트",
+    "subCategory": "스커트",
+    "gender": "공용",
+    "labeledSize": "M",
+    "price": 31000,
+    "colors": [
+      "black",
+      "navy",
+      "grey"
+    ],
+    "imageUrl": "https://image.example.com/products/137.jpg",
+    "productUrl": "https://www.example.com/products/137",
+    "measurements": {
+      "chestCircumference": 97.8,
+      "waistCircumference": 78.3,
+      "totalLength": 97.3,
+      "shoulderWidth": 39.8
+    }
+  },
+  {
+    "id": 138,
+    "brand": "에잇세컨즈",
+    "itemName": "에센셜 크루 넥 티셔츠",
+    "category": "상의",
+    "subCategory": "티셔츠",
+    "gender": "공용",
+    "labeledSize": "L",
+    "price": 239000,
+    "colors": [
+      "white",
+      "black"
+    ],
+    "imageUrl": "https://image.example.com/products/138.jpg",
+    "productUrl": "https://www.example.com/products/138",
+    "measurements": {
+      "chestCircumference": 98.8,
+      "frontLength": 91.4,
+      "sleeveLength": 41.8,
+      "backWidth": 55.2
+    }
+  },
+  {
+    "id": 139,
+    "brand": "미쏘",
+    "itemName": "테일러드 블레이저",
+    "category": "아우터",
+    "subCategory": "블레이저",
+    "gender": "공용",
+    "labeledSize": "S",
+    "price": 46000,
+    "colors": [
+      "white",
+      "blue",
+      "yellow"
+    ],
+    "imageUrl": "https://image.example.com/products/139.jpg",
+    "productUrl": "https://www.example.com/products/139",
+    "measurements": {
+      "chestCircumference": 107.7,
+      "frontLength": 52.7,
+      "sleeveLength": 66.3,
+      "backWidth": 57.4
+    }
+  },
+  {
+    "id": 140,
+    "brand": "탑텐",
+    "itemName": "헤비웨이트 맨투맨",
+    "category": "상의",
+    "subCategory": "후드/맨투맨",
+    "gender": "남성",
+    "labeledSize": "M",
+    "price": 185000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/140.jpg",
+    "productUrl": "https://www.example.com/products/140",
+    "measurements": {
+      "chestCircumference": 94.4,
+      "frontLength": 105.5,
+      "sleeveLength": 44.2,
+      "backWidth": 45.6
+    }
+  },
+  {
+    "id": 141,
+    "brand": "탑텐",
+    "itemName": "하프 집업 니트",
+    "category": "상의",
+    "subCategory": "니트/가디건",
+    "gender": "공용",
+    "labeledSize": "M",
+    "price": 15000,
+    "colors": [
+      "white",
+      "black"
+    ],
+    "imageUrl": "https://image.example.com/products/141.jpg",
+    "productUrl": "https://www.example.com/products/141",
+    "measurements": {
+      "chestCircumference": 119.0,
+      "frontLength": 98.6,
+      "sleeveLength": 41.4,
+      "backWidth": 57.5
+    }
+  },
+  {
+    "id": 142,
+    "brand": "탑텐",
+    "itemName": "트렌치 코트",
+    "category": "아우터",
+    "subCategory": "코트",
+    "gender": "여성",
+    "labeledSize": "L",
+    "price": 42000,
+    "colors": [
+      "white",
+      "black"
+    ],
+    "imageUrl": "https://image.example.com/products/142.jpg",
+    "productUrl": "https://www.example.com/products/142",
+    "measurements": {
+      "chestCircumference": 100.6,
+      "frontLength": 84.0,
+      "sleeveLength": 61.1,
+      "backWidth": 54.1
+    }
+  },
+  {
+    "id": 143,
+    "brand": "컨셉원",
+    "itemName": "카고 조거 팬츠",
+    "category": "하의",
+    "subCategory": "팬츠/슬랙스",
+    "gender": "공용",
+    "labeledSize": "L",
+    "price": 31000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/143.jpg",
+    "productUrl": "https://www.example.com/products/143",
+    "measurements": {
+      "waistCircumference": 78.0,
+      "hipCircumference": 114.1,
+      "thighCircumference": 65.6,
+      "totalLength": 97.1,
+      "hemWidth": 21.5
+    }
+  },
+  {
+    "id": 144,
+    "brand": "스파오",
+    "itemName": "라운드넥 크롭 가디건",
+    "category": "상의",
+    "subCategory": "니트/가디건",
+    "gender": "여성",
+    "labeledSize": "S",
+    "price": 46000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/144.jpg",
+    "productUrl": "https://www.example.com/products/144",
+    "measurements": {
+      "chestCircumference": 131.3,
+      "frontLength": 90.8,
+      "sleeveLength": 50.2,
+      "backWidth": 57.4
+    }
+  },
+  {
+    "id": 145,
+    "brand": "마인드브릿지",
+    "itemName": "와이드 데님 팬츠",
+    "category": "하의",
+    "subCategory": "데님팬츠",
+    "gender": "공용",
+    "labeledSize": "S",
+    "price": 66000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/145.jpg",
+    "productUrl": "https://www.example.com/products/145",
+    "measurements": {
+      "waistCircumference": 65.2,
+      "hipCircumference": 97.2,
+      "thighCircumference": 52.3,
+      "totalLength": 91.1,
+      "hemWidth": 18.3
+    }
+  },
+  {
+    "id": 146,
+    "brand": "H&M",
+    "itemName": "와이드 데님 팬츠",
+    "category": "하의",
+    "subCategory": "데님팬츠",
+    "gender": "공용",
+    "labeledSize": "M",
+    "price": 55000,
+    "colors": [
+      "white",
+      "black"
+    ],
+    "imageUrl": "https://image.example.com/products/146.jpg",
+    "productUrl": "https://www.example.com/products/146",
+    "measurements": {
+      "waistCircumference": 77.9,
+      "hipCircumference": 109.6,
+      "thighCircumference": 60.9,
+      "totalLength": 96.6,
+      "hemWidth": 23.8
+    }
+  },
+  {
+    "id": 147,
+    "brand": "무신사 스탠다드",
+    "itemName": "셔츠 원피스",
+    "category": "원피스/스커트",
+    "subCategory": "원피스",
+    "gender": "여성",
+    "labeledSize": "M",
+    "price": 89000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/147.jpg",
+    "productUrl": "https://www.example.com/products/147",
+    "measurements": {
+      "chestCircumference": 84.4,
+      "waistCircumference": 82.0,
+      "totalLength": 109.9,
+      "shoulderWidth": 40.5
+    }
+  },
+  {
+    "id": 148,
+    "brand": "에잇세컨즈",
+    "itemName": "헤비웨이트 맨투맨",
+    "category": "상의",
+    "subCategory": "후드/맨투맨",
+    "gender": "남성",
+    "labeledSize": "XL",
+    "price": 160000,
+    "colors": [
+      "white",
+      "blue",
+      "yellow"
+    ],
+    "imageUrl": "https://image.example.com/products/148.jpg",
+    "productUrl": "https://www.example.com/products/148",
+    "measurements": {
+      "chestCircumference": 131.3,
+      "frontLength": 51.2,
+      "sleeveLength": 64.7,
+      "backWidth": 48.9
+    }
+  },
+  {
+    "id": 149,
+    "brand": "미쏘",
+    "itemName": "뷔스티에 원피스",
+    "category": "원피스/스커트",
+    "subCategory": "원피스",
+    "gender": "남성",
+    "labeledSize": "S",
+    "price": 93000,
+    "colors": [
+      "white",
+      "black"
+    ],
+    "imageUrl": "https://image.example.com/products/149.jpg",
+    "productUrl": "https://www.example.com/products/149",
+    "measurements": {
+      "chestCircumference": 89.2,
+      "waistCircumference": 66.7,
+      "totalLength": 92.8,
+      "shoulderWidth": 42.0
+    }
+  },
+  {
+    "id": 150,
+    "brand": "플랙",
+    "itemName": "카고 조거 팬츠",
+    "category": "하의",
+    "subCategory": "팬츠/슬랙스",
+    "gender": "공용",
+    "labeledSize": "M",
+    "price": 31000,
+    "colors": [
+      "white",
+      "blue",
+      "yellow"
+    ],
+    "imageUrl": "https://image.example.com/products/150.jpg",
+    "productUrl": "https://www.example.com/products/150",
+    "measurements": {
+      "waistCircumference": 82.8,
+      "hipCircumference": 92.5,
+      "thighCircumference": 55.1,
+      "totalLength": 102.4,
+      "hemWidth": 19.7
+    }
+  },
+  {
+    "id": 151,
+    "brand": "무신사 스탠다드",
+    "itemName": "실크 블라우스",
+    "category": "상의",
+    "subCategory": "셔츠/블라우스",
+    "gender": "남성",
+    "labeledSize": "S",
+    "price": 66000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/151.jpg",
+    "productUrl": "https://www.example.com/products/151",
+    "measurements": {
+      "chestCircumference": 113.0,
+      "frontLength": 75.9,
+      "sleeveLength": 44.8,
+      "backWidth": 47.8
+    }
+  },
+  {
+    "id": 152,
+    "brand": "컨셉원",
+    "itemName": "오버핏 그래픽 티셔츠",
+    "category": "상의",
+    "subCategory": "티셔츠",
+    "gender": "남성",
+    "labeledSize": "L",
+    "price": 79000,
+    "colors": [
+      "black",
+      "navy",
+      "grey"
+    ],
+    "imageUrl": "https://image.example.com/products/152.jpg",
+    "productUrl": "https://www.example.com/products/152",
+    "measurements": {
+      "chestCircumference": 102.4,
+      "frontLength": 106.2,
+      "sleeveLength": 59.1,
+      "backWidth": 45.1
+    }
+  },
+  {
+    "id": 153,
+    "brand": "플랙",
+    "itemName": "베이직 반소매 티셔츠",
+    "category": "상의",
+    "subCategory": "티셔츠",
+    "gender": "공용",
+    "labeledSize": "S",
+    "price": 79000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/153.jpg",
+    "productUrl": "https://www.example.com/products/153",
+    "measurements": {
+      "chestCircumference": 116.3,
+      "frontLength": 74.3,
+      "sleeveLength": 56.1,
+      "backWidth": 47.3
+    }
+  },
+  {
+    "id": 154,
+    "brand": "자라",
+    "itemName": "슬림 스팬 슬랙스",
+    "category": "하의",
+    "subCategory": "팬츠/슬랙스",
+    "gender": "공용",
+    "labeledSize": "XL",
+    "price": 79000,
+    "colors": [
+      "black",
+      "navy",
+      "grey"
+    ],
+    "imageUrl": "https://image.example.com/products/154.jpg",
+    "productUrl": "https://www.example.com/products/154",
+    "measurements": {
+      "waistCircumference": 83.5,
+      "hipCircumference": 100.2,
+      "thighCircumference": 61.8,
+      "totalLength": 107.2,
+      "hemWidth": 18.7
+    }
+  },
+  {
+    "id": 155,
+    "brand": "지오다노",
+    "itemName": "테일러드 블레이저",
+    "category": "아우터",
+    "subCategory": "블레이저",
+    "gender": "여성",
+    "labeledSize": "S",
+    "price": 89000,
+    "colors": [
+      "white",
+      "black"
+    ],
+    "imageUrl": "https://image.example.com/products/155.jpg",
+    "productUrl": "https://www.example.com/products/155",
+    "measurements": {
+      "chestCircumference": 121.1,
+      "frontLength": 59.9,
+      "sleeveLength": 47.7,
+      "backWidth": 47.4
+    }
+  },
+  {
+    "id": 156,
+    "brand": "에잇세컨즈",
+    "itemName": "캐시미어 크루넥 니트",
+    "category": "상의",
+    "subCategory": "니트/가디건",
+    "gender": "남성",
+    "labeledSize": "S",
+    "price": 93000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/156.jpg",
+    "productUrl": "https://www.example.com/products/156",
+    "measurements": {
+      "chestCircumference": 103.1,
+      "frontLength": 97.7,
+      "sleeveLength": 44.6,
+      "backWidth": 47.7
+    }
+  },
+  {
+    "id": 157,
+    "brand": "스파오",
+    "itemName": "숏 패딩 점퍼",
+    "category": "아우터",
+    "subCategory": "패딩",
+    "gender": "공용",
+    "labeledSize": "M",
+    "price": 185000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/157.jpg",
+    "productUrl": "https://www.example.com/products/157",
+    "measurements": {
+      "chestCircumference": 97.7,
+      "frontLength": 92.8,
+      "sleeveLength": 54.3,
+      "backWidth": 52.3
+    }
+  },
+  {
+    "id": 158,
+    "brand": "자라",
+    "itemName": "오버핏 그래픽 티셔츠",
+    "category": "상의",
+    "subCategory": "티셔츠",
+    "gender": "남성",
+    "labeledSize": "M",
+    "price": 79000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/158.jpg",
+    "productUrl": "https://www.example.com/products/158",
+    "measurements": {
+      "chestCircumference": 130.3,
+      "frontLength": 99.1,
+      "sleeveLength": 32.0,
+      "backWidth": 50.6
+    }
+  },
+  {
+    "id": 159,
+    "brand": "컨셉원",
+    "itemName": "데님 자켓",
+    "category": "아우터",
+    "subCategory": "자켓/점퍼",
+    "gender": "공용",
+    "labeledSize": "S",
+    "price": 34000,
+    "colors": [
+      "white",
+      "blue",
+      "yellow"
+    ],
+    "imageUrl": "https://image.example.com/products/159.jpg",
+    "productUrl": "https://www.example.com/products/159",
+    "measurements": {
+      "chestCircumference": 118.0,
+      "frontLength": 57.2,
+      "sleeveLength": 33.8,
+      "backWidth": 42.3
+    }
+  },
+  {
+    "id": 160,
+    "brand": "스파오",
+    "itemName": "베이직 반소매 티셔츠",
+    "category": "상의",
+    "subCategory": "티셔츠",
+    "gender": "여성",
+    "labeledSize": "XL",
+    "price": 42000,
+    "colors": [
+      "white",
+      "black"
+    ],
+    "imageUrl": "https://image.example.com/products/160.jpg",
+    "productUrl": "https://www.example.com/products/160",
+    "measurements": {
+      "chestCircumference": 94.7,
+      "frontLength": 81.0,
+      "sleeveLength": 35.2,
+      "backWidth": 51.8
+    }
+  },
+  {
+    "id": 161,
+    "brand": "스파오",
+    "itemName": "하프 집업 니트",
+    "category": "상의",
+    "subCategory": "니트/가디건",
+    "gender": "남성",
+    "labeledSize": "L",
+    "price": 125000,
+    "colors": [
+      "beige",
+      "brown",
+      "khaki"
+    ],
+    "imageUrl": "https://image.example.com/products/161.jpg",
+    "productUrl": "https://www.example.com/products/161",
+    "measurements": {
+      "chestCircumference": 119.0,
+      "frontLength": 74.1,
+      "sleeveLength": 65.4,
+      "backWidth": 58.8
+    }
+  },
+  {
+    "id": 162,
+    "brand": "유니클로",
+    "itemName": "에센셜 크루 넥 티셔츠",
+    "category": "상의",
+    "subCategory": "티셔츠",
+    "gender": "남성",
+    "labeledSize": "XL",
+    "price": 110000,
+    "colors": [
+      "white",
+      "blue",
+      "yellow"
+    ],
+    "imageUrl": "https://image.example.com/products/162.jpg",
+    "productUrl": "https://www.example.com/products/162",
+    "measurements": {
+      "chestCircumference": 115.8,
+      "frontLength": 101.0,
+      "sleeveLength": 39.2,
+      "backWidth": 57.1
+    }
+  },
+  {
+    "id": 163,
+    "brand": "컨셉원",
+    "itemName": "데님 자켓",
+    "category": "아우터",
+    "subCategory": "자켓/점퍼",
+    "gender": "남성",
+    "labeledSize": "S",
+    "price": 210000,
+    "colors": [
+      "black",
+      "navy",
+      "grey"
+    ],
+    "imageUrl": "https://image.example.com/products/163.jpg",
+    "productUrl": "https://www.example.com/products/163",
+    "measurements": {
+      "chestCircumference": 119.5,
+      "frontLength": 95.1,
+      "sleeveLength": 52.1,
+      "backWidth": 59.2
+    }
+  },
+  {
+    "id": 164,
+    "brand": "컨셉원",
+    "itemName": "라운드넥 크롭 가디건",
+    "category": "상의",
+    "subCategory": "니트/가디건",
+    "gender": "공용",
+    "labeledSize": "S",
+    "price": 27000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/164.jpg",
+    "productUrl": "https://www.example.com/products/164",
+    "measurements": {
+      "chestCircumference": 96.1,
+      "frontLength": 88.5,
+      "sleeveLength": 64.1,
+      "backWidth": 46.9
+    }
+  },
+  {
+    "id": 165,
+    "brand": "컨셉원",
+    "itemName": "헤비웨이트 맨투맨",
+    "category": "상의",
+    "subCategory": "후드/맨투맨",
+    "gender": "공용",
+    "labeledSize": "S",
+    "price": 34000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/165.jpg",
+    "productUrl": "https://www.example.com/products/165",
+    "measurements": {
+      "chestCircumference": 91.3,
+      "frontLength": 101.3,
+      "sleeveLength": 53.6,
+      "backWidth": 53.6
+    }
+  },
+  {
+    "id": 166,
+    "brand": "지오다노",
+    "itemName": "라운드넥 크롭 가디건",
+    "category": "상의",
+    "subCategory": "니트/가디건",
+    "gender": "여성",
+    "labeledSize": "M",
+    "price": 160000,
+    "colors": [
+      "white",
+      "black"
+    ],
+    "imageUrl": "https://image.example.com/products/166.jpg",
+    "productUrl": "https://www.example.com/products/166",
+    "measurements": {
+      "chestCircumference": 110.6,
+      "frontLength": 81.2,
+      "sleeveLength": 42.4,
+      "backWidth": 52.4
+    }
+  },
+  {
+    "id": 167,
+    "brand": "H&M",
+    "itemName": "헤비웨이트 맨투맨",
+    "category": "상의",
+    "subCategory": "후드/맨투맨",
+    "gender": "남성",
+    "labeledSize": "M",
+    "price": 34000,
+    "colors": [
+      "white",
+      "blue",
+      "yellow"
+    ],
+    "imageUrl": "https://image.example.com/products/167.jpg",
+    "productUrl": "https://www.example.com/products/167",
+    "measurements": {
+      "chestCircumference": 129.2,
+      "frontLength": 65.9,
+      "sleeveLength": 32.0,
+      "backWidth": 48.6
+    }
+  },
+  {
+    "id": 168,
+    "brand": "컨셉원",
+    "itemName": "캐시미어 크루넥 니트",
+    "category": "상의",
+    "subCategory": "니트/가디건",
+    "gender": "여성",
+    "labeledSize": "L",
+    "price": 148000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/168.jpg",
+    "productUrl": "https://www.example.com/products/168",
+    "measurements": {
+      "chestCircumference": 114.6,
+      "frontLength": 88.0,
+      "sleeveLength": 56.6,
+      "backWidth": 54.4
+    }
+  },
+  {
+    "id": 169,
+    "brand": "스파오",
+    "itemName": "뷔스티에 원피스",
+    "category": "원피스/스커트",
+    "subCategory": "원피스",
+    "gender": "여성",
+    "labeledSize": "M",
+    "price": 148000,
+    "colors": [
+      "white",
+      "black"
+    ],
+    "imageUrl": "https://image.example.com/products/169.jpg",
+    "productUrl": "https://www.example.com/products/169",
+    "measurements": {
+      "chestCircumference": 88.9,
+      "waistCircumference": 79.6,
+      "totalLength": 105.8,
+      "shoulderWidth": 38.6
+    }
+  },
+  {
+    "id": 170,
+    "brand": "자라",
+    "itemName": "옥스포드 셔츠",
+    "category": "상의",
+    "subCategory": "셔츠/블라우스",
+    "gender": "남성",
+    "labeledSize": "L",
+    "price": 239000,
+    "colors": [
+      "white",
+      "black"
+    ],
+    "imageUrl": "https://image.example.com/products/170.jpg",
+    "productUrl": "https://www.example.com/products/170",
+    "measurements": {
+      "chestCircumference": 126.7,
+      "frontLength": 53.4,
+      "sleeveLength": 61.3,
+      "backWidth": 43.0
+    }
+  },
+  {
+    "id": 171,
+    "brand": "마인드브릿지",
+    "itemName": "후드 집업 점퍼",
+    "category": "아우터",
+    "subCategory": "자켓/점퍼",
+    "gender": "남성",
+    "labeledSize": "XL",
+    "price": 110000,
+    "colors": [
+      "white",
+      "blue",
+      "yellow"
+    ],
+    "imageUrl": "https://image.example.com/products/171.jpg",
+    "productUrl": "https://www.example.com/products/171",
+    "measurements": {
+      "chestCircumference": 110.6,
+      "frontLength": 50.0,
+      "sleeveLength": 31.3,
+      "backWidth": 58.2
+    }
+  },
+  {
+    "id": 172,
+    "brand": "에잇세컨즈",
+    "itemName": "오버핏 그래픽 티셔츠",
+    "category": "상의",
+    "subCategory": "티셔츠",
+    "gender": "여성",
+    "labeledSize": "S",
+    "price": 19000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/172.jpg",
+    "productUrl": "https://www.example.com/products/172",
+    "measurements": {
+      "chestCircumference": 108.6,
+      "frontLength": 54.4,
+      "sleeveLength": 43.2,
+      "backWidth": 52.8
+    }
+  },
+  {
+    "id": 173,
+    "brand": "플랙",
+    "itemName": "캐시미어 크루넥 니트",
+    "category": "상의",
+    "subCategory": "니트/가디건",
+    "gender": "남성",
+    "labeledSize": "XL",
+    "price": 239000,
+    "colors": [
+      "black",
+      "navy",
+      "grey"
+    ],
+    "imageUrl": "https://image.example.com/products/173.jpg",
+    "productUrl": "https://www.example.com/products/173",
+    "measurements": {
+      "chestCircumference": 111.1,
+      "frontLength": 110.0,
+      "sleeveLength": 46.1,
+      "backWidth": 44.0
+    }
+  },
+  {
+    "id": 174,
+    "brand": "탑텐",
+    "itemName": "와이드 데님 팬츠",
+    "category": "하의",
+    "subCategory": "데님팬츠",
+    "gender": "남성",
+    "labeledSize": "S",
+    "price": 89000,
+    "colors": [
+      "black",
+      "navy",
+      "grey"
+    ],
+    "imageUrl": "https://image.example.com/products/174.jpg",
+    "productUrl": "https://www.example.com/products/174",
+    "measurements": {
+      "waistCircumference": 78.3,
+      "hipCircumference": 100.0,
+      "thighCircumference": 63.2,
+      "totalLength": 92.7,
+      "hemWidth": 22.7
+    }
+  },
+  {
+    "id": 175,
+    "brand": "지오다노",
+    "itemName": "후드 집업 점퍼",
+    "category": "아우터",
+    "subCategory": "자켓/점퍼",
+    "gender": "남성",
+    "labeledSize": "M",
+    "price": 27000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/175.jpg",
+    "productUrl": "https://www.example.com/products/175",
+    "measurements": {
+      "chestCircumference": 121.6,
+      "frontLength": 82.7,
+      "sleeveLength": 50.5,
+      "backWidth": 51.8
+    }
+  },
+  {
+    "id": 176,
+    "brand": "H&M",
+    "itemName": "와이드 데님 팬츠",
+    "category": "하의",
+    "subCategory": "데님팬츠",
+    "gender": "여성",
+    "labeledSize": "S",
+    "price": 148000,
+    "colors": [
+      "white",
+      "blue",
+      "yellow"
+    ],
+    "imageUrl": "https://image.example.com/products/176.jpg",
+    "productUrl": "https://www.example.com/products/176",
+    "measurements": {
+      "waistCircumference": 93.3,
+      "hipCircumference": 106.7,
+      "thighCircumference": 55.9,
+      "totalLength": 94.8,
+      "hemWidth": 20.6
+    }
+  },
+  {
+    "id": 177,
+    "brand": "H&M",
+    "itemName": "체크 플란넬 셔츠",
+    "category": "상의",
+    "subCategory": "셔츠/블라우스",
+    "gender": "남성",
+    "labeledSize": "S",
+    "price": 79000,
+    "colors": [
+      "white",
+      "blue",
+      "yellow"
+    ],
+    "imageUrl": "https://image.example.com/products/177.jpg",
+    "productUrl": "https://www.example.com/products/177",
+    "measurements": {
+      "chestCircumference": 105.6,
+      "frontLength": 109.6,
+      "sleeveLength": 39.4,
+      "backWidth": 54.8
+    }
+  },
+  {
+    "id": 178,
+    "brand": "유니클로",
+    "itemName": "캐시미어 크루넥 니트",
+    "category": "상의",
+    "subCategory": "니트/가디건",
+    "gender": "여성",
+    "labeledSize": "S",
+    "price": 46000,
+    "colors": [
+      "white",
+      "black"
+    ],
+    "imageUrl": "https://image.example.com/products/178.jpg",
+    "productUrl": "https://www.example.com/products/178",
+    "measurements": {
+      "chestCircumference": 117.8,
+      "frontLength": 97.0,
+      "sleeveLength": 41.0,
+      "backWidth": 57.6
+    }
+  },
+  {
+    "id": 179,
+    "brand": "컨셉원",
+    "itemName": "캐시미어 크루넥 니트",
+    "category": "상의",
+    "subCategory": "니트/가디건",
+    "gender": "공용",
+    "labeledSize": "M",
+    "price": 89000,
+    "colors": [
+      "black",
+      "navy",
+      "grey"
+    ],
+    "imageUrl": "https://image.example.com/products/179.jpg",
+    "productUrl": "https://www.example.com/products/179",
+    "measurements": {
+      "chestCircumference": 119.3,
+      "frontLength": 78.9,
+      "sleeveLength": 43.8,
+      "backWidth": 59.9
+    }
+  },
+  {
+    "id": 180,
+    "brand": "무신사 스탠다드",
+    "itemName": "버뮤다 쇼츠",
+    "category": "하의",
+    "subCategory": "쇼츠/버뮤다",
+    "gender": "여성",
+    "labeledSize": "L",
+    "price": 19000,
+    "colors": [
+      "charcoal",
+      "melange grey"
+    ],
+    "imageUrl": "https://image.example.com/products/180.jpg",
+    "productUrl": "https://www.example.com/products/180",
+    "measurements": {
+      "waistCircumference": 75.8,
+      "hipCircumference": 93.3,
+      "thighCircumference": 54.4,
+      "totalLength": 100.5,
+      "hemWidth": 21.7
+    }
+  }
+]

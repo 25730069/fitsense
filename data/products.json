@@ -1,0 +1,5583 @@
+[
+ {
+  "product_id": "UNIQLO_TOP_01",
+  "brand_id": 1,
+  "brand": "유니클로",
+  "product_name": "(가상) 우먼즈 베이직 크루넥 티셔츠",
+  "category": "상의",
+  "sub_category": "티셔츠",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": "반소매",
+  "stretch": "약간",
+  "design_length_cm": 60,
+  "price": 17900,
+  "colors": [
+   "블랙",
+   "화이트",
+   "네이비"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 38.0,
+    "가슴": 85.0,
+    "총장": 57.5
+   },
+   "S": {
+    "어깨": 39.5,
+    "가슴": 91.0,
+    "총장": 59.0
+   },
+   "M": {
+    "어깨": 40.5,
+    "가슴": 97.0,
+    "총장": 60.5
+   },
+   "L": {
+    "어깨": 41.5,
+    "가슴": 103.0,
+    "총장": 62.0
+   },
+   "XL": {
+    "어깨": 43.0,
+    "가슴": 109.0,
+    "총장": 63.5
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "UNIQLO_TOP_02",
+  "brand_id": 1,
+  "brand": "유니클로",
+  "product_name": "(가상) 우먼즈 릴렉스드 니트 풀오버",
+  "category": "상의",
+  "sub_category": "니트/가디건",
+  "gender": "여성",
+  "fit_type": "오버",
+  "sleeve_type": "긴소매",
+  "stretch": "약간",
+  "design_length_cm": 62,
+  "price": 35900,
+  "colors": [
+   "차콜",
+   "카키",
+   "베이지"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 40.5,
+    "가슴": 97.5,
+    "소매": 58.5,
+    "총장": 60.5
+   },
+   "S": {
+    "어깨": 42.0,
+    "가슴": 103.5,
+    "소매": 59.5,
+    "총장": 62.0
+   },
+   "M": {
+    "어깨": 43.0,
+    "가슴": 109.5,
+    "소매": 60.5,
+    "총장": 63.5
+   },
+   "L": {
+    "어깨": 44.0,
+    "가슴": 115.5,
+    "소매": 61.5,
+    "총장": 65.0
+   },
+   "XL": {
+    "어깨": 45.5,
+    "가슴": 121.5,
+    "소매": 62.5,
+    "총장": 66.5
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "UNIQLO_BOTTOM_01",
+  "brand_id": 1,
+  "brand": "유니클로",
+  "product_name": "(가상) 우먼즈 슬랙스 팬츠",
+  "category": "하의",
+  "sub_category": "팬츠/슬랙스",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": null,
+  "stretch": "약간",
+  "design_length_cm": 98,
+  "price": 44900,
+  "colors": [
+   "베이지",
+   "차콜"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "허리": 60.5,
+    "힙": 91.0,
+    "허벅지": 53.5,
+    "총장": 96.0
+   },
+   "S": {
+    "허리": 64.5,
+    "힙": 95.0,
+    "허벅지": 56.5,
+    "총장": 97.5
+   },
+   "M": {
+    "허리": 68.5,
+    "힙": 99.0,
+    "허벅지": 59.5,
+    "총장": 99.0
+   },
+   "L": {
+    "허리": 72.5,
+    "힙": 103.0,
+    "허벅지": 62.5,
+    "총장": 100.5
+   },
+   "XL": {
+    "허리": 76.5,
+    "힙": 107.0,
+    "허벅지": 65.5,
+    "총장": 102.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "UNIQLO_BOTTOM_02",
+  "brand_id": 1,
+  "brand": "유니클로",
+  "product_name": "(가상) 우먼즈 스트레이트 데님 팬츠",
+  "category": "하의",
+  "sub_category": "데님팬츠",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": null,
+  "stretch": "약간",
+  "design_length_cm": 98,
+  "price": 44900,
+  "colors": [
+   "진청",
+   "연청"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "허리": 60.5,
+    "힙": 92.0,
+    "허벅지": 52.5,
+    "총장": 97.0
+   },
+   "S": {
+    "허리": 64.5,
+    "힙": 96.0,
+    "허벅지": 55.5,
+    "총장": 98.5
+   },
+   "M": {
+    "허리": 68.5,
+    "힙": 100.0,
+    "허벅지": 58.5,
+    "총장": 100.0
+   },
+   "L": {
+    "허리": 72.5,
+    "힙": 104.0,
+    "허벅지": 61.5,
+    "총장": 101.5
+   },
+   "XL": {
+    "허리": 76.5,
+    "힙": 108.0,
+    "허벅지": 64.5,
+    "총장": 103.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "UNIQLO_DRESS_01",
+  "brand_id": 1,
+  "brand": "유니클로",
+  "product_name": "(가상) 우먼즈 셔츠 원피스",
+  "category": "원피스",
+  "sub_category": "원피스",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": "긴소매",
+  "stretch": "없음",
+  "design_length_cm": 105,
+  "price": 53900,
+  "colors": [
+   "스카이블루",
+   "화이트"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 38.0,
+    "가슴": 81.0,
+    "허리": 69.5,
+    "소매": 56.0,
+    "총장": 103.5
+   },
+   "S": {
+    "어깨": 39.0,
+    "가슴": 87.0,
+    "허리": 73.5,
+    "소매": 57.0,
+    "총장": 105.5
+   },
+   "M": {
+    "어깨": 40.5,
+    "가슴": 93.0,
+    "허리": 77.5,
+    "소매": 58.0,
+    "총장": 107.5
+   },
+   "L": {
+    "어깨": 41.5,
+    "가슴": 99.0,
+    "허리": 81.5,
+    "소매": 59.0,
+    "총장": 109.5
+   },
+   "XL": {
+    "어깨": 43.0,
+    "가슴": 105.0,
+    "허리": 85.5,
+    "소매": 60.0,
+    "총장": 111.5
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "UNIQLO_DRESS_02",
+  "brand_id": 1,
+  "brand": "유니클로",
+  "product_name": "(가상) 우먼즈 롱 원피스",
+  "category": "원피스",
+  "sub_category": "원피스",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": "반소매",
+  "stretch": "약간",
+  "design_length_cm": 125,
+  "price": 62900,
+  "colors": [
+   "블랙",
+   "카키"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 36.5,
+    "가슴": 82.0,
+    "허리": 71.0,
+    "총장": 124.5
+   },
+   "S": {
+    "어깨": 38.0,
+    "가슴": 88.0,
+    "허리": 75.0,
+    "총장": 126.5
+   },
+   "M": {
+    "어깨": 39.0,
+    "가슴": 94.0,
+    "허리": 79.0,
+    "총장": 128.5
+   },
+   "L": {
+    "어깨": 40.5,
+    "가슴": 100.0,
+    "허리": 83.0,
+    "총장": 130.5
+   },
+   "XL": {
+    "어깨": 41.5,
+    "가슴": 106.0,
+    "허리": 87.0,
+    "총장": 132.5
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "UNIQLO_OUTER_01",
+  "brand_id": 1,
+  "brand": "유니클로",
+  "product_name": "(가상) 우먼즈 숏 패딩 점퍼",
+  "category": "아우터",
+  "sub_category": "패딩",
+  "gender": "여성",
+  "fit_type": "오버",
+  "sleeve_type": "긴소매",
+  "stretch": "없음",
+  "design_length_cm": 58,
+  "price": 116000,
+  "colors": [
+   "아이보리",
+   "블랙"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 44.0,
+    "가슴": 105.0,
+    "소매": 62.0,
+    "총장": 56.0
+   },
+   "S": {
+    "어깨": 45.0,
+    "가슴": 111.0,
+    "소매": 63.0,
+    "총장": 57.5
+   },
+   "M": {
+    "어깨": 46.5,
+    "가슴": 117.0,
+    "소매": 64.0,
+    "총장": 59.0
+   },
+   "L": {
+    "어깨": 47.5,
+    "가슴": 123.0,
+    "소매": 65.0,
+    "총장": 60.5
+   },
+   "XL": {
+    "어깨": 48.5,
+    "가슴": 129.0,
+    "소매": 66.0,
+    "총장": 62.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "UNIQLO_OUTER_02",
+  "brand_id": 1,
+  "brand": "유니클로",
+  "product_name": "(가상) 우먼즈 후리스 집업",
+  "category": "아우터",
+  "sub_category": "후리스",
+  "gender": "여성",
+  "fit_type": "오버",
+  "sleeve_type": "긴소매",
+  "stretch": "약간",
+  "design_length_cm": 64,
+  "price": 53900,
+  "colors": [
+   "네이비",
+   "그레이"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 44.0,
+    "가슴": 102.5,
+    "소매": 63.0,
+    "총장": 62.0
+   },
+   "S": {
+    "어깨": 45.0,
+    "가슴": 108.5,
+    "소매": 64.0,
+    "총장": 63.5
+   },
+   "M": {
+    "어깨": 46.5,
+    "가슴": 114.5,
+    "소매": 65.0,
+    "총장": 65.0
+   },
+   "L": {
+    "어깨": 47.5,
+    "가슴": 120.5,
+    "소매": 66.0,
+    "총장": 66.5
+   },
+   "XL": {
+    "어깨": 48.5,
+    "가슴": 126.5,
+    "소매": 67.0,
+    "총장": 68.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "MSS_TOP_01",
+  "brand_id": 2,
+  "brand": "무신사 스탠다드",
+  "product_name": "(가상) 우먼즈 오버핏 맨투맨",
+  "category": "상의",
+  "sub_category": "후드/맨투맨",
+  "gender": "여성",
+  "fit_type": "오버",
+  "sleeve_type": "긴소매",
+  "stretch": "약간",
+  "design_length_cm": 64,
+  "price": 35900,
+  "colors": [
+   "아이보리",
+   "블랙",
+   "그레이"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 41.5,
+    "가슴": 97.5,
+    "소매": 58.5,
+    "총장": 61.0
+   },
+   "S": {
+    "어깨": 43.0,
+    "가슴": 103.5,
+    "소매": 59.5,
+    "총장": 62.5
+   },
+   "M": {
+    "어깨": 44.0,
+    "가슴": 109.5,
+    "소매": 60.5,
+    "총장": 64.0
+   },
+   "L": {
+    "어깨": 45.0,
+    "가슴": 115.5,
+    "소매": 61.5,
+    "총장": 65.5
+   },
+   "XL": {
+    "어깨": 46.5,
+    "가슴": 121.5,
+    "소매": 62.5,
+    "총장": 67.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "MSS_TOP_02",
+  "brand_id": 2,
+  "brand": "무신사 스탠다드",
+  "product_name": "(가상) 우먼즈 베이직 크루넥 티셔츠",
+  "category": "상의",
+  "sub_category": "티셔츠",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": "반소매",
+  "stretch": "약간",
+  "design_length_cm": 60,
+  "price": 17900,
+  "colors": [
+   "화이트",
+   "네이비",
+   "그레이"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 38.0,
+    "가슴": 87.0,
+    "총장": 57.5
+   },
+   "S": {
+    "어깨": 39.5,
+    "가슴": 93.0,
+    "총장": 59.0
+   },
+   "M": {
+    "어깨": 40.5,
+    "가슴": 99.0,
+    "총장": 60.5
+   },
+   "L": {
+    "어깨": 42.0,
+    "가슴": 105.0,
+    "총장": 62.0
+   },
+   "XL": {
+    "어깨": 43.0,
+    "가슴": 111.0,
+    "총장": 63.5
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "MSS_BOTTOM_01",
+  "brand_id": 2,
+  "brand": "무신사 스탠다드",
+  "product_name": "(가상) 우먼즈 와이드 슬랙스",
+  "category": "하의",
+  "sub_category": "팬츠/슬랙스",
+  "gender": "여성",
+  "fit_type": "오버",
+  "sleeve_type": null,
+  "stretch": "약간",
+  "design_length_cm": 100,
+  "price": 44900,
+  "colors": [
+   "그레이",
+   "아이보리"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "허리": 62.5,
+    "힙": 97.0,
+    "허벅지": 63.0,
+    "총장": 97.5
+   },
+   "S": {
+    "허리": 66.5,
+    "힙": 101.0,
+    "허벅지": 66.0,
+    "총장": 99.0
+   },
+   "M": {
+    "허리": 70.5,
+    "힙": 105.0,
+    "허벅지": 69.0,
+    "총장": 100.5
+   },
+   "L": {
+    "허리": 74.5,
+    "힙": 109.0,
+    "허벅지": 72.0,
+    "총장": 102.0
+   },
+   "XL": {
+    "허리": 78.5,
+    "힙": 113.0,
+    "허벅지": 75.0,
+    "총장": 103.5
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "MSS_BOTTOM_02",
+  "brand_id": 2,
+  "brand": "무신사 스탠다드",
+  "product_name": "(가상) 우먼즈 스트레이트 데님 팬츠",
+  "category": "하의",
+  "sub_category": "데님팬츠",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": null,
+  "stretch": "약간",
+  "design_length_cm": 98,
+  "price": 44900,
+  "colors": [
+   "블랙",
+   "진청"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "허리": 62.5,
+    "힙": 92.0,
+    "허벅지": 54.5,
+    "총장": 94.5
+   },
+   "S": {
+    "허리": 66.5,
+    "힙": 96.0,
+    "허벅지": 57.5,
+    "총장": 96.0
+   },
+   "M": {
+    "허리": 70.5,
+    "힙": 100.0,
+    "허벅지": 60.5,
+    "총장": 97.5
+   },
+   "L": {
+    "허리": 74.5,
+    "힙": 104.0,
+    "허벅지": 63.5,
+    "총장": 99.0
+   },
+   "XL": {
+    "허리": 78.5,
+    "힙": 108.0,
+    "허벅지": 66.5,
+    "총장": 100.5
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "MSS_DRESS_01",
+  "brand_id": 2,
+  "brand": "무신사 스탠다드",
+  "product_name": "(가상) 우먼즈 니트 미니 원피스",
+  "category": "원피스",
+  "sub_category": "원피스",
+  "gender": "여성",
+  "fit_type": "슬림",
+  "sleeve_type": "긴소매",
+  "stretch": "좋음",
+  "design_length_cm": 88,
+  "price": 53900,
+  "colors": [
+   "차콜",
+   "블랙"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 37.5,
+    "가슴": 80.5,
+    "허리": 60.5,
+    "소매": 55.0,
+    "총장": 85.0
+   },
+   "S": {
+    "어깨": 38.5,
+    "가슴": 86.5,
+    "허리": 64.5,
+    "소매": 56.0,
+    "총장": 87.0
+   },
+   "M": {
+    "어깨": 40.0,
+    "가슴": 92.5,
+    "허리": 68.5,
+    "소매": 57.0,
+    "총장": 89.0
+   },
+   "L": {
+    "어깨": 41.0,
+    "가슴": 98.5,
+    "허리": 72.5,
+    "소매": 58.0,
+    "총장": 91.0
+   },
+   "XL": {
+    "어깨": 42.0,
+    "가슴": 104.5,
+    "허리": 76.5,
+    "소매": 59.0,
+    "총장": 93.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "MSS_DRESS_02",
+  "brand_id": 2,
+  "brand": "무신사 스탠다드",
+  "product_name": "(가상) 우먼즈 롱 원피스",
+  "category": "원피스",
+  "sub_category": "원피스",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": "반소매",
+  "stretch": "약간",
+  "design_length_cm": 125,
+  "price": 62900,
+  "colors": [
+   "카키",
+   "네이비"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 38.5,
+    "가슴": 83.5,
+    "허리": 73.0,
+    "총장": 121.5
+   },
+   "S": {
+    "어깨": 40.0,
+    "가슴": 89.5,
+    "허리": 77.0,
+    "총장": 123.5
+   },
+   "M": {
+    "어깨": 41.0,
+    "가슴": 95.5,
+    "허리": 81.0,
+    "총장": 125.5
+   },
+   "L": {
+    "어깨": 42.0,
+    "가슴": 101.5,
+    "허리": 85.0,
+    "총장": 127.5
+   },
+   "XL": {
+    "어깨": 43.5,
+    "가슴": 107.5,
+    "허리": 89.0,
+    "총장": 129.5
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "MSS_OUTER_01",
+  "brand_id": 2,
+  "brand": "무신사 스탠다드",
+  "product_name": "(가상) 우먼즈 블레이저",
+  "category": "아우터",
+  "sub_category": "블레이저",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": "긴소매",
+  "stretch": "없음",
+  "design_length_cm": 66,
+  "price": 89000,
+  "colors": [
+   "베이지",
+   "그레이"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 39.5,
+    "가슴": 95.5,
+    "소매": 57.5,
+    "총장": 62.0
+   },
+   "S": {
+    "어깨": 40.5,
+    "가슴": 101.5,
+    "소매": 58.5,
+    "총장": 63.5
+   },
+   "M": {
+    "어깨": 42.0,
+    "가슴": 107.5,
+    "소매": 59.5,
+    "총장": 65.0
+   },
+   "L": {
+    "어깨": 43.0,
+    "가슴": 113.5,
+    "소매": 60.5,
+    "총장": 66.5
+   },
+   "XL": {
+    "어깨": 44.5,
+    "가슴": 119.5,
+    "소매": 61.5,
+    "총장": 68.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "MSS_OUTER_02",
+  "brand_id": 2,
+  "brand": "무신사 스탠다드",
+  "product_name": "(가상) 우먼즈 트렌치 코트",
+  "category": "아우터",
+  "sub_category": "코트",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": "긴소매",
+  "stretch": "없음",
+  "design_length_cm": 100,
+  "price": 143000,
+  "colors": [
+   "베이지",
+   "블랙"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 40.5,
+    "가슴": 95.5,
+    "소매": 59.5,
+    "총장": 95.5
+   },
+   "S": {
+    "어깨": 41.5,
+    "가슴": 101.5,
+    "소매": 60.5,
+    "총장": 97.0
+   },
+   "M": {
+    "어깨": 42.5,
+    "가슴": 107.5,
+    "소매": 61.5,
+    "총장": 98.5
+   },
+   "L": {
+    "어깨": 44.0,
+    "가슴": 113.5,
+    "소매": 62.5,
+    "총장": 100.0
+   },
+   "XL": {
+    "어깨": 45.0,
+    "가슴": 119.5,
+    "소매": 63.5,
+    "총장": 101.5
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "SPAO_TOP_01",
+  "brand_id": 3,
+  "brand": "스파오",
+  "product_name": "(가상) 우먼즈 베이직 크루넥 티셔츠",
+  "category": "상의",
+  "sub_category": "티셔츠",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": "반소매",
+  "stretch": "약간",
+  "design_length_cm": 60,
+  "price": 13900,
+  "colors": [
+   "블랙",
+   "화이트",
+   "네이비"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 38.0,
+    "가슴": 84.5,
+    "총장": 57.0
+   },
+   "S": {
+    "어깨": 39.5,
+    "가슴": 90.5,
+    "총장": 58.5
+   },
+   "M": {
+    "어깨": 40.5,
+    "가슴": 96.5,
+    "총장": 60.0
+   },
+   "L": {
+    "어깨": 41.5,
+    "가슴": 102.5,
+    "총장": 61.5
+   },
+   "XL": {
+    "어깨": 43.0,
+    "가슴": 108.5,
+    "총장": 63.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "SPAO_TOP_02",
+  "brand_id": 3,
+  "brand": "스파오",
+  "product_name": "(가상) 우먼즈 오버핏 맨투맨",
+  "category": "상의",
+  "sub_category": "후드/맨투맨",
+  "gender": "여성",
+  "fit_type": "오버",
+  "sleeve_type": "긴소매",
+  "stretch": "약간",
+  "design_length_cm": 64,
+  "price": 27900,
+  "colors": [
+   "네이비",
+   "아이보리",
+   "블랙"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 40.5,
+    "가슴": 97.5,
+    "소매": 59.5,
+    "총장": 62.0
+   },
+   "S": {
+    "어깨": 42.0,
+    "가슴": 103.5,
+    "소매": 60.5,
+    "총장": 63.5
+   },
+   "M": {
+    "어깨": 43.0,
+    "가슴": 109.5,
+    "소매": 61.5,
+    "총장": 65.0
+   },
+   "L": {
+    "어깨": 44.5,
+    "가슴": 115.5,
+    "소매": 62.5,
+    "총장": 66.5
+   },
+   "XL": {
+    "어깨": 45.5,
+    "가슴": 121.5,
+    "소매": 63.5,
+    "총장": 68.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "SPAO_BOTTOM_01",
+  "brand_id": 3,
+  "brand": "스파오",
+  "product_name": "(가상) 우먼즈 스트레이트 데님 팬츠",
+  "category": "하의",
+  "sub_category": "데님팬츠",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": null,
+  "stretch": "약간",
+  "design_length_cm": 98,
+  "price": 34900,
+  "colors": [
+   "진청",
+   "연청"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "허리": 59.5,
+    "힙": 91.5,
+    "허벅지": 53.5,
+    "총장": 94.0
+   },
+   "S": {
+    "허리": 63.5,
+    "힙": 95.5,
+    "허벅지": 56.5,
+    "총장": 95.5
+   },
+   "M": {
+    "허리": 67.5,
+    "힙": 99.5,
+    "허벅지": 59.5,
+    "총장": 97.0
+   },
+   "L": {
+    "허리": 71.5,
+    "힙": 103.5,
+    "허벅지": 62.5,
+    "총장": 98.5
+   },
+   "XL": {
+    "허리": 75.5,
+    "힙": 107.5,
+    "허벅지": 65.5,
+    "총장": 100.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "SPAO_BOTTOM_02",
+  "brand_id": 3,
+  "brand": "스파오",
+  "product_name": "(가상) 우먼즈 데님 쇼츠",
+  "category": "하의",
+  "sub_category": "쇼츠/버뮤다",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": null,
+  "stretch": "약간",
+  "design_length_cm": 42,
+  "price": 20900,
+  "colors": [
+   "블랙",
+   "연청"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "허리": 61.0,
+    "힙": 90.0,
+    "허벅지": 53.0,
+    "총장": 40.0
+   },
+   "S": {
+    "허리": 65.0,
+    "힙": 94.0,
+    "허벅지": 56.0,
+    "총장": 41.5
+   },
+   "M": {
+    "허리": 69.0,
+    "힙": 98.0,
+    "허벅지": 59.0,
+    "총장": 43.0
+   },
+   "L": {
+    "허리": 73.0,
+    "힙": 102.0,
+    "허벅지": 62.0,
+    "총장": 44.5
+   },
+   "XL": {
+    "허리": 77.0,
+    "힙": 106.0,
+    "허벅지": 65.0,
+    "총장": 46.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "SPAO_DRESS_01",
+  "brand_id": 3,
+  "brand": "스파오",
+  "product_name": "(가상) 우먼즈 셔츠 원피스",
+  "category": "원피스",
+  "sub_category": "원피스",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": "긴소매",
+  "stretch": "없음",
+  "design_length_cm": 105,
+  "price": 41900,
+  "colors": [
+   "스카이블루",
+   "베이지"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 35.5,
+    "가슴": 82.0,
+    "허리": 71.0,
+    "소매": 57.0,
+    "총장": 99.5
+   },
+   "S": {
+    "어깨": 37.0,
+    "가슴": 88.0,
+    "허리": 75.0,
+    "소매": 58.0,
+    "총장": 101.5
+   },
+   "M": {
+    "어깨": 38.0,
+    "가슴": 94.0,
+    "허리": 79.0,
+    "소매": 59.0,
+    "총장": 103.5
+   },
+   "L": {
+    "어깨": 39.5,
+    "가슴": 100.0,
+    "허리": 83.0,
+    "소매": 60.0,
+    "총장": 105.5
+   },
+   "XL": {
+    "어깨": 40.5,
+    "가슴": 106.0,
+    "허리": 87.0,
+    "소매": 61.0,
+    "총장": 107.5
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "SPAO_DRESS_02",
+  "brand_id": 3,
+  "brand": "스파오",
+  "product_name": "(가상) 우먼즈 슬리브리스 미니 원피스",
+  "category": "원피스",
+  "sub_category": "원피스",
+  "gender": "여성",
+  "fit_type": "슬림",
+  "sleeve_type": "민소매",
+  "stretch": "좋음",
+  "design_length_cm": 85,
+  "price": 34900,
+  "colors": [
+   "그레이",
+   "화이트"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 37.5,
+    "가슴": 76.0,
+    "허리": 61.0,
+    "총장": 80.5
+   },
+   "S": {
+    "어깨": 39.0,
+    "가슴": 82.0,
+    "허리": 65.0,
+    "총장": 82.5
+   },
+   "M": {
+    "어깨": 40.0,
+    "가슴": 88.0,
+    "허리": 69.0,
+    "총장": 84.5
+   },
+   "L": {
+    "어깨": 41.0,
+    "가슴": 94.0,
+    "허리": 73.0,
+    "총장": 86.5
+   },
+   "XL": {
+    "어깨": 42.5,
+    "가슴": 100.0,
+    "허리": 77.0,
+    "총장": 88.5
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "SPAO_OUTER_01",
+  "brand_id": 3,
+  "brand": "스파오",
+  "product_name": "(가상) 우먼즈 후리스 집업",
+  "category": "아우터",
+  "sub_category": "후리스",
+  "gender": "여성",
+  "fit_type": "오버",
+  "sleeve_type": "긴소매",
+  "stretch": "약간",
+  "design_length_cm": 64,
+  "price": 41900,
+  "colors": [
+   "네이비",
+   "그레이"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 42.0,
+    "가슴": 103.0,
+    "소매": 62.0,
+    "총장": 60.5
+   },
+   "S": {
+    "어깨": 43.0,
+    "가슴": 109.0,
+    "소매": 63.0,
+    "총장": 62.0
+   },
+   "M": {
+    "어깨": 44.5,
+    "가슴": 115.0,
+    "소매": 64.0,
+    "총장": 63.5
+   },
+   "L": {
+    "어깨": 45.5,
+    "가슴": 121.0,
+    "소매": 65.0,
+    "총장": 65.0
+   },
+   "XL": {
+    "어깨": 46.5,
+    "가슴": 127.0,
+    "소매": 66.0,
+    "총장": 66.5
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "SPAO_OUTER_02",
+  "brand_id": 3,
+  "brand": "스파오",
+  "product_name": "(가상) 우먼즈 데님 자켓",
+  "category": "아우터",
+  "sub_category": "자켓/점퍼",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": "긴소매",
+  "stretch": "약간",
+  "design_length_cm": 56,
+  "price": 55000,
+  "colors": [
+   "연청",
+   "블랙"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 38.5,
+    "가슴": 91.5,
+    "소매": 58.5,
+    "총장": 55.0
+   },
+   "S": {
+    "어깨": 39.5,
+    "가슴": 97.5,
+    "소매": 59.5,
+    "총장": 56.5
+   },
+   "M": {
+    "어깨": 41.0,
+    "가슴": 103.5,
+    "소매": 60.5,
+    "총장": 58.0
+   },
+   "L": {
+    "어깨": 42.0,
+    "가슴": 109.5,
+    "소매": 61.5,
+    "총장": 59.5
+   },
+   "XL": {
+    "어깨": 43.0,
+    "가슴": 115.5,
+    "소매": 62.5,
+    "총장": 61.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "TOPTEN_TOP_01",
+  "brand_id": 4,
+  "brand": "탑텐",
+  "product_name": "(가상) 우먼즈 옥스포드 셔츠",
+  "category": "상의",
+  "sub_category": "셔츠/블라우스",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": "긴소매",
+  "stretch": "없음",
+  "design_length_cm": 66,
+  "price": 27900,
+  "colors": [
+   "네이비",
+   "화이트"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 38.0,
+    "가슴": 83.0,
+    "소매": 57.0,
+    "총장": 64.0
+   },
+   "S": {
+    "어깨": 39.0,
+    "가슴": 89.0,
+    "소매": 58.0,
+    "총장": 65.5
+   },
+   "M": {
+    "어깨": 40.5,
+    "가슴": 95.0,
+    "소매": 59.0,
+    "총장": 67.0
+   },
+   "L": {
+    "어깨": 41.5,
+    "가슴": 101.0,
+    "소매": 60.0,
+    "총장": 68.5
+   },
+   "XL": {
+    "어깨": 42.5,
+    "가슴": 107.0,
+    "소매": 61.0,
+    "총장": 70.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "TOPTEN_TOP_02",
+  "brand_id": 4,
+  "brand": "탑텐",
+  "product_name": "(가상) 우먼즈 릴렉스드 니트 풀오버",
+  "category": "상의",
+  "sub_category": "니트/가디건",
+  "gender": "여성",
+  "fit_type": "오버",
+  "sleeve_type": "긴소매",
+  "stretch": "약간",
+  "design_length_cm": 62,
+  "price": 27900,
+  "colors": [
+   "카키",
+   "차콜",
+   "베이지"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 40.5,
+    "가슴": 96.5,
+    "소매": 63.0,
+    "총장": 57.5
+   },
+   "S": {
+    "어깨": 41.5,
+    "가슴": 102.5,
+    "소매": 64.0,
+    "총장": 59.0
+   },
+   "M": {
+    "어깨": 42.5,
+    "가슴": 108.5,
+    "소매": 65.0,
+    "총장": 60.5
+   },
+   "L": {
+    "어깨": 44.0,
+    "가슴": 114.5,
+    "소매": 66.0,
+    "총장": 62.0
+   },
+   "XL": {
+    "어깨": 45.0,
+    "가슴": 120.5,
+    "소매": 67.0,
+    "총장": 63.5
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "TOPTEN_BOTTOM_01",
+  "brand_id": 4,
+  "brand": "탑텐",
+  "product_name": "(가상) 우먼즈 슬랙스 팬츠",
+  "category": "하의",
+  "sub_category": "팬츠/슬랙스",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": null,
+  "stretch": "약간",
+  "design_length_cm": 98,
+  "price": 34900,
+  "colors": [
+   "블랙",
+   "베이지"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "허리": 60.5,
+    "힙": 91.0,
+    "허벅지": 54.5,
+    "총장": 97.0
+   },
+   "S": {
+    "허리": 64.5,
+    "힙": 95.0,
+    "허벅지": 57.5,
+    "총장": 98.5
+   },
+   "M": {
+    "허리": 68.5,
+    "힙": 99.0,
+    "허벅지": 60.5,
+    "총장": 100.0
+   },
+   "L": {
+    "허리": 72.5,
+    "힙": 103.0,
+    "허벅지": 63.5,
+    "총장": 101.5
+   },
+   "XL": {
+    "허리": 76.5,
+    "힙": 107.0,
+    "허벅지": 66.5,
+    "총장": 103.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "TOPTEN_BOTTOM_02",
+  "brand_id": 4,
+  "brand": "탑텐",
+  "product_name": "(가상) 우먼즈 에이라인 미디 스커트",
+  "category": "하의",
+  "sub_category": "스커트",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": null,
+  "stretch": "약간",
+  "design_length_cm": 78,
+  "price": 27900,
+  "colors": [
+   "베이지",
+   "카키"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "허리": 59.0,
+    "힙": 92.0,
+    "총장": 75.0
+   },
+   "S": {
+    "허리": 63.0,
+    "힙": 96.0,
+    "총장": 76.5
+   },
+   "M": {
+    "허리": 67.0,
+    "힙": 100.0,
+    "총장": 78.0
+   },
+   "L": {
+    "허리": 71.0,
+    "힙": 104.0,
+    "총장": 79.5
+   },
+   "XL": {
+    "허리": 75.0,
+    "힙": 108.0,
+    "총장": 81.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "TOPTEN_DRESS_01",
+  "brand_id": 4,
+  "brand": "탑텐",
+  "product_name": "(가상) 우먼즈 롱 원피스",
+  "category": "원피스",
+  "sub_category": "원피스",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": "반소매",
+  "stretch": "약간",
+  "design_length_cm": 125,
+  "price": 48900,
+  "colors": [
+   "카키",
+   "블랙"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 37.5,
+    "가슴": 82.0,
+    "허리": 69.0,
+    "총장": 122.5
+   },
+   "S": {
+    "어깨": 38.5,
+    "가슴": 88.0,
+    "허리": 73.0,
+    "총장": 124.5
+   },
+   "M": {
+    "어깨": 39.5,
+    "가슴": 94.0,
+    "허리": 77.0,
+    "총장": 126.5
+   },
+   "L": {
+    "어깨": 41.0,
+    "가슴": 100.0,
+    "허리": 81.0,
+    "총장": 128.5
+   },
+   "XL": {
+    "어깨": 42.0,
+    "가슴": 106.0,
+    "허리": 85.0,
+    "총장": 130.5
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "TOPTEN_DRESS_02",
+  "brand_id": 4,
+  "brand": "탑텐",
+  "product_name": "(가상) 우먼즈 니트 미니 원피스",
+  "category": "원피스",
+  "sub_category": "원피스",
+  "gender": "여성",
+  "fit_type": "슬림",
+  "sleeve_type": "긴소매",
+  "stretch": "좋음",
+  "design_length_cm": 88,
+  "price": 41900,
+  "colors": [
+   "블랙",
+   "차콜"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 36.5,
+    "가슴": 77.0,
+    "허리": 59.5,
+    "소매": 57.5,
+    "총장": 84.5
+   },
+   "S": {
+    "어깨": 37.5,
+    "가슴": 83.0,
+    "허리": 63.5,
+    "소매": 58.5,
+    "총장": 86.5
+   },
+   "M": {
+    "어깨": 39.0,
+    "가슴": 89.0,
+    "허리": 67.5,
+    "소매": 59.5,
+    "총장": 88.5
+   },
+   "L": {
+    "어깨": 40.0,
+    "가슴": 95.0,
+    "허리": 71.5,
+    "소매": 60.5,
+    "총장": 90.5
+   },
+   "XL": {
+    "어깨": 41.5,
+    "가슴": 101.0,
+    "허리": 75.5,
+    "소매": 61.5,
+    "총장": 92.5
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "TOPTEN_OUTER_01",
+  "brand_id": 4,
+  "brand": "탑텐",
+  "product_name": "(가상) 우먼즈 숏 패딩 점퍼",
+  "category": "아우터",
+  "sub_category": "패딩",
+  "gender": "여성",
+  "fit_type": "오버",
+  "sleeve_type": "긴소매",
+  "stretch": "없음",
+  "design_length_cm": 58,
+  "price": 90000,
+  "colors": [
+   "카키",
+   "아이보리"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 43.0,
+    "가슴": 104.5,
+    "소매": 64.5,
+    "총장": 54.5
+   },
+   "S": {
+    "어깨": 44.0,
+    "가슴": 110.5,
+    "소매": 65.5,
+    "총장": 56.0
+   },
+   "M": {
+    "어깨": 45.0,
+    "가슴": 116.5,
+    "소매": 66.5,
+    "총장": 57.5
+   },
+   "L": {
+    "어깨": 46.5,
+    "가슴": 122.5,
+    "소매": 67.5,
+    "총장": 59.0
+   },
+   "XL": {
+    "어깨": 47.5,
+    "가슴": 128.5,
+    "소매": 68.5,
+    "총장": 60.5
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "TOPTEN_OUTER_02",
+  "brand_id": 4,
+  "brand": "탑텐",
+  "product_name": "(가상) 우먼즈 블레이저",
+  "category": "아우터",
+  "sub_category": "블레이저",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": "긴소매",
+  "stretch": "없음",
+  "design_length_cm": 66,
+  "price": 69000,
+  "colors": [
+   "그레이",
+   "베이지"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 39.5,
+    "가슴": 92.0,
+    "소매": 59.0,
+    "총장": 63.5
+   },
+   "S": {
+    "어깨": 41.0,
+    "가슴": 98.0,
+    "소매": 60.0,
+    "총장": 65.0
+   },
+   "M": {
+    "어깨": 42.0,
+    "가슴": 104.0,
+    "소매": 61.0,
+    "총장": 66.5
+   },
+   "L": {
+    "어깨": 43.5,
+    "가슴": 110.0,
+    "소매": 62.0,
+    "총장": 68.0
+   },
+   "XL": {
+    "어깨": 44.5,
+    "가슴": 116.0,
+    "소매": 63.0,
+    "총장": 69.5
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "8SEC_TOP_01",
+  "brand_id": 5,
+  "brand": "에잇세컨즈",
+  "product_name": "(가상) 우먼즈 옥스포드 셔츠",
+  "category": "상의",
+  "sub_category": "셔츠/블라우스",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": "긴소매",
+  "stretch": "없음",
+  "design_length_cm": 66,
+  "price": 47900,
+  "colors": [
+   "화이트",
+   "스카이블루"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 37.0,
+    "가슴": 80.5,
+    "소매": 56.5,
+    "총장": 65.0
+   },
+   "S": {
+    "어깨": 38.5,
+    "가슴": 86.5,
+    "소매": 57.5,
+    "총장": 66.5
+   },
+   "M": {
+    "어깨": 39.5,
+    "가슴": 92.5,
+    "소매": 58.5,
+    "총장": 68.0
+   },
+   "L": {
+    "어깨": 40.5,
+    "가슴": 98.5,
+    "소매": 59.5,
+    "총장": 69.5
+   },
+   "XL": {
+    "어깨": 42.0,
+    "가슴": 104.5,
+    "소매": 60.5,
+    "총장": 71.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "8SEC_TOP_02",
+  "brand_id": 5,
+  "brand": "에잇세컨즈",
+  "product_name": "(가상) 우먼즈 라이트 카디건",
+  "category": "상의",
+  "sub_category": "니트/가디건",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": "긴소매",
+  "stretch": "약간",
+  "design_length_cm": 60,
+  "price": 47900,
+  "colors": [
+   "베이지",
+   "블랙",
+   "아이보리"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 36.0,
+    "가슴": 80.0,
+    "소매": 56.0,
+    "총장": 58.0
+   },
+   "S": {
+    "어깨": 37.0,
+    "가슴": 86.0,
+    "소매": 57.0,
+    "총장": 59.5
+   },
+   "M": {
+    "어깨": 38.5,
+    "가슴": 92.0,
+    "소매": 58.0,
+    "총장": 61.0
+   },
+   "L": {
+    "어깨": 39.5,
+    "가슴": 98.0,
+    "소매": 59.0,
+    "총장": 62.5
+   },
+   "XL": {
+    "어깨": 40.5,
+    "가슴": 104.0,
+    "소매": 60.0,
+    "총장": 64.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "8SEC_BOTTOM_01",
+  "brand_id": 5,
+  "brand": "에잇세컨즈",
+  "product_name": "(가상) 우먼즈 슬랙스 팬츠",
+  "category": "하의",
+  "sub_category": "팬츠/슬랙스",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": null,
+  "stretch": "약간",
+  "design_length_cm": 98,
+  "price": 59900,
+  "colors": [
+   "베이지",
+   "블랙"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "허리": 58.5,
+    "힙": 88.5,
+    "허벅지": 53.0,
+    "총장": 95.5
+   },
+   "S": {
+    "허리": 62.5,
+    "힙": 92.5,
+    "허벅지": 56.0,
+    "총장": 97.0
+   },
+   "M": {
+    "허리": 66.5,
+    "힙": 96.5,
+    "허벅지": 59.0,
+    "총장": 98.5
+   },
+   "L": {
+    "허리": 70.5,
+    "힙": 100.5,
+    "허벅지": 62.0,
+    "총장": 100.0
+   },
+   "XL": {
+    "허리": 74.5,
+    "힙": 104.5,
+    "허벅지": 65.0,
+    "총장": 101.5
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "8SEC_BOTTOM_02",
+  "brand_id": 5,
+  "brand": "에잇세컨즈",
+  "product_name": "(가상) 우먼즈 에이라인 미디 스커트",
+  "category": "하의",
+  "sub_category": "스커트",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": null,
+  "stretch": "약간",
+  "design_length_cm": 78,
+  "price": 47900,
+  "colors": [
+   "베이지",
+   "블랙"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "허리": 58.0,
+    "힙": 90.5,
+    "총장": 74.0
+   },
+   "S": {
+    "허리": 62.0,
+    "힙": 94.5,
+    "총장": 75.5
+   },
+   "M": {
+    "허리": 66.0,
+    "힙": 98.5,
+    "총장": 77.0
+   },
+   "L": {
+    "허리": 70.0,
+    "힙": 102.5,
+    "총장": 78.5
+   },
+   "XL": {
+    "허리": 74.0,
+    "힙": 106.5,
+    "총장": 80.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "8SEC_DRESS_01",
+  "brand_id": 5,
+  "brand": "에잇세컨즈",
+  "product_name": "(가상) 우먼즈 셔츠 원피스",
+  "category": "원피스",
+  "sub_category": "원피스",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": "긴소매",
+  "stretch": "없음",
+  "design_length_cm": 105,
+  "price": 71900,
+  "colors": [
+   "스카이블루",
+   "화이트"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 36.0,
+    "가슴": 78.5,
+    "허리": 68.5,
+    "소매": 55.5,
+    "총장": 100.0
+   },
+   "S": {
+    "어깨": 37.0,
+    "가슴": 84.5,
+    "허리": 72.5,
+    "소매": 56.5,
+    "총장": 102.0
+   },
+   "M": {
+    "어깨": 38.5,
+    "가슴": 90.5,
+    "허리": 76.5,
+    "소매": 57.5,
+    "총장": 104.0
+   },
+   "L": {
+    "어깨": 39.5,
+    "가슴": 96.5,
+    "허리": 80.5,
+    "소매": 58.5,
+    "총장": 106.0
+   },
+   "XL": {
+    "어깨": 41.0,
+    "가슴": 102.5,
+    "허리": 84.5,
+    "소매": 59.5,
+    "총장": 108.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "8SEC_DRESS_02",
+  "brand_id": 5,
+  "brand": "에잇세컨즈",
+  "product_name": "(가상) 우먼즈 니트 미니 원피스",
+  "category": "원피스",
+  "sub_category": "원피스",
+  "gender": "여성",
+  "fit_type": "슬림",
+  "sleeve_type": "긴소매",
+  "stretch": "좋음",
+  "design_length_cm": 88,
+  "price": 71900,
+  "colors": [
+   "차콜",
+   "아이보리"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 36.5,
+    "가슴": 73.0,
+    "허리": 57.5,
+    "소매": 56.0,
+    "총장": 83.0
+   },
+   "S": {
+    "어깨": 37.5,
+    "가슴": 79.0,
+    "허리": 61.5,
+    "소매": 57.0,
+    "총장": 85.0
+   },
+   "M": {
+    "어깨": 39.0,
+    "가슴": 85.0,
+    "허리": 65.5,
+    "소매": 58.0,
+    "총장": 87.0
+   },
+   "L": {
+    "어깨": 40.0,
+    "가슴": 91.0,
+    "허리": 69.5,
+    "소매": 59.0,
+    "총장": 89.0
+   },
+   "XL": {
+    "어깨": 41.5,
+    "가슴": 97.0,
+    "허리": 73.5,
+    "소매": 60.0,
+    "총장": 91.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "8SEC_OUTER_01",
+  "brand_id": 5,
+  "brand": "에잇세컨즈",
+  "product_name": "(가상) 우먼즈 트렌치 코트",
+  "category": "아우터",
+  "sub_category": "코트",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": "긴소매",
+  "stretch": "없음",
+  "design_length_cm": 100,
+  "price": 191000,
+  "colors": [
+   "베이지",
+   "카키"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 36.5,
+    "가슴": 89.5,
+    "소매": 59.5,
+    "총장": 96.0
+   },
+   "S": {
+    "어깨": 38.0,
+    "가슴": 95.5,
+    "소매": 60.5,
+    "총장": 97.5
+   },
+   "M": {
+    "어깨": 39.0,
+    "가슴": 101.5,
+    "소매": 61.5,
+    "총장": 99.0
+   },
+   "L": {
+    "어깨": 40.0,
+    "가슴": 107.5,
+    "소매": 62.5,
+    "총장": 100.5
+   },
+   "XL": {
+    "어깨": 41.5,
+    "가슴": 113.5,
+    "소매": 63.5,
+    "총장": 102.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "8SEC_OUTER_02",
+  "brand_id": 5,
+  "brand": "에잇세컨즈",
+  "product_name": "(가상) 우먼즈 울 하프 코트",
+  "category": "아우터",
+  "sub_category": "코트",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": "긴소매",
+  "stretch": "없음",
+  "design_length_cm": 85,
+  "price": 227000,
+  "colors": [
+   "차콜",
+   "블랙"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 38.5,
+    "가슴": 89.0,
+    "소매": 58.5,
+    "총장": 80.0
+   },
+   "S": {
+    "어깨": 40.0,
+    "가슴": 95.0,
+    "소매": 59.5,
+    "총장": 81.5
+   },
+   "M": {
+    "어깨": 41.0,
+    "가슴": 101.0,
+    "소매": 60.5,
+    "총장": 83.0
+   },
+   "L": {
+    "어깨": 42.0,
+    "가슴": 107.0,
+    "소매": 61.5,
+    "총장": 84.5
+   },
+   "XL": {
+    "어깨": 43.5,
+    "가슴": 113.0,
+    "소매": 62.5,
+    "총장": 86.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "GIORDANO_TOP_01",
+  "brand_id": 6,
+  "brand": "지오다노",
+  "product_name": "(가상) 우먼즈 베이직 크루넥 티셔츠",
+  "category": "상의",
+  "sub_category": "티셔츠",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": "반소매",
+  "stretch": "약간",
+  "design_length_cm": 60,
+  "price": 15900,
+  "colors": [
+   "블랙",
+   "그레이",
+   "화이트"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 35.5,
+    "가슴": 84.0,
+    "총장": 57.0
+   },
+   "S": {
+    "어깨": 37.0,
+    "가슴": 90.0,
+    "총장": 58.5
+   },
+   "M": {
+    "어깨": 38.0,
+    "가슴": 96.0,
+    "총장": 60.0
+   },
+   "L": {
+    "어깨": 39.5,
+    "가슴": 102.0,
+    "총장": 61.5
+   },
+   "XL": {
+    "어깨": 40.5,
+    "가슴": 108.0,
+    "총장": 63.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "GIORDANO_TOP_02",
+  "brand_id": 6,
+  "brand": "지오다노",
+  "product_name": "(가상) 우먼즈 라이트 카디건",
+  "category": "상의",
+  "sub_category": "니트/가디건",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": "긴소매",
+  "stretch": "약간",
+  "design_length_cm": 60,
+  "price": 31900,
+  "colors": [
+   "블랙",
+   "베이지",
+   "아이보리"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 35.5,
+    "가슴": 84.0,
+    "소매": 54.5,
+    "총장": 56.0
+   },
+   "S": {
+    "어깨": 37.0,
+    "가슴": 90.0,
+    "소매": 55.5,
+    "총장": 57.5
+   },
+   "M": {
+    "어깨": 38.0,
+    "가슴": 96.0,
+    "소매": 56.5,
+    "총장": 59.0
+   },
+   "L": {
+    "어깨": 39.5,
+    "가슴": 102.0,
+    "소매": 57.5,
+    "총장": 60.5
+   },
+   "XL": {
+    "어깨": 40.5,
+    "가슴": 108.0,
+    "소매": 58.5,
+    "총장": 62.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "GIORDANO_BOTTOM_01",
+  "brand_id": 6,
+  "brand": "지오다노",
+  "product_name": "(가상) 우먼즈 스트레이트 데님 팬츠",
+  "category": "하의",
+  "sub_category": "데님팬츠",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": null,
+  "stretch": "약간",
+  "design_length_cm": 98,
+  "price": 39900,
+  "colors": [
+   "진청",
+   "블랙"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "허리": 63.5,
+    "힙": 91.0,
+    "허벅지": 54.5,
+    "총장": 95.0
+   },
+   "S": {
+    "허리": 67.5,
+    "힙": 95.0,
+    "허벅지": 57.5,
+    "총장": 96.5
+   },
+   "M": {
+    "허리": 71.5,
+    "힙": 99.0,
+    "허벅지": 60.5,
+    "총장": 98.0
+   },
+   "L": {
+    "허리": 75.5,
+    "힙": 103.0,
+    "허벅지": 63.5,
+    "총장": 99.5
+   },
+   "XL": {
+    "허리": 79.5,
+    "힙": 107.0,
+    "허벅지": 66.5,
+    "총장": 101.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "GIORDANO_BOTTOM_02",
+  "brand_id": 6,
+  "brand": "지오다노",
+  "product_name": "(가상) 우먼즈 조거 팬츠",
+  "category": "하의",
+  "sub_category": "조거/트레이닝",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": null,
+  "stretch": "좋음",
+  "design_length_cm": 96,
+  "price": 31900,
+  "colors": [
+   "블랙",
+   "그레이"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "허리": 62.5,
+    "힙": 92.5,
+    "허벅지": 53.5,
+    "총장": 93.0
+   },
+   "S": {
+    "허리": 66.5,
+    "힙": 96.5,
+    "허벅지": 56.5,
+    "총장": 94.5
+   },
+   "M": {
+    "허리": 70.5,
+    "힙": 100.5,
+    "허벅지": 59.5,
+    "총장": 96.0
+   },
+   "L": {
+    "허리": 74.5,
+    "힙": 104.5,
+    "허벅지": 62.5,
+    "총장": 97.5
+   },
+   "XL": {
+    "허리": 78.5,
+    "힙": 108.5,
+    "허벅지": 65.5,
+    "총장": 99.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "GIORDANO_DRESS_01",
+  "brand_id": 6,
+  "brand": "지오다노",
+  "product_name": "(가상) 우먼즈 롱 원피스",
+  "category": "원피스",
+  "sub_category": "원피스",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": "반소매",
+  "stretch": "약간",
+  "design_length_cm": 125,
+  "price": 55900,
+  "colors": [
+   "네이비",
+   "카키"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 37.5,
+    "가슴": 81.5,
+    "허리": 72.0,
+    "총장": 120.0
+   },
+   "S": {
+    "어깨": 39.0,
+    "가슴": 87.5,
+    "허리": 76.0,
+    "총장": 122.0
+   },
+   "M": {
+    "어깨": 40.0,
+    "가슴": 93.5,
+    "허리": 80.0,
+    "총장": 124.0
+   },
+   "L": {
+    "어깨": 41.5,
+    "가슴": 99.5,
+    "허리": 84.0,
+    "총장": 126.0
+   },
+   "XL": {
+    "어깨": 42.5,
+    "가슴": 105.5,
+    "허리": 88.0,
+    "총장": 128.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "GIORDANO_DRESS_02",
+  "brand_id": 6,
+  "brand": "지오다노",
+  "product_name": "(가상) 우먼즈 슬리브리스 미니 원피스",
+  "category": "원피스",
+  "sub_category": "원피스",
+  "gender": "여성",
+  "fit_type": "슬림",
+  "sleeve_type": "민소매",
+  "stretch": "좋음",
+  "design_length_cm": 85,
+  "price": 39900,
+  "colors": [
+   "블랙",
+   "그레이"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 35.5,
+    "가슴": 75.5,
+    "허리": 62.5,
+    "총장": 81.0
+   },
+   "S": {
+    "어깨": 36.5,
+    "가슴": 81.5,
+    "허리": 66.5,
+    "총장": 83.0
+   },
+   "M": {
+    "어깨": 38.0,
+    "가슴": 87.5,
+    "허리": 70.5,
+    "총장": 85.0
+   },
+   "L": {
+    "어깨": 39.0,
+    "가슴": 93.5,
+    "허리": 74.5,
+    "총장": 87.0
+   },
+   "XL": {
+    "어깨": 40.5,
+    "가슴": 99.5,
+    "허리": 78.5,
+    "총장": 89.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "GIORDANO_OUTER_01",
+  "brand_id": 6,
+  "brand": "지오다노",
+  "product_name": "(가상) 우먼즈 데님 자켓",
+  "category": "아우터",
+  "sub_category": "자켓/점퍼",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": "긴소매",
+  "stretch": "약간",
+  "design_length_cm": 56,
+  "price": 63000,
+  "colors": [
+   "진청",
+   "블랙"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 38.5,
+    "가슴": 92.5,
+    "소매": 59.0,
+    "총장": 55.0
+   },
+   "S": {
+    "어깨": 39.5,
+    "가슴": 98.5,
+    "소매": 60.0,
+    "총장": 56.5
+   },
+   "M": {
+    "어깨": 40.5,
+    "가슴": 104.5,
+    "소매": 61.0,
+    "총장": 58.0
+   },
+   "L": {
+    "어깨": 42.0,
+    "가슴": 110.5,
+    "소매": 62.0,
+    "총장": 59.5
+   },
+   "XL": {
+    "어깨": 43.0,
+    "가슴": 116.5,
+    "소매": 63.0,
+    "총장": 61.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "GIORDANO_OUTER_02",
+  "brand_id": 6,
+  "brand": "지오다노",
+  "product_name": "(가상) 우먼즈 후리스 집업",
+  "category": "아우터",
+  "sub_category": "후리스",
+  "gender": "여성",
+  "fit_type": "오버",
+  "sleeve_type": "긴소매",
+  "stretch": "약간",
+  "design_length_cm": 64,
+  "price": 47900,
+  "colors": [
+   "아이보리",
+   "그레이"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 41.0,
+    "가슴": 104.5,
+    "소매": 62.0,
+    "총장": 60.0
+   },
+   "S": {
+    "어깨": 42.5,
+    "가슴": 110.5,
+    "소매": 63.0,
+    "총장": 61.5
+   },
+   "M": {
+    "어깨": 43.5,
+    "가슴": 116.5,
+    "소매": 64.0,
+    "총장": 63.0
+   },
+   "L": {
+    "어깨": 45.0,
+    "가슴": 122.5,
+    "소매": 65.0,
+    "총장": 64.5
+   },
+   "XL": {
+    "어깨": 46.0,
+    "가슴": 128.5,
+    "소매": 66.0,
+    "총장": 66.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "ZARA_TOP_01",
+  "brand_id": 7,
+  "brand": "자라",
+  "product_name": "(가상) 우먼즈 릴렉스드 니트 풀오버",
+  "category": "상의",
+  "sub_category": "니트/가디건",
+  "gender": "여성",
+  "fit_type": "오버",
+  "sleeve_type": "긴소매",
+  "stretch": "약간",
+  "design_length_cm": 62,
+  "price": 51900,
+  "colors": [
+   "카키",
+   "베이지",
+   "아이보리"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 38.5,
+    "가슴": 90.5,
+    "소매": 61.0,
+    "총장": 55.5
+   },
+   "S": {
+    "어깨": 40.0,
+    "가슴": 96.5,
+    "소매": 62.0,
+    "총장": 57.0
+   },
+   "M": {
+    "어깨": 41.0,
+    "가슴": 102.5,
+    "소매": 63.0,
+    "총장": 58.5
+   },
+   "L": {
+    "어깨": 42.5,
+    "가슴": 108.5,
+    "소매": 64.0,
+    "총장": 60.0
+   },
+   "XL": {
+    "어깨": 43.5,
+    "가슴": 114.5,
+    "소매": 65.0,
+    "총장": 61.5
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "ZARA_TOP_02",
+  "brand_id": 7,
+  "brand": "자라",
+  "product_name": "(가상) 우먼즈 크롭 반팔 티셔츠",
+  "category": "상의",
+  "sub_category": "티셔츠",
+  "gender": "여성",
+  "fit_type": "슬림",
+  "sleeve_type": "반소매",
+  "stretch": "좋음",
+  "design_length_cm": 48,
+  "price": 25900,
+  "colors": [
+   "핑크",
+   "블랙"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 35.0,
+    "가슴": 70.5,
+    "총장": 43.0
+   },
+   "S": {
+    "어깨": 36.0,
+    "가슴": 76.5,
+    "총장": 44.5
+   },
+   "M": {
+    "어깨": 37.0,
+    "가슴": 82.5,
+    "총장": 46.0
+   },
+   "L": {
+    "어깨": 38.5,
+    "가슴": 88.5,
+    "총장": 47.5
+   },
+   "XL": {
+    "어깨": 39.5,
+    "가슴": 94.5,
+    "총장": 49.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "ZARA_BOTTOM_01",
+  "brand_id": 7,
+  "brand": "자라",
+  "product_name": "(가상) 우먼즈 와이드 슬랙스",
+  "category": "하의",
+  "sub_category": "팬츠/슬랙스",
+  "gender": "여성",
+  "fit_type": "오버",
+  "sleeve_type": null,
+  "stretch": "약간",
+  "design_length_cm": 100,
+  "price": 64900,
+  "colors": [
+   "아이보리",
+   "그레이"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "허리": 56.5,
+    "힙": 91.5,
+    "허벅지": 63.5,
+    "총장": 95.0
+   },
+   "S": {
+    "허리": 60.5,
+    "힙": 95.5,
+    "허벅지": 66.5,
+    "총장": 96.5
+   },
+   "M": {
+    "허리": 64.5,
+    "힙": 99.5,
+    "허벅지": 69.5,
+    "총장": 98.0
+   },
+   "L": {
+    "허리": 68.5,
+    "힙": 103.5,
+    "허벅지": 72.5,
+    "총장": 99.5
+   },
+   "XL": {
+    "허리": 72.5,
+    "힙": 107.5,
+    "허벅지": 75.5,
+    "총장": 101.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "ZARA_BOTTOM_02",
+  "brand_id": 7,
+  "brand": "자라",
+  "product_name": "(가상) 우먼즈 에이라인 미디 스커트",
+  "category": "하의",
+  "sub_category": "스커트",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": null,
+  "stretch": "약간",
+  "design_length_cm": 78,
+  "price": 51900,
+  "colors": [
+   "베이지",
+   "카키"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "허리": 57.0,
+    "힙": 88.5,
+    "총장": 75.0
+   },
+   "S": {
+    "허리": 61.0,
+    "힙": 92.5,
+    "총장": 76.5
+   },
+   "M": {
+    "허리": 65.0,
+    "힙": 96.5,
+    "총장": 78.0
+   },
+   "L": {
+    "허리": 69.0,
+    "힙": 100.5,
+    "총장": 79.5
+   },
+   "XL": {
+    "허리": 73.0,
+    "힙": 104.5,
+    "총장": 81.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "ZARA_DRESS_01",
+  "brand_id": 7,
+  "brand": "자라",
+  "product_name": "(가상) 우먼즈 슬리브리스 미니 원피스",
+  "category": "원피스",
+  "sub_category": "원피스",
+  "gender": "여성",
+  "fit_type": "슬림",
+  "sleeve_type": "민소매",
+  "stretch": "좋음",
+  "design_length_cm": 85,
+  "price": 64900,
+  "colors": [
+   "블랙",
+   "화이트"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 35.5,
+    "가슴": 70.5,
+    "허리": 56.0,
+    "총장": 79.0
+   },
+   "S": {
+    "어깨": 36.5,
+    "가슴": 76.5,
+    "허리": 60.0,
+    "총장": 81.0
+   },
+   "M": {
+    "어깨": 38.0,
+    "가슴": 82.5,
+    "허리": 64.0,
+    "총장": 83.0
+   },
+   "L": {
+    "어깨": 39.0,
+    "가슴": 88.5,
+    "허리": 68.0,
+    "총장": 85.0
+   },
+   "XL": {
+    "어깨": 40.5,
+    "가슴": 94.5,
+    "허리": 72.0,
+    "총장": 87.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "ZARA_DRESS_02",
+  "brand_id": 7,
+  "brand": "자라",
+  "product_name": "(가상) 우먼즈 셔츠 원피스",
+  "category": "원피스",
+  "sub_category": "원피스",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": "긴소매",
+  "stretch": "없음",
+  "design_length_cm": 105,
+  "price": 77900,
+  "colors": [
+   "화이트",
+   "스카이블루"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 34.5,
+    "가슴": 77.0,
+    "허리": 67.0,
+    "소매": 57.0,
+    "총장": 99.0
+   },
+   "S": {
+    "어깨": 36.0,
+    "가슴": 83.0,
+    "허리": 71.0,
+    "소매": 58.0,
+    "총장": 101.0
+   },
+   "M": {
+    "어깨": 37.0,
+    "가슴": 89.0,
+    "허리": 75.0,
+    "소매": 59.0,
+    "총장": 103.0
+   },
+   "L": {
+    "어깨": 38.0,
+    "가슴": 95.0,
+    "허리": 79.0,
+    "소매": 60.0,
+    "총장": 105.0
+   },
+   "XL": {
+    "어깨": 39.5,
+    "가슴": 101.0,
+    "허리": 83.0,
+    "소매": 61.0,
+    "총장": 107.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "ZARA_OUTER_01",
+  "brand_id": 7,
+  "brand": "자라",
+  "product_name": "(가상) 우먼즈 블레이저",
+  "category": "아우터",
+  "sub_category": "블레이저",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": "긴소매",
+  "stretch": "없음",
+  "design_length_cm": 66,
+  "price": 129000,
+  "colors": [
+   "그레이",
+   "블랙"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 37.0,
+    "가슴": 86.0,
+    "소매": 59.0,
+    "총장": 60.5
+   },
+   "S": {
+    "어깨": 38.0,
+    "가슴": 92.0,
+    "소매": 60.0,
+    "총장": 62.0
+   },
+   "M": {
+    "어깨": 39.5,
+    "가슴": 98.0,
+    "소매": 61.0,
+    "총장": 63.5
+   },
+   "L": {
+    "어깨": 40.5,
+    "가슴": 104.0,
+    "소매": 62.0,
+    "총장": 65.0
+   },
+   "XL": {
+    "어깨": 41.5,
+    "가슴": 110.0,
+    "소매": 63.0,
+    "총장": 66.5
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "ZARA_OUTER_02",
+  "brand_id": 7,
+  "brand": "자라",
+  "product_name": "(가상) 우먼즈 울 하프 코트",
+  "category": "아우터",
+  "sub_category": "코트",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": "긴소매",
+  "stretch": "없음",
+  "design_length_cm": 85,
+  "price": 246000,
+  "colors": [
+   "차콜",
+   "블랙"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 38.0,
+    "가슴": 88.5,
+    "소매": 59.5,
+    "총장": 79.0
+   },
+   "S": {
+    "어깨": 39.0,
+    "가슴": 94.5,
+    "소매": 60.5,
+    "총장": 80.5
+   },
+   "M": {
+    "어깨": 40.5,
+    "가슴": 100.5,
+    "소매": 61.5,
+    "총장": 82.0
+   },
+   "L": {
+    "어깨": 41.5,
+    "가슴": 106.5,
+    "소매": 62.5,
+    "총장": 83.5
+   },
+   "XL": {
+    "어깨": 42.5,
+    "가슴": 112.5,
+    "소매": 63.5,
+    "총장": 85.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "ADIDAS_TOP_01",
+  "brand_id": 8,
+  "brand": "아디다스",
+  "product_name": "(가상) 우먼즈 베이직 크루넥 티셔츠",
+  "category": "상의",
+  "sub_category": "티셔츠",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": "반소매",
+  "stretch": "약간",
+  "design_length_cm": 60,
+  "price": 25900,
+  "colors": [
+   "네이비",
+   "화이트",
+   "그레이"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 37.0,
+    "가슴": 84.5,
+    "총장": 57.0
+   },
+   "S": {
+    "어깨": 38.5,
+    "가슴": 90.5,
+    "총장": 58.5
+   },
+   "M": {
+    "어깨": 39.5,
+    "가슴": 96.5,
+    "총장": 60.0
+   },
+   "L": {
+    "어깨": 41.0,
+    "가슴": 102.5,
+    "총장": 61.5
+   },
+   "XL": {
+    "어깨": 42.0,
+    "가슴": 108.5,
+    "총장": 63.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "ADIDAS_TOP_02",
+  "brand_id": 8,
+  "brand": "아디다스",
+  "product_name": "(가상) 우먼즈 크롭 반팔 티셔츠",
+  "category": "상의",
+  "sub_category": "티셔츠",
+  "gender": "여성",
+  "fit_type": "슬림",
+  "sleeve_type": "반소매",
+  "stretch": "좋음",
+  "design_length_cm": 48,
+  "price": 25900,
+  "colors": [
+   "핑크",
+   "블랙"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 36.0,
+    "가슴": 78.0,
+    "총장": 45.0
+   },
+   "S": {
+    "어깨": 37.5,
+    "가슴": 84.0,
+    "총장": 46.5
+   },
+   "M": {
+    "어깨": 38.5,
+    "가슴": 90.0,
+    "총장": 48.0
+   },
+   "L": {
+    "어깨": 39.5,
+    "가슴": 96.0,
+    "총장": 49.5
+   },
+   "XL": {
+    "어깨": 41.0,
+    "가슴": 102.0,
+    "총장": 51.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "ADIDAS_BOTTOM_01",
+  "brand_id": 8,
+  "brand": "아디다스",
+  "product_name": "(가상) 우먼즈 조거 팬츠",
+  "category": "하의",
+  "sub_category": "조거/트레이닝",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": null,
+  "stretch": "좋음",
+  "design_length_cm": 96,
+  "price": 51900,
+  "colors": [
+   "네이비",
+   "블랙"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "허리": 60.0,
+    "힙": 91.0,
+    "허벅지": 54.0,
+    "총장": 94.5
+   },
+   "S": {
+    "허리": 64.0,
+    "힙": 95.0,
+    "허벅지": 57.0,
+    "총장": 96.0
+   },
+   "M": {
+    "허리": 68.0,
+    "힙": 99.0,
+    "허벅지": 60.0,
+    "총장": 97.5
+   },
+   "L": {
+    "허리": 72.0,
+    "힙": 103.0,
+    "허벅지": 63.0,
+    "총장": 99.0
+   },
+   "XL": {
+    "허리": 76.0,
+    "힙": 107.0,
+    "허벅지": 66.0,
+    "총장": 100.5
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "ADIDAS_BOTTOM_02",
+  "brand_id": 8,
+  "brand": "아디다스",
+  "product_name": "(가상) 우먼즈 데님 쇼츠",
+  "category": "하의",
+  "sub_category": "쇼츠/버뮤다",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": null,
+  "stretch": "약간",
+  "design_length_cm": 42,
+  "price": 38900,
+  "colors": [
+   "블랙",
+   "연청"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "허리": 59.0,
+    "힙": 91.0,
+    "허벅지": 54.5,
+    "총장": 37.5
+   },
+   "S": {
+    "허리": 63.0,
+    "힙": 95.0,
+    "허벅지": 57.5,
+    "총장": 39.0
+   },
+   "M": {
+    "허리": 67.0,
+    "힙": 99.0,
+    "허벅지": 60.5,
+    "총장": 40.5
+   },
+   "L": {
+    "허리": 71.0,
+    "힙": 103.0,
+    "허벅지": 63.5,
+    "총장": 42.0
+   },
+   "XL": {
+    "허리": 75.0,
+    "힙": 107.0,
+    "허벅지": 66.5,
+    "총장": 43.5
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "ADIDAS_DRESS_01",
+  "brand_id": 8,
+  "brand": "아디다스",
+  "product_name": "(가상) 우먼즈 슬리브리스 미니 원피스",
+  "category": "원피스",
+  "sub_category": "원피스",
+  "gender": "여성",
+  "fit_type": "슬림",
+  "sleeve_type": "민소매",
+  "stretch": "좋음",
+  "design_length_cm": 85,
+  "price": 64900,
+  "colors": [
+   "그레이",
+   "블랙"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 37.0,
+    "가슴": 76.5,
+    "허리": 60.0,
+    "총장": 81.5
+   },
+   "S": {
+    "어깨": 38.5,
+    "가슴": 82.5,
+    "허리": 64.0,
+    "총장": 83.5
+   },
+   "M": {
+    "어깨": 39.5,
+    "가슴": 88.5,
+    "허리": 68.0,
+    "총장": 85.5
+   },
+   "L": {
+    "어깨": 41.0,
+    "가슴": 94.5,
+    "허리": 72.0,
+    "총장": 87.5
+   },
+   "XL": {
+    "어깨": 42.0,
+    "가슴": 100.5,
+    "허리": 76.0,
+    "총장": 89.5
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "ADIDAS_DRESS_02",
+  "brand_id": 8,
+  "brand": "아디다스",
+  "product_name": "(가상) 우먼즈 롱 원피스",
+  "category": "원피스",
+  "sub_category": "원피스",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": "반소매",
+  "stretch": "약간",
+  "design_length_cm": 125,
+  "price": 90900,
+  "colors": [
+   "카키",
+   "블랙"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 38.0,
+    "가슴": 83.0,
+    "허리": 70.5,
+    "총장": 121.0
+   },
+   "S": {
+    "어깨": 39.0,
+    "가슴": 89.0,
+    "허리": 74.5,
+    "총장": 123.0
+   },
+   "M": {
+    "어깨": 40.5,
+    "가슴": 95.0,
+    "허리": 78.5,
+    "총장": 125.0
+   },
+   "L": {
+    "어깨": 41.5,
+    "가슴": 101.0,
+    "허리": 82.5,
+    "총장": 127.0
+   },
+   "XL": {
+    "어깨": 43.0,
+    "가슴": 107.0,
+    "허리": 86.5,
+    "총장": 129.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "ADIDAS_OUTER_01",
+  "brand_id": 8,
+  "brand": "아디다스",
+  "product_name": "(가상) 우먼즈 후리스 집업",
+  "category": "아우터",
+  "sub_category": "후리스",
+  "gender": "여성",
+  "fit_type": "오버",
+  "sleeve_type": "긴소매",
+  "stretch": "약간",
+  "design_length_cm": 64,
+  "price": 77900,
+  "colors": [
+   "네이비",
+   "아이보리"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 42.5,
+    "가슴": 105.0,
+    "소매": 63.5,
+    "총장": 60.5
+   },
+   "S": {
+    "어깨": 44.0,
+    "가슴": 111.0,
+    "소매": 64.5,
+    "총장": 62.0
+   },
+   "M": {
+    "어깨": 45.0,
+    "가슴": 117.0,
+    "소매": 65.5,
+    "총장": 63.5
+   },
+   "L": {
+    "어깨": 46.5,
+    "가슴": 123.0,
+    "소매": 66.5,
+    "총장": 65.0
+   },
+   "XL": {
+    "어깨": 47.5,
+    "가슴": 129.0,
+    "소매": 67.5,
+    "총장": 66.5
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "ADIDAS_OUTER_02",
+  "brand_id": 8,
+  "brand": "아디다스",
+  "product_name": "(가상) 우먼즈 숏 패딩 점퍼",
+  "category": "아우터",
+  "sub_category": "패딩",
+  "gender": "여성",
+  "fit_type": "오버",
+  "sleeve_type": "긴소매",
+  "stretch": "없음",
+  "design_length_cm": 58,
+  "price": 168000,
+  "colors": [
+   "블랙",
+   "아이보리"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 43.0,
+    "가슴": 106.0,
+    "소매": 64.0,
+    "총장": 53.0
+   },
+   "S": {
+    "어깨": 44.0,
+    "가슴": 112.0,
+    "소매": 65.0,
+    "총장": 54.5
+   },
+   "M": {
+    "어깨": 45.0,
+    "가슴": 118.0,
+    "소매": 66.0,
+    "총장": 56.0
+   },
+   "L": {
+    "어깨": 46.5,
+    "가슴": 124.0,
+    "소매": 67.0,
+    "총장": 57.5
+   },
+   "XL": {
+    "어깨": 47.5,
+    "가슴": 130.0,
+    "소매": 68.0,
+    "총장": 59.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "NIKE_TOP_01",
+  "brand_id": 9,
+  "brand": "나이키",
+  "product_name": "(가상) 우먼즈 슬림 슬리브리스 탑",
+  "category": "상의",
+  "sub_category": "나시/슬리브리스",
+  "gender": "여성",
+  "fit_type": "슬림",
+  "sleeve_type": "민소매",
+  "stretch": "좋음",
+  "design_length_cm": 56,
+  "price": 20900,
+  "colors": [
+   "그레이",
+   "화이트"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 35.0,
+    "가슴": 79.5,
+    "총장": 52.0
+   },
+   "S": {
+    "어깨": 36.0,
+    "가슴": 85.5,
+    "총장": 53.5
+   },
+   "M": {
+    "어깨": 37.0,
+    "가슴": 91.5,
+    "총장": 55.0
+   },
+   "L": {
+    "어깨": 38.5,
+    "가슴": 97.5,
+    "총장": 56.5
+   },
+   "XL": {
+    "어깨": 39.5,
+    "가슴": 103.5,
+    "총장": 58.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "NIKE_TOP_02",
+  "brand_id": 9,
+  "brand": "나이키",
+  "product_name": "(가상) 우먼즈 오버핏 맨투맨",
+  "category": "상의",
+  "sub_category": "후드/맨투맨",
+  "gender": "여성",
+  "fit_type": "오버",
+  "sleeve_type": "긴소매",
+  "stretch": "약간",
+  "design_length_cm": 64,
+  "price": 55900,
+  "colors": [
+   "블랙",
+   "네이비",
+   "아이보리"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 40.5,
+    "가슴": 97.0,
+    "소매": 60.5,
+    "총장": 60.5
+   },
+   "S": {
+    "어깨": 42.0,
+    "가슴": 103.0,
+    "소매": 61.5,
+    "총장": 62.0
+   },
+   "M": {
+    "어깨": 43.0,
+    "가슴": 109.0,
+    "소매": 62.5,
+    "총장": 63.5
+   },
+   "L": {
+    "어깨": 44.0,
+    "가슴": 115.0,
+    "소매": 63.5,
+    "총장": 65.0
+   },
+   "XL": {
+    "어깨": 45.5,
+    "가슴": 121.0,
+    "소매": 64.5,
+    "총장": 66.5
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "NIKE_BOTTOM_01",
+  "brand_id": 9,
+  "brand": "나이키",
+  "product_name": "(가상) 우먼즈 조거 팬츠",
+  "category": "하의",
+  "sub_category": "조거/트레이닝",
+  "gender": "여성",
+  "fit_type": "레귤러",
+  "sleeve_type": null,
+  "stretch": "좋음",
+  "design_length_cm": 96,
+  "price": 55900,
+  "colors": [
+   "그레이",
+   "네이비"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "허리": 61.5,
+    "힙": 92.0,
+    "허벅지": 53.5,
+    "총장": 94.0
+   },
+   "S": {
+    "허리": 65.5,
+    "힙": 96.0,
+    "허벅지": 56.5,
+    "총장": 95.5
+   },
+   "M": {
+    "허리": 69.5,
+    "힙": 100.0,
+    "허벅지": 59.5,
+    "총장": 97.0
+   },
+   "L": {
+    "허리": 73.5,
+    "힙": 104.0,
+    "허벅지": 62.5,
+    "총장": 98.5
+   },
+   "XL": {
+    "허리": 77.5,
+    "힙": 108.0,
+    "허벅지": 65.5,
+    "총장": 100.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "NIKE_BOTTOM_02",
+  "brand_id": 9,
+  "brand": "나이키",
+  "product_name": "(가상) 우먼즈 와이드 슬랙스",
+  "category": "하의",
+  "sub_category": "팬츠/슬랙스",
+  "gender": "여성",
+  "fit_type": "오버",
+  "sleeve_type": null,
+  "stretch": "약간",
+  "design_length_cm": 100,
+  "price": 69900,
+  "colors": [
+   "블랙",
+   "그레이"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "허리": 60.5,
+    "힙": 95.5,
+    "허벅지": 63.0,
+    "총장": 98.0
+   },
+   "S": {
+    "허리": 64.5,
+    "힙": 99.5,
+    "허벅지": 66.0,
+    "총장": 99.5
+   },
+   "M": {
+    "허리": 68.5,
+    "힙": 103.5,
+    "허벅지": 69.0,
+    "총장": 101.0
+   },
+   "L": {
+    "허리": 72.5,
+    "힙": 107.5,
+    "허벅지": 72.0,
+    "총장": 102.5
+   },
+   "XL": {
+    "허리": 76.5,
+    "힙": 111.5,
+    "허벅지": 75.0,
+    "총장": 104.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "NIKE_DRESS_01",
+  "brand_id": 9,
+  "brand": "나이키",
+  "product_name": "(가상) 우먼즈 슬리브리스 미니 원피스",
+  "category": "원피스",
+  "sub_category": "원피스",
+  "gender": "여성",
+  "fit_type": "슬림",
+  "sleeve_type": "민소매",
+  "stretch": "좋음",
+  "design_length_cm": 85,
+  "price": 69900,
+  "colors": [
+   "화이트",
+   "블랙"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 36.0,
+    "가슴": 77.0,
+    "허리": 62.0,
+    "총장": 81.0
+   },
+   "S": {
+    "어깨": 37.5,
+    "가슴": 83.0,
+    "허리": 66.0,
+    "총장": 83.0
+   },
+   "M": {
+    "어깨": 38.5,
+    "가슴": 89.0,
+    "허리": 70.0,
+    "총장": 85.0
+   },
+   "L": {
+    "어깨": 40.0,
+    "가슴": 95.0,
+    "허리": 74.0,
+    "총장": 87.0
+   },
+   "XL": {
+    "어깨": 41.0,
+    "가슴": 101.0,
+    "허리": 78.0,
+    "총장": 89.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "NIKE_DRESS_02",
+  "brand_id": 9,
+  "brand": "나이키",
+  "product_name": "(가상) 우먼즈 니트 미니 원피스",
+  "category": "원피스",
+  "sub_category": "원피스",
+  "gender": "여성",
+  "fit_type": "슬림",
+  "sleeve_type": "긴소매",
+  "stretch": "좋음",
+  "design_length_cm": 88,
+  "price": 83900,
+  "colors": [
+   "블랙",
+   "차콜"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 35.5,
+    "가슴": 79.0,
+    "허리": 60.0,
+    "소매": 55.5,
+    "총장": 83.5
+   },
+   "S": {
+    "어깨": 37.0,
+    "가슴": 85.0,
+    "허리": 64.0,
+    "소매": 56.5,
+    "총장": 85.5
+   },
+   "M": {
+    "어깨": 38.0,
+    "가슴": 91.0,
+    "허리": 68.0,
+    "소매": 57.5,
+    "총장": 87.5
+   },
+   "L": {
+    "어깨": 39.5,
+    "가슴": 97.0,
+    "허리": 72.0,
+    "소매": 58.5,
+    "총장": 89.5
+   },
+   "XL": {
+    "어깨": 40.5,
+    "가슴": 103.0,
+    "허리": 76.0,
+    "소매": 59.5,
+    "총장": 91.5
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "NIKE_OUTER_01",
+  "brand_id": 9,
+  "brand": "나이키",
+  "product_name": "(가상) 우먼즈 숏 패딩 점퍼",
+  "category": "아우터",
+  "sub_category": "패딩",
+  "gender": "여성",
+  "fit_type": "오버",
+  "sleeve_type": "긴소매",
+  "stretch": "없음",
+  "design_length_cm": 58,
+  "price": 181000,
+  "colors": [
+   "블랙",
+   "카키"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 42.0,
+    "가슴": 107.5,
+    "소매": 62.5,
+    "총장": 56.5
+   },
+   "S": {
+    "어깨": 43.5,
+    "가슴": 113.5,
+    "소매": 63.5,
+    "총장": 58.0
+   },
+   "M": {
+    "어깨": 44.5,
+    "가슴": 119.5,
+    "소매": 64.5,
+    "총장": 59.5
+   },
+   "L": {
+    "어깨": 45.5,
+    "가슴": 125.5,
+    "소매": 65.5,
+    "총장": 61.0
+   },
+   "XL": {
+    "어깨": 47.0,
+    "가슴": 131.5,
+    "소매": 66.5,
+    "총장": 62.5
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "NIKE_OUTER_02",
+  "brand_id": 9,
+  "brand": "나이키",
+  "product_name": "(가상) 우먼즈 후리스 집업",
+  "category": "아우터",
+  "sub_category": "후리스",
+  "gender": "여성",
+  "fit_type": "오버",
+  "sleeve_type": "긴소매",
+  "stretch": "약간",
+  "design_length_cm": 64,
+  "price": 83900,
+  "colors": [
+   "아이보리",
+   "그레이"
+  ],
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "size_chart": {
+   "XS": {
+    "어깨": 42.5,
+    "가슴": 106.0,
+    "소매": 62.5,
+    "총장": 62.0
+   },
+   "S": {
+    "어깨": 43.5,
+    "가슴": 112.0,
+    "소매": 63.5,
+    "총장": 63.5
+   },
+   "M": {
+    "어깨": 45.0,
+    "가슴": 118.0,
+    "소매": 64.5,
+    "총장": 65.0
+   },
+   "L": {
+    "어깨": 46.0,
+    "가슴": 124.0,
+    "소매": 65.5,
+    "총장": 66.5
+   },
+   "XL": {
+    "어깨": 47.5,
+    "가슴": 130.0,
+    "소매": 66.5,
+    "총장": 68.0
+   }
+  },
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "category"
+   ],
+   "dummy": [
+    "product_name",
+    "sub_category",
+    "fit_type",
+    "sleeve_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "colors",
+    "sizes",
+    "size_chart"
+   ],
+   "unknown": []
+  }
+ },
+ {
+  "product_id": "MSS_TOP_R01",
+  "brand_id": 2,
+  "brand": "무신사 스탠다드",
+  "product_name": "우먼즈 브이 넥 슬리브리스 탑 [블랙]",
+  "category": "상의",
+  "sub_category": null,
+  "gender": "여성",
+  "fit_type": null,
+  "sleeve_type": "민소매",
+  "stretch": null,
+  "design_length_cm": null,
+  "price": null,
+  "colors": [
+   "블랙"
+  ],
+  "sizes": null,
+  "size_chart": null,
+  "meta": {
+   "source": "json",
+   "real": [
+    "brand",
+    "product_name",
+    "category",
+    "sleeve_type",
+    "colors"
+   ],
+   "dummy": [],
+   "unknown": [
+    "sub_category",
+    "fit_type",
+    "stretch",
+    "design_length_cm",
+    "price",
+    "sizes",
+    "size_chart"
+   ]
+  }
+ }
+]

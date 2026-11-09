@@ -1,0 +1,334 @@
+{
+  "brands": [
+    {
+          "brand_id": 1,
+          "brand_name": "UNIQLO",
+          "website": "https://www.uniqlo.com/kr",
+          "categories": [
+          {
+          "category_id": 1,
+          "large_category": "여성",
+          "medium_categories": [
+          {
+          "medium_id": 1,
+          "medium_name": "상의",
+          "small_categories": [
+          "아우터",
+          "경량 패딩(PUFFTECH)",
+          "후리스",
+          "니트&가디건",
+          "티셔츠&스웨트셔츠",
+          "셔츠&블라우스&폴로셔츠"
+          ]
+          },
+          {
+          "medium_id": 2,
+          "medium_name": "하의",
+          "small_categories": [
+          "팬츠",
+          "스커트&원피스"
+          ]
+          },
+          {
+          "medium_id": 3,
+          "medium_name": "기타",
+          "small_categories": [
+          "언더웨어",
+          "액세서리"
+          ]
+          }
+          ]
+          }
+          ]
+    },
+    {
+          "brand_id": 2,
+          "brand_name": "ZARA",
+          "website": "https://www.zara.com/kr",
+          "categories": [
+          {
+          "category_id": 2,
+          "large_category": "여성",
+          "medium_categories": [
+          {
+          "medium_id": 4,
+          "medium_name": "상의",
+          "small_categories": [
+          "재킷",
+          "셔츠",
+          "블라우스",
+          "니트"
+          ]
+          },
+          {
+          "medium_id": 5,
+          "medium_name": "하의",
+          "small_categories": [
+          "팬츠",
+          "스커트"
+          ]
+          },
+          {
+          "medium_id": 6,
+          "medium_name": "기타",
+          "small_categories": [
+          "슈즈",
+          "가방",
+          "악세서리"
+          ]
+          }
+          ]
+          }
+          ]
+    },
+    {
+          "brand_id": 3,
+          "brand_name": "H&M",
+          "website": "https://www2.hm.com/ko_KR/index.html",
+          "categories": [
+          {
+          "category_id": 3,
+          "large_category": "여성",
+          "medium_categories": [
+          {
+          "medium_id": 7,
+          "medium_name": "상의",
+          "small_categories": [
+          "티셔츠",
+          "셔츠",
+          "블라우스",
+          "니트"
+          ]
+          },
+          {
+          "medium_id": 8,
+          "medium_name": "하의",
+          "small_categories": [
+          "팬츠",
+          "스커트",
+          "청바지"
+          ]
+          },
+          {
+          "medium_id": 9,
+          "medium_name": "기타",
+          "small_categories": [
+          "아우터",
+          "신발",
+          "가방"
+          ]
+          }
+          ]
+          }
+          ]
+    },
+    {
+          "brand_id": 4,
+          "brand_name": "COS",
+          "website": "https://www.cosstores.com/kr",
+          "categories": [
+          {
+          "category_id": 4,
+          "large_category": "여성",
+          "medium_categories": [
+          {
+          "medium_id": 10,
+          "medium_name": "상의",
+          "small_categories": [
+          "셔츠",
+          "블라우스",
+          "니트",
+          "스웨터"
+          ]
+          },
+          {
+          "medium_id": 11,
+          "medium_name": "하의",
+          "small_categories": [
+          "팬츠",
+          "스커트"
+          ]
+          },
+          {
+          "medium_id": 12,
+          "medium_name": "기타",
+          "small_categories": [
+          "아우터",
+          "신발",
+          "가방"
+          ]
+          }
+          ]
+          }
+          ]
+    },
+    {
+          "brand_id": 5,
+          "brand_name": "SPAO",
+          "website": "https://www.spao.co.kr",
+          "categories": [
+          {
+          "category_id": 5,
+          "large_category": "여성",
+          "medium_categories": [
+          {
+          "medium_id": 13,
+          "medium_name": "상의",
+          "small_categories": [
+          "티셔츠",
+          "셔츠",
+          "니트",
+          "아우터"
+          ]
+          },
+          {
+          "medium_id": 14,
+          "medium_name": "하의",
+          "small_categories": [
+          "팬츠",
+          "스커트",
+          "청바지"
+          ]
+          },
+          {
+          "medium_id": 15,
+          "medium_name": "기타",
+          "small_categories": [
+          "신발",
+          "가방",
+          "액세서리"
+          ]
+          }
+          ]
+          }
+          ]
+    },
+    {
+          "brand_id": 6,
+          "brand_name": "TOPTEN10",
+          "website": "https://www.topten10.com",
+          "categories": [
+          {
+          "category_id": 6,
+          "large_category": "여성",
+          "medium_categories": [
+          {
+          "medium_id": 16,
+          "medium_name": "상의",
+          "small_categories": [
+          "에어테크",
+          "시어파카",
+          "플러피플리스",
+          "ON Air",
+          "스웨터/가디건",
+          "티셔츠",
+          "블라우스/셔츠"
+          ]
+          },
+          {
+          "medium_id": 17,
+          "medium_name": "하의",
+          "small_categories": [
+          "데님",
+          "팬츠",
+          "스웨트팬츠",
+          "스커트"
+          ]
+          },
+          {
+          "medium_id": 18,
+          "medium_name": "기타",
+          "small_categories": [
+          "아우터",
+          "원피스",
+          "신발",
+          "가방"
+          ]
+          }
+          ]
+          }
+          ]
+    },
+    {
+          "brand_id": 7,
+          "brand_name": "MUSINSA STANDARD",
+          "website": "https://www.musinsa.com",
+          "categories": [
+          {
+          "category_id": 7,
+          "large_category": "여성",
+          "medium_categories": [
+          {
+          "medium_id": 19,
+          "medium_name": "상의",
+          "small_categories": [
+          "티셔츠",
+          "셔츠",
+          "니트",
+          "아우터"
+          ]
+          },
+          {
+          "medium_id": 20,
+          "medium_name": "하의",
+          "small_categories": [
+          "팬츠",
+          "스커트",
+          "청바지"
+          ]
+          },
+          {
+          "medium_id": 21,
+          "medium_name": "기타",
+          "small_categories": [
+          "신발",
+          "가방",
+          "액세서리"
+          ]
+          }
+          ]
+          }
+          ]
+    },
+    {
+          "brand_id": 8,
+          "brand_name": "8SECONDS",
+          "website": "https://www.8seconds.co.kr",
+          "categories": [
+          {
+          "category_id": 8,
+          "large_category": "여성",
+          "medium_categories": [
+          {
+          "medium_id": 22,
+          "medium_name": "상의",
+          "small_categories": [
+          "아우터",
+          "티셔츠",
+          "니트",
+          "셔츠/블라우스"
+          ]
+          },
+          {
+          "medium_id": 23,
+          "medium_name": "하의",
+          "small_categories": [
+          "팬츠",
+          "스커트"
+          ]
+          },
+          {
+          "medium_id": 24,
+          "medium_name": "기타",
+          "small_categories": [
+          "신발",
+          "가방",
+          "액세서리"
+          ]
+          }
+          ]
+          }
+          ]
+    }
+  ]
+}

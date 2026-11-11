@@ -60,6 +60,14 @@ def check_meta(row, ident, cols):
         return
     if m.get('source') not in ('json', 'api'):
         err(f'{ident}: meta.source 허용값 밖 {m.get("source")!r}')
+    api = m.get('api', [])
+    if m.get('source') == 'api' and not api:
+        err(f'{ident}: source=api 인데 meta.api 필드 목록이 없음')
+    if m.get('source') == 'json' and api:
+        err(f'{ident}: source=json 인데 meta.api 가 있음')
+    for f in api:
+        if f in cols:
+            err(f'{ident}: API 필드 {f} 는 JSON 에 값이 없어야 함')
     listed = []
     for k in ('real', 'dummy', 'unknown', 'derived'):
         listed += m.get(k, [])
@@ -284,6 +292,8 @@ def main():
           f' (실제 {n_real} · 더미 {n_dummy})')
     c = Counter(r['size_opinion'] for r in reviews)
     print('사이즈감:', dict(c), '· 평균 별점:', {k: round(v, 2) for k, v in mean.items()})
+    print('항목 출처(meta.source):', {'products': dict(Counter(p['meta']['source'] for p in products)),
+          'brands/users/reviews': 'json 전부' if all(x['meta']['source'] == 'json' for x in brands + users + reviews) else '확인 필요'})
     print(f'경고 {len(warns)}건 · 오류 {len(errors)}건')
     for w in warns[:30]:
         print('  경고:', w)

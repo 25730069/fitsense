@@ -34,7 +34,7 @@
 
 ## 필드 (핵심만)
 **products.json**
-`product_id`, `brand_id`, `brand`, `product_name`(더미는 "(가상)" 접두), `category`, `sub_category`, `gender`, `fit_type`, `sleeve_type`, `stretch`, `design_length_cm`(M 사이즈·키160 기준 설계 총장), `price`(원), `colors`, `sizes`, `size_chart`(사이즈별 `{어깨, 가슴, 허리, 힙, 허벅지, 소매, 총장}` 중 카테고리에 해당하는 부위, cm), `meta`
+`product_id`, `brand_id`, `brand`, `product_name`, `category`, `sub_category`, `gender`, `fit_type`, `sleeve_type`, `stretch`, `design_length_cm`(M 사이즈·키160 기준 설계 총장), `price`(원), `colors`, `sizes`, `size_chart`(사이즈별 `{어깨, 가슴, 허리, 힙, 허벅지, 소매, 총장}` 중 카테고리에 해당하는 부위, cm), `meta`
 - 부위 구성: 상의·아우터 = 어깨·가슴(+소매)·총장 / 하의 = 허리·힙(+허벅지, 스커트 제외)·총장 / 원피스 = 어깨·가슴·허리(+소매)·총장
 - 가슴·허리·힙·허벅지는 **둘레**, 어깨·소매·총장은 길이
 
@@ -49,13 +49,13 @@
 ## 관리용 필드 `meta` (화면에 직접 보여주지 않음)
 | 키 | 의미 |
 |---|---|
-| `meta.source` | `"json"` (저장 JSON만 사용). 이 프로젝트는 API 미연동이라 `"api"` 항목 없음 |
+| `meta.source` | `"json"` 저장 JSON만 사용 (현재 모든 항목). `"api"`는 이후 외부 API를 연동하는 항목에 쓰도록 예약 |
 | `meta.real` | 공개 원본·직접 확인한 실제 값 필드 |
 | `meta.dummy` | 임의·AI 생성 더미 값 필드 |
 | `meta.unknown` | 확인하지 못한 값(화면에 "미확인"/"정보 없음") |
 | `meta.derived` | 실제 값에서 규칙으로 계산한 값 (실제 후기 1건에만 사용) |
 
-화면의 실제/더미/미확인 태그는 이 `meta`만 보고 정한다. 더미 필드를 직접 조사해 확인하면 `dummy` → `real`로 옮기면 된다.
+화면의 항목 출처 칩(저장 JSON)과 필드 태그(실제/더미/미확인)는 이 `meta`만 보고 정한다. 더미 필드를 직접 조사해 확인하면 `dummy` → `real`로 옮기면 된다.
 
 ## 일관성 규칙 (tools/validate_data.py 가 검사)
 1. ID 중복 없음, 후기→상품·사용자 참조가 모두 존재, 후기의 brand/category가 상품과 같음

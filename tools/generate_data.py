@@ -147,7 +147,7 @@ def make_products(rng):
                     p = int(round(price * mult / 1000.0)) * 1000
                 prods.append({
                     'product_id': pid, 'brand_id': bid, 'brand': ko,
-                    'product_name': '(가상) ' + name, 'category': cat, 'sub_category': sub, 'gender': '여성',
+                    'product_name': name, 'category': cat, 'sub_category': sub, 'gender': '여성',
                     'fit_type': fit, 'sleeve_type': slv, 'stretch': stretch,
                     'design_length_cm': dlen, 'price': p,
                     'colors': rng.sample(colors, 2 if len(colors) < 4 else 3),

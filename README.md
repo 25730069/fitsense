@@ -1,4 +1,4 @@
-# 핏센스 (와이어프레임)
+# 핏센스 (와이어프레임 v3)
 
 ## 실행
 JSON을 `fetch`로 읽기 때문에 `index.html`을 더블클릭(`file://`)하면 데이터가 안 뜹니다. 아래 중 하나로 여세요.
@@ -7,22 +7,26 @@ JSON을 `fetch`로 읽기 때문에 `index.html`을 더블클릭(`file://`)하�
 
 ## 폴더
 ```
-index.html          화면
+index.html          화면 틀(왼쪽 프로토타입 패널 + 폰 프레임) + 시작 코드(data.js → app.js 순서로 로드)
 css/style.css
-js/data.js          데이터 연결(fetch·점검·집계·브랜드 상세·상품 상세)  ← 7주차 추가
-js/app.js           기존 화면 로직(홈·사이즈 측정·마이페이지·브랜드 목록)
+js/data.js          data/*.json 불러오기(fetchRaw) + 앱 형식으로 변환(mapDB)   ← JSON 이 바뀌면 여기만 보면 됨
+js/app.js           핏 계산·마이핏드백 보정·라우터 / 튜토리얼·홈·사이즈 측정·결과 / 브랜드·상품·후기·기록·찜·마이
 data/               brands / products / users / reviews .json  (legacy/ 는 이전 버전)
-tools/              generate_data.py(생성) · validate_data.py(검증) · fit_model.py(핏 규칙)
+tools/              generate_data.py · validate_data.py · fit_model.py(핏 규칙, app.js 계산식의 기준)
 docs/               DATA_SPEC.md(명세서) · DATA_SOURCES.md(출처·구분표)
 ```
 
-## 화면 흐름
-홈/브랜드 탭 → **브랜드 선택** → 카테고리별 상품 목록 → **상품 선택** → 사이즈표 + 사이즈 후기(작성자 키·몸무게, 구매→추천 사이즈, 부위별 핏)
+## 화면 구조 (하단 탭 5개)
+홈 · 브랜드 · 기록(분석 기록 / 마이핏드백) · 찜 · 마이. 사이즈 측정은 홈 배너(그리고 상품 상세의 정밀 측정)에서 시작합니다.
+흐름: 튜토리얼(다시 보지 않기) → ① 바디 프로필 → ② 옷 입력(브랜드 검색·DB 상품 선택(선택)·사진·링크(선택)·실측 직접 입력) → 분석 중 → 사이즈별 의견 → 저장 완료
 
-## 데이터를 고칠 때
-1. `data/*.json` 수정 후 `python tools/validate_data.py` 로 일관성 확인 (오류 0건이어야 함)
-2. 처음부터 다시 만들려면 `python tools/generate_data.py` (같은 시드면 같은 결과). 건수·브랜드 경향은 파일 맨 위 상수에서 바꿈
-3. 커밋·푸시 → Actions 에서 Pages 배포 확인 → 배포 주소에서 강력 새로고침
-4. 브라우저 Console 의 `[데이터 점검]` 로그에서 건수·경고 확인
+## JSON에 새로 추가할 수 있는 선택 필드
+없으면 화면이 더미 값으로 채웁니다(더미일 때는 "더미 값"이라고 표시).
+| 파일 | 필드 | 쓰이는 곳 |
+|---|---|---|
+| brands.json | `size_tendency` ("작게 나오는 편" / "정사이즈 경향" / "크게 나오는 편") | 브랜드 사이즈 경향 (없으면 후기에서 계산) |
+| products.json | `lowest_price`(원), `lowest_shop`, `product_url` | 최저가, 구매 링크 |
 
-> 상품·후기·체형 데이터는 실습용 더미입니다(실제 후기 1건 포함). 자세한 구분은 docs/DATA_SOURCES.md.
+## 마이핏드백 반영 방식 (js/app.js `persInfo`)
+분석 기록 피드백 + 내 옷장 기록에서 부위별 "타이트"가 많으면 그 부위의 선호 여유를 늘리고, "여유"가 많으면 줄입니다. 전체 핏이 작음/여유이면 가슴·허리·힙에 절반 가중치로 반영하며, 보정폭은 부위 허용오차의 최대 ±1배입니다.
+브라우저(localStorage 키 `fitsense_wf_v3`)에 저장되는 프로토타입이므로 서버 저장은 아직 없습니다.

@@ -3,10 +3,11 @@
    data/products.json 상품 (product_id, brand_id, name, category, sub_category, gender, fit_type, sleeve_type, stretch, price, colors, sizes, size_chart, release_date, product_url, meta)
    data/reviews.json  후기 (review_id, product_id, reviewer_id, reviewer_nick, reviewer_handle, height_cm, weight_kg, purchased_size, size_opinion, … meta)
    필드 설명과 허용값은 docs/DATA_SPEC.md 참고 */
+const DATA_VER = '20261116105759'; // 빌드 시각: 예전 JSON·JS가 브라우저에 남아 새 파일과 섞이는 것을 막아요
 const DATA_FILES = { brands: 'data/brands.json', products: 'data/products.json', reviews: 'data/reviews.json' };
 async function fetchRaw() {
   const out = {};
-  for (const [k, u] of Object.entries(DATA_FILES)) { const r = await fetch(u); if (!r.ok) throw new Error(u + ' ' + r.status); out[k] = await r.json(); }
+  for (const [k, u] of Object.entries(DATA_FILES)) { const r = await fetch(u + '?v=' + DATA_VER, { cache: 'no-cache' }); if (!r.ok) throw new Error(u + ' ' + r.status); out[k] = await r.json(); }
   return out;
 }
 const STYLES = ['캐주얼', '시티', '시티보이', '클래식', '에스닉', '걸리시', '고프코어', '미니멀', '프레피', '리조트', '레트로', '로맨틱', '스포티', '스트릿', '워크웨어'];
@@ -19,8 +20,10 @@ function mapDB(raw) {
   const prods = (raw.products || []).filter(x => x.category !== '신발'), revs = raw.reviews || [];
   const B = (raw.brands || []).map(x => ({ id: x.brand_id, n: x.name_kr, en: x.name_en || '', site: x.site_url || '', tend: TEND_LBL[x.size_tendency] || null, st: Array.isArray(x.styles) && x.styles.length ? x.styles : [], g: x.genders || [], tier: x.price_tier || null, meta: x.meta || null }));
   const seen = new Set(), TX = [];
-  prods.forEach(x => { (x.gender === '공용' ? ['여성', '남성'] : [x.gender]).forEach(g => { const k = [x.brand_id, g, x.category, x.sub_category].join('|'); if (!seen.has(k)) { seen.add(k); TX.push({ b: x.brand_id, g, code: CODE_MAP[x.category], s: x.sub_category }); } }); });
-  const P = prods.map(x => ({
+  prods.filter(x => B.some(b => b.id === x.brand_id)).forEach(x => { (x.gender === '공용' ? ['여성', '남성'] : [x.gender]).forEach(g => { const k = [x.brand_id, g, x.category, x.sub_category].join('|'); if (!seen.has(k)) { seen.add(k); TX.push({ b: x.brand_id, g, code: CODE_MAP[x.category], s: x.sub_category }); } }); });
+  const bset = new Set(B.map(b => b.id)), orphan = prods.filter(x => !bset.has(x.brand_id));
+  if (orphan.length) console.warn('[mapDB] brands.json에 없는 brand_id를 가진 상품 ' + orphan.length + '개는 건너뜀 (brands.json과 products.json 버전이 다를 수 있어요)');
+  const P = prods.filter(x => bset.has(x.brand_id)).map(x => ({
     id: x.product_id, b: x.brand_id, n: String(x.name).replace('(가상) ', ''), c: x.category, sc: x.sub_category || '', g: x.gender || null, fit: x.fit_type, sl: x.sleeve_type, st: x.stretch,
     pr: x.price, url: x.product_url || null, col: x.colors || [], sz: x.sizes, ch: x.size_chart || null, rd: x.release_date || null, real: !!(x.meta && x.meta.source !== 'generated'), meta: x.meta || null
   }));

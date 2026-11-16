@@ -25,6 +25,7 @@ function checkData(raw) {
   (raw.products || []).forEach(p => { if (!bids.has(p.brand_id)) issues.push(`products ${p.product_id}: 없는 brand_id ${p.brand_id}`); });
   (raw.reviews || []).forEach(r => { if (!pids.has(r.product_id)) issues.push(`reviews ${r.review_id}: 없는 product_id ${r.product_id}`); });
   window.DATA_ISSUES = issues;
-  if (issues.length) console.warn(`[checkData] 데이터 문제 ${issues.length}건`, issues.slice(0, 20)); else console.info('[checkData] 데이터 이상 없음');
+  const cnt = `brands ${(raw.brands || []).length} / products ${(raw.products || []).length} / reviews ${(raw.reviews || []).length} (정상: 64 / 725 / 4713)`;
+  if (issues.length) console.warn(`[checkData] ${cnt}\n데이터 문제 ${issues.length}건 (앞 15건)\n` + issues.slice(0, 15).join('\n')); else console.info('[checkData] 이상 없음 · ' + cnt);
   return issues;
 }

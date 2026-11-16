@@ -519,7 +519,7 @@ function ensureBody() { if (!S.body) S.body = { h: 162, w: 53, pref: '기본 핏
 function ensureLikes() { if (!S.likes.product.length) { const u = BR.find(b => b.n === '유니클로') || BR[0], z = BR.find(b => b.n === '자라') || BR[1]; S.likes.product = [pidFirst, (PR.find(p => p.b === z.id && p.c === '아우터') || PR[1]).id]; S.likes.brand = [String(u.id), String(z.id)]; const r = (revByProd[pidFirst] || [])[0]; if (r) S.likes.review = [r.id]; } }
 function ensureAccount() { if (!S.account) S.account = { name: '핏센스 유저', email: 'demo@fitsense.kr', pw: 'demo1234!', joined: today() }; S.loggedIn = true; save(); }
 const st = (...a) => { stack = a.map(([v, p]) => ({ v, p: p || {} })); };
-const pidFirst = (PR.find(p => brandById[p.b].n === '유니클로' && p.c === '상의') || PR[0]).id;
+const pidFirst = (PR.find(p => (brandById[p.b] || {}).n === '유니클로' && p.c === '상의') || PR[0]).id;
 const JUMPS = {
   pwChange: () => { ensureBody(); PW = { cur: '', n1: '', n2: '', err: '' }; st(['my'], ['pwChange']); },
   privacy: () => { ensureBody(); PV = { ok: false, pw: '', err: '' }; st(['my'], ['privacy']); },

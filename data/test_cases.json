@@ -1,0 +1,102 @@
+{
+ "note": "교안 9주차 테스트용. 본 데이터와 섞지 않는다. 앱 기본 화면은 로드하지 않음.",
+ "products": [
+  {
+   "product_id": "T0001",
+   "brand_id": "BR001",
+   "name": "[테스트] 사이즈표 없음 티셔츠",
+   "category": "상의",
+   "sub_category": "티셔츠",
+   "gender": "공용",
+   "fit_type": "레귤러",
+   "sleeve_type": "반소매",
+   "stretch": "약간",
+   "price": 19900,
+   "colors": [
+    "블랙"
+   ],
+   "sizes": [
+    "M"
+   ],
+   "size_chart": null,
+   "release_date": "2026-10-01",
+   "product_url": null,
+   "meta": {
+    "source": "generated",
+    "source_url": null,
+    "real": [],
+    "dummy": [
+     "all"
+    ],
+    "api": false,
+    "collected_at": "2026-11-16"
+   }
+  },
+  {
+   "product_id": "T0002",
+   "brand_id": "BR002",
+   "name": "[테스트] 이름이 아주아주 긴 상품 이름이 아주아주 긴 상품 이름이 아주아주 긴 상품 이름이 아주아주 긴 상품 이름이 아주아주 긴 상품 이름이 아주아주 긴 상품 ",
+   "category": "아우터",
+   "sub_category": "패딩",
+   "gender": "공용",
+   "fit_type": "오버",
+   "sleeve_type": "긴소매",
+   "stretch": "없음",
+   "price": 1990000,
+   "colors": [
+    "블랙"
+   ],
+   "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "size_chart": null,
+   "release_date": "2026-10-01",
+   "product_url": null,
+   "meta": {
+    "source": "generated",
+    "source_url": null,
+    "real": [],
+    "dummy": [
+     "all"
+    ],
+    "api": false,
+    "collected_at": "2026-11-16"
+   }
+  }
+ ],
+ "reviews": [],
+ "zero_result_filters": [
+  {
+   "desc": "원피스 + 남성",
+   "filter": {
+    "category": "원피스",
+    "gender": "남성"
+   }
+  },
+  {
+   "desc": "아우터 + 최대 가격 10,000원",
+   "filter": {
+    "category": "아우터",
+    "price_max": 10000
+   }
+  },
+  {
+   "desc": "존재하지 않는 검색어",
+   "filter": {
+    "q": "zzzzzz"
+   }
+  },
+  {
+   "desc": "키 148cm 이하 + 몸무게 105kg 이상 후기",
+   "filter": {
+    "review": {
+     "h": "<=148",
+     "w": ">=105"
+    }
+   }
+  }
+ ]
+}

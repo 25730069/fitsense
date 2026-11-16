@@ -1,0 +1,2697 @@
+[
+ {
+  "brand_id": "BR001",
+  "name_kr": "무신사 스탠다드",
+  "name_en": "MUSINSA STANDARD",
+  "site_url": "https://www.musinsa.com/brand/musinsastandard",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터",
+   "원피스"
+  ],
+  "styles": [
+   "캐주얼",
+   "미니멀",
+   "시티보이"
+  ],
+  "size_tendency": "정사이즈",
+  "price_tier": "저가",
+  "meta": {
+   "source": "official_site",
+   "source_url": "https://www.musinsa.com/brand/musinsastandard",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR002",
+  "name_kr": "유니클로",
+  "name_en": "UNIQLO",
+  "site_url": "https://www.uniqlo.com/kr",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터",
+   "원피스"
+  ],
+  "styles": [
+   "미니멀",
+   "캐주얼"
+  ],
+  "size_tendency": "정사이즈",
+  "price_tier": "저가",
+  "meta": {
+   "source": "official_site",
+   "source_url": "https://www.uniqlo.com/kr",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR003",
+  "name_kr": "자라",
+  "name_en": "ZARA",
+  "site_url": "https://www.zara.com/kr",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터",
+   "원피스"
+  ],
+  "styles": [
+   "시티",
+   "미니멀",
+   "리조트"
+  ],
+  "size_tendency": "작게 나옴",
+  "price_tier": "중가",
+  "meta": {
+   "source": "official_site",
+   "source_url": "https://www.zara.com/kr",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR004",
+  "name_kr": "H&M",
+  "name_en": "H&M",
+  "site_url": "https://www2.hm.com/ko_KR/index.html",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터"
+  ],
+  "styles": [
+   "캐주얼",
+   "스트릿",
+   "걸리시"
+  ],
+  "size_tendency": "정사이즈",
+  "price_tier": "저가",
+  "meta": {
+   "source": "official_site",
+   "source_url": "https://www2.hm.com/ko_KR/index.html",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR005",
+  "name_kr": "코스",
+  "name_en": "COS",
+  "site_url": "https://www.cosstores.com/kr",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터",
+   "원피스"
+  ],
+  "styles": [
+   "미니멀",
+   "시티",
+   "클래식"
+  ],
+  "size_tendency": "크게 나옴",
+  "price_tier": "고가",
+  "meta": {
+   "source": "official_site",
+   "source_url": "https://www.cosstores.com/kr",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR006",
+  "name_kr": "스파오",
+  "name_en": "SPAO",
+  "site_url": "https://www.spao.co.kr",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터",
+   "원피스"
+  ],
+  "styles": [
+   "캐주얼",
+   "걸리시",
+   "스포티"
+  ],
+  "size_tendency": "정사이즈",
+  "price_tier": "저가",
+  "meta": {
+   "source": "official_site",
+   "source_url": "https://www.spao.co.kr",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR007",
+  "name_kr": "탑텐",
+  "name_en": "TOPTEN10",
+  "site_url": "https://www.topten10.goodwearmall.com",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터",
+   "원피스"
+  ],
+  "styles": [
+   "캐주얼",
+   "클래식"
+  ],
+  "size_tendency": "크게 나옴",
+  "price_tier": "저가",
+  "meta": {
+   "source": "official_site",
+   "source_url": "https://www.topten10.goodwearmall.com",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR008",
+  "name_kr": "에잇세컨즈",
+  "name_en": "8SECONDS",
+  "site_url": "https://www.ssfshop.com/8seconds",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터",
+   "원피스"
+  ],
+  "styles": [
+   "시티",
+   "캐주얼",
+   "스트릿"
+  ],
+  "size_tendency": "정사이즈",
+  "price_tier": "저가",
+  "meta": {
+   "source": "official_site",
+   "source_url": "https://www.ssfshop.com/8seconds",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR009",
+  "name_kr": "지오다노",
+  "name_en": "GIORDANO",
+  "site_url": "https://www.giordano.co.kr",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터",
+   "원피스"
+  ],
+  "styles": [
+   "캐주얼",
+   "프레피"
+  ],
+  "size_tendency": "정사이즈",
+  "price_tier": "저가",
+  "meta": {
+   "source": "official_site",
+   "source_url": "https://www.giordano.co.kr",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR010",
+  "name_kr": "미쏘",
+  "name_en": "MIXXO",
+  "site_url": "https://www.mixxo.com",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터",
+   "원피스"
+  ],
+  "styles": [
+   "걸리시",
+   "로맨틱",
+   "시티"
+  ],
+  "size_tendency": "작게 나옴",
+  "price_tier": "중가",
+  "meta": {
+   "source": "official_site",
+   "source_url": "https://www.mixxo.com",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR011",
+  "name_kr": "망고",
+  "name_en": "MANGO",
+  "site_url": "https://shop.mango.com/kr",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터",
+   "원피스"
+  ],
+  "styles": [
+   "시티",
+   "로맨틱",
+   "리조트"
+  ],
+  "size_tendency": "작게 나옴",
+  "price_tier": "중가",
+  "meta": {
+   "source": "official_site",
+   "source_url": "https://shop.mango.com/kr",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR012",
+  "name_kr": "아디다스",
+  "name_en": "ADIDAS",
+  "site_url": "https://www.adidas.co.kr",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터"
+  ],
+  "styles": [
+   "스포티",
+   "스트릿",
+   "레트로"
+  ],
+  "size_tendency": "정사이즈",
+  "price_tier": "중가",
+  "meta": {
+   "source": "official_site",
+   "source_url": "https://www.adidas.co.kr",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR013",
+  "name_kr": "나이키",
+  "name_en": "NIKE",
+  "site_url": "https://www.nike.com/kr",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터"
+  ],
+  "styles": [
+   "스포티",
+   "스트릿"
+  ],
+  "size_tendency": "정사이즈",
+  "price_tier": "중가",
+  "meta": {
+   "source": "official_site",
+   "source_url": "https://www.nike.com/kr",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR014",
+  "name_kr": "뉴발란스",
+  "name_en": "NEW BALANCE",
+  "site_url": "https://www.nbkorea.com",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터"
+  ],
+  "styles": [
+   "스포티",
+   "레트로",
+   "캐주얼"
+  ],
+  "size_tendency": "크게 나옴",
+  "price_tier": "중가",
+  "meta": {
+   "source": "official_site",
+   "source_url": "https://www.nbkorea.com",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR015",
+  "name_kr": "푸마",
+  "name_en": "PUMA",
+  "site_url": "https://kr.puma.com",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의"
+  ],
+  "styles": [
+   "스포티",
+   "스트릿",
+   "레트로"
+  ],
+  "size_tendency": "작게 나옴",
+  "price_tier": "중가",
+  "meta": {
+   "source": "official_site",
+   "source_url": "https://kr.puma.com",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR016",
+  "name_kr": "휠라",
+  "name_en": "FILA",
+  "site_url": "https://www.fila.co.kr",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터"
+  ],
+  "styles": [
+   "스포티",
+   "레트로",
+   "걸리시"
+  ],
+  "size_tendency": "정사이즈",
+  "price_tier": "중가",
+  "meta": {
+   "source": "official_site",
+   "source_url": "https://www.fila.co.kr",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR017",
+  "name_kr": "노스페이스",
+  "name_en": "THE NORTH FACE",
+  "site_url": "https://www.thenorthfacekorea.co.kr",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터"
+  ],
+  "styles": [
+   "고프코어",
+   "스트릿",
+   "스포티"
+  ],
+  "size_tendency": "크게 나옴",
+  "price_tier": "고가",
+  "meta": {
+   "source": "official_site",
+   "source_url": "https://www.thenorthfacekorea.co.kr",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR018",
+  "name_kr": "리바이스",
+  "name_en": "LEVI'S",
+  "site_url": "https://www.levi.co.kr",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터"
+  ],
+  "styles": [
+   "캐주얼",
+   "레트로",
+   "워크웨어"
+  ],
+  "size_tendency": "정사이즈",
+  "price_tier": "중가",
+  "meta": {
+   "source": "official_site",
+   "source_url": "https://www.levi.co.kr",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR019",
+  "name_kr": "커버낫",
+  "name_en": "COVERNAT",
+  "site_url": "https://covernat.net",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터"
+  ],
+  "styles": [
+   "스트릿",
+   "캐주얼",
+   "워크웨어"
+  ],
+  "size_tendency": "크게 나옴",
+  "price_tier": "중가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://covernat.net",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR020",
+  "name_kr": "디스이즈네버댓",
+  "name_en": "thisisneverthat",
+  "site_url": "https://www.thisisneverthat.com",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터"
+  ],
+  "styles": [
+   "스트릿",
+   "캐주얼",
+   "시티보이"
+  ],
+  "size_tendency": "크게 나옴",
+  "price_tier": "중가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://www.thisisneverthat.com",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR021",
+  "name_kr": "마르디 메크르디",
+  "name_en": "MARDI MERCREDI",
+  "site_url": "https://www.mardimercredi.com",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터",
+   "원피스"
+  ],
+  "styles": [
+   "캐주얼",
+   "걸리시",
+   "미니멀"
+  ],
+  "size_tendency": "정사이즈",
+  "price_tier": "중가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://www.mardimercredi.com",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR022",
+  "name_kr": "아더에러",
+  "name_en": "ADER ERROR",
+  "site_url": "https://www.adererror.com",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터"
+  ],
+  "styles": [
+   "스트릿",
+   "시티보이"
+  ],
+  "size_tendency": "크게 나옴",
+  "price_tier": "고가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://www.adererror.com",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR023",
+  "name_kr": "앤더슨벨",
+  "name_en": "ANDERSON BELL",
+  "site_url": "https://www.andersonbell.com",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "하의",
+   "아우터"
+  ],
+  "styles": [
+   "워크웨어",
+   "에스닉",
+   "레트로"
+  ],
+  "size_tendency": "크게 나옴",
+  "price_tier": "고가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://www.andersonbell.com",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR024",
+  "name_kr": "인사일런스",
+  "name_en": "INSILENCE",
+  "site_url": "https://www.insilence.co.kr",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터"
+  ],
+  "styles": [
+   "스트릿",
+   "시티보이",
+   "캐주얼"
+  ],
+  "size_tendency": "크게 나옴",
+  "price_tier": "중가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://www.insilence.co.kr",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR025",
+  "name_kr": "로우클래식",
+  "name_en": "LOW CLASSIC",
+  "site_url": "https://www.lowclassic.com",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터",
+   "원피스"
+  ],
+  "styles": [
+   "미니멀",
+   "시티",
+   "클래식"
+  ],
+  "size_tendency": "정사이즈",
+  "price_tier": "고가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://www.lowclassic.com",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR026",
+  "name_kr": "마뗑킴",
+  "name_en": "MATIN KIM",
+  "site_url": "https://matinkim.com",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터",
+   "원피스"
+  ],
+  "styles": [
+   "걸리시",
+   "로맨틱",
+   "시티"
+  ],
+  "size_tendency": "작게 나옴",
+  "price_tier": "중가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://matinkim.com",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR027",
+  "name_kr": "아크메드라비",
+  "name_en": "ACME DE LA VIE",
+  "site_url": "https://www.acmedelavie.com",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터"
+  ],
+  "styles": [
+   "스트릿",
+   "캐주얼",
+   "걸리시"
+  ],
+  "size_tendency": "정사이즈",
+  "price_tier": "중가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://www.acmedelavie.com",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR028",
+  "name_kr": "칼하트 WIP",
+  "name_en": "CARHARTT WIP",
+  "site_url": "https://www.carhartt-wip.com",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터"
+  ],
+  "styles": [
+   "워크웨어",
+   "스트릿"
+  ],
+  "size_tendency": "크게 나옴",
+  "price_tier": "고가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://www.carhartt-wip.com",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR029",
+  "name_kr": "디키즈",
+  "name_en": "DICKIES",
+  "site_url": "https://www.dickies.com",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터"
+  ],
+  "styles": [
+   "워크웨어",
+   "캐주얼",
+   "스트릿"
+  ],
+  "size_tendency": "크게 나옴",
+  "price_tier": "중가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://www.dickies.com",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR030",
+  "name_kr": "파타고니아",
+  "name_en": "PATAGONIA",
+  "site_url": "https://www.patagonia.co.kr",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터"
+  ],
+  "styles": [
+   "고프코어",
+   "캐주얼"
+  ],
+  "size_tendency": "정사이즈",
+  "price_tier": "고가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://www.patagonia.co.kr",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR031",
+  "name_kr": "아크테릭스",
+  "name_en": "ARC'TERYX",
+  "site_url": "https://arcteryx.com/kr/ko",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터"
+  ],
+  "styles": [
+   "고프코어",
+   "시티보이",
+   "미니멀"
+  ],
+  "size_tendency": "정사이즈",
+  "price_tier": "프리미엄",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://arcteryx.com/kr/ko",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR032",
+  "name_kr": "라코스테",
+  "name_en": "LACOSTE",
+  "site_url": "https://www.lacoste.com/kr",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터",
+   "원피스"
+  ],
+  "styles": [
+   "프레피",
+   "클래식",
+   "스포티"
+  ],
+  "size_tendency": "정사이즈",
+  "price_tier": "고가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://www.lacoste.com/kr",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR033",
+  "name_kr": "폴로 랄프 로렌",
+  "name_en": "POLO RALPH LAUREN",
+  "site_url": "https://www.ralphlauren.co.kr",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터",
+   "원피스"
+  ],
+  "styles": [
+   "프레피",
+   "클래식"
+  ],
+  "size_tendency": "정사이즈",
+  "price_tier": "고가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://www.ralphlauren.co.kr",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR034",
+  "name_kr": "챔피온",
+  "name_en": "CHAMPION",
+  "site_url": "https://www.champion.com",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터"
+  ],
+  "styles": [
+   "스포티",
+   "스트릿",
+   "캐주얼"
+  ],
+  "size_tendency": "크게 나옴",
+  "price_tier": "중가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://www.champion.com",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR035",
+  "name_kr": "스톤아일랜드",
+  "name_en": "STONE ISLAND",
+  "site_url": "https://www.stoneisland.com",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터"
+  ],
+  "styles": [
+   "고프코어",
+   "시티보이",
+   "클래식"
+  ],
+  "size_tendency": "정사이즈",
+  "price_tier": "프리미엄",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://www.stoneisland.com",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR036",
+  "name_kr": "메종 키츠네",
+  "name_en": "MAISON KITSUNE",
+  "site_url": "https://maisonkitsune.com",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터",
+   "원피스"
+  ],
+  "styles": [
+   "프레피",
+   "시티",
+   "클래식"
+  ],
+  "size_tendency": "작게 나옴",
+  "price_tier": "고가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://maisonkitsune.com",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR037",
+  "name_kr": "아미",
+  "name_en": "AMI PARIS",
+  "site_url": "https://amiparis.com",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "원피스"
+  ],
+  "styles": [
+   "시티",
+   "미니멀",
+   "클래식"
+  ],
+  "size_tendency": "정사이즈",
+  "price_tier": "고가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://amiparis.com",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR038",
+  "name_kr": "디스커버리 익스페디션",
+  "name_en": "DISCOVERY EXPEDITION",
+  "site_url": "https://www.discovery-expedition.com",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터"
+  ],
+  "styles": [
+   "고프코어",
+   "캐주얼",
+   "스포티"
+  ],
+  "size_tendency": "크게 나옴",
+  "price_tier": "중가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://www.discovery-expedition.com",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR039",
+  "name_kr": "코오롱스포츠",
+  "name_en": "KOLON SPORT",
+  "site_url": "https://www.kolonsport.com",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터"
+  ],
+  "styles": [
+   "고프코어",
+   "클래식",
+   "스포티"
+  ],
+  "size_tendency": "정사이즈",
+  "price_tier": "고가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://www.kolonsport.com",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR040",
+  "name_kr": "블랙야크",
+  "name_en": "BLACKYAK",
+  "site_url": "https://www.byc.co.kr",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터"
+  ],
+  "styles": [
+   "고프코어",
+   "스포티"
+  ],
+  "size_tendency": "정사이즈",
+  "price_tier": "중가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://www.byc.co.kr",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR041",
+  "name_kr": "K2",
+  "name_en": "K2",
+  "site_url": "https://www.k2.co.kr",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터"
+  ],
+  "styles": [
+   "고프코어",
+   "스포티"
+  ],
+  "size_tendency": "정사이즈",
+  "price_tier": "중가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://www.k2.co.kr",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR042",
+  "name_kr": "살로몬",
+  "name_en": "SALOMON",
+  "site_url": "https://www.salomon.com/ko-kr",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터"
+  ],
+  "styles": [
+   "고프코어",
+   "스포티",
+   "시티보이"
+  ],
+  "size_tendency": "정사이즈",
+  "price_tier": "고가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://www.salomon.com/ko-kr",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR043",
+  "name_kr": "젝시믹스",
+  "name_en": "XEXYMIX",
+  "site_url": "https://www.xexymix.com",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터"
+  ],
+  "styles": [
+   "스포티",
+   "캐주얼"
+  ],
+  "size_tendency": "작게 나옴",
+  "price_tier": "중가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://www.xexymix.com",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR044",
+  "name_kr": "안다르",
+  "name_en": "ANDAR",
+  "site_url": "https://www.andar.co.kr",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터",
+   "원피스"
+  ],
+  "styles": [
+   "스포티",
+   "미니멀"
+  ],
+  "size_tendency": "작게 나옴",
+  "price_tier": "중가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://www.andar.co.kr",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR045",
+  "name_kr": "헤지스",
+  "name_en": "HAZZYS",
+  "site_url": "https://www.hazzys.com",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터",
+   "원피스"
+  ],
+  "styles": [
+   "프레피",
+   "클래식"
+  ],
+  "size_tendency": "정사이즈",
+  "price_tier": "고가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://www.hazzys.com",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR046",
+  "name_kr": "빈폴",
+  "name_en": "BEANPOLE",
+  "site_url": "https://www.beanpole.com",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "하의",
+   "아우터",
+   "원피스"
+  ],
+  "styles": [
+   "프레피",
+   "클래식",
+   "캐주얼"
+  ],
+  "size_tendency": "정사이즈",
+  "price_tier": "고가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://www.beanpole.com",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR047",
+  "name_kr": "타미힐피거",
+  "name_en": "TOMMY HILFIGER",
+  "site_url": "https://kr.tommy.com",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터",
+   "원피스"
+  ],
+  "styles": [
+   "프레피",
+   "클래식",
+   "스포티"
+  ],
+  "size_tendency": "정사이즈",
+  "price_tier": "고가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://kr.tommy.com",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR048",
+  "name_kr": "게스",
+  "name_en": "GUESS",
+  "site_url": "https://www.guess.com",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "원피스"
+  ],
+  "styles": [
+   "레트로",
+   "걸리시",
+   "스트릿"
+  ],
+  "size_tendency": "작게 나옴",
+  "price_tier": "고가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://www.guess.com",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR049",
+  "name_kr": "리",
+  "name_en": "LEE",
+  "site_url": "https://www.lee.com",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터"
+  ],
+  "styles": [
+   "캐주얼",
+   "레트로",
+   "워크웨어"
+  ],
+  "size_tendency": "정사이즈",
+  "price_tier": "중가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://www.lee.com",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR050",
+  "name_kr": "폴햄",
+  "name_en": "PAUL HAM",
+  "site_url": "https://www.paulham.co.kr",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터",
+   "원피스"
+  ],
+  "styles": [
+   "캐주얼",
+   "걸리시",
+   "프레피"
+  ],
+  "size_tendency": "정사이즈",
+  "price_tier": "저가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://www.paulham.co.kr",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR051",
+  "name_kr": "MLB",
+  "name_en": "MLB",
+  "site_url": "https://www.mlb-korea.com",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터",
+   "원피스"
+  ],
+  "styles": [
+   "스트릿",
+   "스포티",
+   "레트로"
+  ],
+  "size_tendency": "크게 나옴",
+  "price_tier": "중가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://www.mlb-korea.com",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR052",
+  "name_kr": "타임",
+  "name_en": "TIME",
+  "site_url": "https://www.thehandsome.com",
+  "size_guide_url": null,
+  "genders": [
+   "여성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "원피스"
+  ],
+  "styles": [
+   "클래식",
+   "시티",
+   "미니멀"
+  ],
+  "size_tendency": "정사이즈",
+  "price_tier": "프리미엄",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://www.thehandsome.com",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR053",
+  "name_kr": "예스아이씨",
+  "name_en": "YESEYESEE",
+  "site_url": "https://www.yeseyesee.com",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터",
+   "원피스"
+  ],
+  "styles": [
+   "걸리시",
+   "로맨틱",
+   "리조트"
+  ],
+  "size_tendency": "작게 나옴",
+  "price_tier": "중가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://www.yeseyesee.com",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR054",
+  "name_kr": "유니폼브릿지",
+  "name_en": "UNIFORM BRIDGE",
+  "site_url": "https://uniformbridge.com",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터",
+   "원피스"
+  ],
+  "styles": [
+   "미니멀",
+   "캐주얼",
+   "시티보이"
+  ],
+  "size_tendency": "정사이즈",
+  "price_tier": "중가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://uniformbridge.com",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR055",
+  "name_kr": "캘빈클라인",
+  "name_en": "CALVIN KLEIN",
+  "site_url": "https://www.calvinklein.co.kr",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터",
+   "원피스"
+  ],
+  "styles": [
+   "미니멀",
+   "시티"
+  ],
+  "size_tendency": "정사이즈",
+  "price_tier": "고가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://www.calvinklein.co.kr",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR056",
+  "name_kr": "스투시",
+  "name_en": "STUSSY",
+  "site_url": "https://www.stussy.com",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터"
+  ],
+  "styles": [
+   "스트릿",
+   "레트로",
+   "캐주얼"
+  ],
+  "size_tendency": "크게 나옴",
+  "price_tier": "중가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://www.stussy.com",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR057",
+  "name_kr": "오베이",
+  "name_en": "OBEY",
+  "site_url": "https://obeyclothing.com",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터"
+  ],
+  "styles": [
+   "스트릿",
+   "레트로"
+  ],
+  "size_tendency": "크게 나옴",
+  "price_tier": "중가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://obeyclothing.com",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR058",
+  "name_kr": "바버",
+  "name_en": "BARBOUR",
+  "site_url": "https://www.barbour.com",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터"
+  ],
+  "styles": [
+   "클래식",
+   "워크웨어",
+   "프레피"
+  ],
+  "size_tendency": "정사이즈",
+  "price_tier": "프리미엄",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://www.barbour.com",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR059",
+  "name_kr": "콜롬비아",
+  "name_en": "COLUMBIA",
+  "site_url": "https://www.columbiakorea.co.kr",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터"
+  ],
+  "styles": [
+   "고프코어",
+   "캐주얼"
+  ],
+  "size_tendency": "크게 나옴",
+  "price_tier": "중가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://www.columbiakorea.co.kr",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR060",
+  "name_kr": "데상트",
+  "name_en": "DESCENTE",
+  "site_url": "https://www.descentekorea.co.kr",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "아우터",
+   "원피스"
+  ],
+  "styles": [
+   "스포티",
+   "고프코어",
+   "클래식"
+  ],
+  "size_tendency": "정사이즈",
+  "price_tier": "중가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://www.descentekorea.co.kr",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR061",
+  "name_kr": "르꼬끄 스포르티브",
+  "name_en": "LE COQ SPORTIF",
+  "site_url": "https://www.lecoqsportif.com",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터"
+  ],
+  "styles": [
+   "스포티",
+   "레트로",
+   "프레피"
+  ],
+  "size_tendency": "정사이즈",
+  "price_tier": "중가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://www.lecoqsportif.com",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR062",
+  "name_kr": "스노우피크 어패럴",
+  "name_en": "SNOW PEAK APPAREL",
+  "site_url": "https://www.snowpeak.co.kr",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터"
+  ],
+  "styles": [
+   "고프코어",
+   "워크웨어",
+   "에스닉"
+  ],
+  "size_tendency": "크게 나옴",
+  "price_tier": "고가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://www.snowpeak.co.kr",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR063",
+  "name_kr": "무인양품",
+  "name_en": "MUJI",
+  "site_url": "https://www.muji.com/kr",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터",
+   "원피스"
+  ],
+  "styles": [
+   "미니멀",
+   "캐주얼",
+   "리조트"
+  ],
+  "size_tendency": "정사이즈",
+  "price_tier": "저가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://www.muji.com/kr",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ },
+ {
+  "brand_id": "BR064",
+  "name_kr": "앤아더스토리즈",
+  "name_en": "& OTHER STORIES",
+  "site_url": "https://www.stories.com",
+  "size_guide_url": null,
+  "genders": [
+   "여성",
+   "남성"
+  ],
+  "categories": [
+   "상의",
+   "하의",
+   "아우터",
+   "원피스"
+  ],
+  "styles": [
+   "로맨틱",
+   "에스닉",
+   "리조트"
+  ],
+  "size_tendency": "정사이즈",
+  "price_tier": "고가",
+  "meta": {
+   "source": "manual",
+   "source_url": "https://www.stories.com",
+   "real": [
+    "name_kr",
+    "name_en",
+    "site_url"
+   ],
+   "dummy": [
+    "styles",
+    "size_tendency",
+    "price_tier",
+    "genders",
+    "categories"
+   ],
+   "site_verified": false,
+   "api": false,
+   "collected_at": "2026-11-16"
+  }
+ }
+]

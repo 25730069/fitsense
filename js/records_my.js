@@ -192,7 +192,7 @@ const toISO = d => d.replace(/\./g, '-');
 const sizeOfItem = x => x.t === 'a' ? (x.r.fb ? x.r.fb.size : x.r.rec) : x.c.size;
 const nameOfItem = x => x.t === 'a' ? (x.r.productName || x.r.brandName) : (x.c.name || '');
 const brandOfItem = x => x.t === 'a' ? x.r.brandName : (x.c.brand || '');
-function allRecordItems() { return [...S.records.map(r => ({ t: 'a', r, d: r.date })), ...S.closet.map(c => ({ t: 'c', c, d: c.date }))]; }
+function allRecordItems() { return [...S.records.filter(r => !r.moved).map(r => ({ t: 'a', r, d: r.date })), ...S.closet.map(c => ({ t: 'c', c, d: c.date }))]; }
 const needFb = x => x.t === 'a' && !x.r.fb;
 function inPeriod(d, per) {
   if (per === '전체') return true;
@@ -236,7 +236,7 @@ function recordListHTML() {
     return emptyHTML('', emptyBtn('rfClear', '필터 초기화'));
   }
   const v = S.rview, groups = []; items.forEach(x => { const m = x.d.slice(0, 4) + '년 ' + (+x.d.slice(5, 7)) + '월'; if (!groups.length || groups.at(-1)[0] !== m) groups.push([m, []]); groups.at(-1)[1].push(x); });
-  return groups.map(([m, xs]) => sub(m) + (v === 'list' ? xs.map(recordRow).join('') : `<div class="pgrid v${v}" style="padding-top:10px">${xs.map(x => recordCard(x, v)).join('')}</div>`)).join('');
+  return groups.map(([m, xs]) => sub(m) + (v === 'list' ? xs.map(recordRow).join('') : `<div class="pgrid rec v${v}" style="padding-top:10px">${xs.map(x => recordCard(x, v)).join('')}</div>`)).join('');
 }
 V.records = () => {
   const nf = allRecordItems().filter(needFb).length, n = recordItems().length, rc = rfCount();
@@ -244,7 +244,7 @@ V.records = () => {
   <div class="tabs t0" id="rtabs">${RK_TABS.map(k => `<button class="${RK === k ? 'on' : ''}" data-a="rkTab" data-v="${k}">${k}</button>`).join('')}</div>
   <div class="row" style="padding:10px 16px 0;gap:8px"><div class="search grow"><input id="rq" class="inp" data-i="rq" value="${esc(RQ)}" placeholder="상품명·브랜드 검색" autocomplete="off">${ico('search')}</div><button class="btn flat fbtn" data-a="rfOpen" aria-label="필터">${ico('filter')}${rc ? `<span class="badge" style="position:absolute;right:-4px;top:-4px;background:var(--tight);color:#fff">${rc}</span>` : ''}</button></div>
   <div style="padding:10px 0 0"><div class="chips scroll" style="padding:0 16px">${chipsHTML(['전체', ...CATS], RC, 'rcCat')}</div></div>
-  <div class="row between" style="padding:10px 16px 2px"><span class="sm mute" id="rcnt">${n}개</span><span class="row" style="gap:10px"><span class="viewtg" role="group" aria-label="보기 방식">${[['3', '▦', '3열'], ['2', '▥', '2열'], ['list', '☰', '리스트']].map(([k, g, l]) => `<button class="${S.rview === k ? 'on' : ''}" data-a="rView" data-v="${k}" aria-label="${l}">${g}</button>`).join('')}</span><button class="sorttg" data-a="rSort" aria-label="정렬 바꾸기">${RSORT === 'new' ? '최신순' : '오래된순'} ⇅</button></span></div>
+  <div class="row between" style="padding:10px 16px 2px"><span class="sm mute" id="rcnt">${n}개</span><span class="row" style="gap:10px"><span class="viewtg" role="group" aria-label="보기 방식">${[['4', '4', '4열'], ['3', '3', '3열'], ['list', '☰', '리스트']].map(([k, g, l]) => `<button class="${S.rview === k ? 'on' : ''}" data-a="rView" data-v="${k}" aria-label="${l}">${g}</button>`).join('')}</span><button class="sorttg" data-a="rSort" aria-label="정렬 바꾸기">${RSORT === 'new' ? '최신순' : '오래된순'} ⇅</button></span></div>
   <div id="rlist">${recordListHTML()}</div>
   <button class="btn pri fab round" data-a="closetNew" aria-label="내 옷장에 추가">+</button>`;
 };
@@ -349,7 +349,7 @@ const autoMemoSync = () => { if (!FB.memoEdited) FB.memo = autoMemo(); };
 ACT.fbMemoReset = () => { FB.memoEdited = false; FB.memo = autoMemo(); reRender(); };
 ACT.fbOpen = t => { const A = S.records.find(r => r.id === t.dataset.v); AC_RESET(); FB = A.fb ? { ...newFB(A.cat), ...migrateFB({ kw: [], ...JSON.parse(JSON.stringify(A.fb)) }), memoEdited: !!A.fb.memo } : { ...newFB(A.cat), size: A.rec }; FB.productId = A.productId || null; go('feedback', { rid: A.id }); };
 V.feedback = p => { const A = S.records.find(r => r.id === p.rid); return `${topbar('착용 피드백', { left: 'close' })}<div class="pad"><div class="card fill row" style="padding:12px 14px;gap:10px"><div class="grow"><b class="sm ellip" style="display:block">${esc(A.productName || A.brandName)}</b><span class="xs mute">추천 ${A.rec} · ${A.date}</span></div></div><div class="mt16">${fitFormHTML(CLOSET_PARTS[A.cat])}</div></div><div class="dock"><button class="btn pri full" data-a="fbSave" data-v="${A.id}">저장</button></div>`; };
-ACT.fbSave = t => { const A = S.records.find(r => r.id === t.dataset.v); A.fb = { color: FB.color === '기타' ? (FB.colorFree || '기타') : FB.color, rating: FB.rating || 0, size: FB.size, overall: FB.overall, parts: FB.parts, kw: FB.kw, memo: FB.memo, photos: FB.photos, date: today() }; save(); toast('피드백을 저장했어요'); back(); };
+ACT.fbSave = t => { const A = S.records.find(r => r.id === t.dataset.v); const first = !A.moved; A.fb = { color: FB.color === '기타' ? (FB.colorFree || '기타') : FB.color, rating: FB.rating || 0, size: FB.size, overall: FB.overall, parts: FB.parts, kw: FB.kw, memo: FB.memo, photos: FB.photos, date: today() }; moveToCloset(A); save(); toast(first ? '피드백을 저장했어요 · 내 옷장으로 옮겨졌어요' : '피드백을 수정했어요'); back(); };
 
 /* ---------- 직접 추가한 옷 ---------- */
 ACT.closetNew = () => { AC_RESET(); FB = newFB(); FB.reqColor = true; go('closetAdd', {}); };
@@ -449,6 +449,17 @@ ACT.lkTab = t => { stack.at(-1).p.tab = t.dataset.v; reRender(); };
 V.recent = () => `${topbar('최근 본 상품', { right: S.recent.length ? '<button class="link" data-a="recentClear" style="padding-right:12px">비우기</button>' : '' })}${S.recent.length ? `<div class="list">${S.recent.map(id => prodById[id]).filter(Boolean).map(pr => `<button class="li" data-a="openProduct" data-v="${pr.id}"><span class="ph" style="width:52px;height:64px;flex:none"><span>이미지</span></span><span class="grow" style="min-width:0"><span class="xs mute">${esc(brandById[pr.b].n)}</span><b class="sm" style="display:block">${esc(pr.n)}</b><span class="sm num">${won(pr.pr)}</span></span></button>`).join('')}</div>` : `<div class="empty">최근 본 상품이 없어요</div>`}`;
 ACT.recentClear = () => { S.recent = []; save(); reRender(); };
 
+/* 착용 피드백을 남긴 분석 기록은 내 옷장으로 옮긴다(분석 상세에서는 계속 볼 수 있고, 기록 목록에는 내 옷장 항목으로만 보여요) */
+function moveToCloset(A) {
+  if (!A || !A.fb) return;
+  const f = A.fb, ph = (f.photos || []).map(p => ({ ...p })), p = A.productId ? prodById[A.productId] : null;
+  const item = { ...newFB(A.cat), brandId: A.brandId || null, brand: A.brandName || '', name: A.productName || '', productId: A.productId || null, color: f.color || '', rating: f.rating || 0,
+    pub: !!(A.productId && (S.closet.find(c => c.fromRecord === A.id) || { pub: true }).pub), size: f.size || A.rec, overall: f.overall || '정핏', parts: { ...(f.parts || {}) }, kw: [...(f.kw || [])], memo: f.memo || '',
+    photos: ph, link: A.link || '', id: 'C-' + A.id, date: A.date || today(), fromRecord: A.id, sample: !!A.sample };
+  const i = S.closet.findIndex(c => c.fromRecord === A.id);
+  if (i >= 0) S.closet[i] = { ...S.closet[i], ...item, id: S.closet[i].id }; else S.closet.unshift(item);
+  A.moved = true;
+}
 /* ---------- 예시 기록(더미) ---------- */
 function seedRecords() {
   if (S.seeded || !S.body) return;
@@ -574,4 +585,4 @@ document.addEventListener('keydown', e => { if ((e.key === 'Enter' || e.key === 
 // 예전 버전에서 저장된 전신 사진이 보관함에 없으면 채워 둔다
 if (S.bodyPhoto && !S.photos.some(p => p.src === S.bodyPhoto)) { const id = addPhoto('전신', S.bodyPhoto); S.bodyPhotoId = id; save(); }
 const showLoadError = () => { const v = document.getElementById('view'); if (v) v.innerHTML = '<div class="pad" style="text-align:center;padding-top:96px"><h1 class="big">데이터를 불러오지 못했어요</h1><p class="sub">네트워크를 확인하고 다시 시도해 주세요.</p><button class="btn pri" onclick="location.reload()">다시 시도</button></div>'; };
-try { if (S.body) seedRecords(); render(); } catch (e) { console.error(e); showLoadError(); }
+try { if (S.body) seedRecords(); S.records.forEach(r => { if (r.fb && !r.moved) moveToCloset(r); }); render(); } catch (e) { console.error(e); showLoadError(); }

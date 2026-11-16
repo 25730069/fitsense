@@ -59,10 +59,10 @@ function similarBrandPct(bid, body) {
 
 /* ---------- 상태 + 저장 ---------- */
 const KEY = 'fitsense_wf_v5';
-const freshS = () => ({ rview: '2', nset: {}, notifs: null, pview: '3', inquiries: [], account: null, loggedIn: false, photos: [], bodyPhotoId: null, replies: {}, hiddenReplies: [], tutorialHide: false, bodyPhoto: null, body: null, bodyHistory: [], profile: { nick: '핏센스 유저', uid: 'fit_user01', styles: [], stylePub: true, img: null, gender: '여성', bio: '', showBody: true }, records: [], closet: [], likes: { brand: [], product: [], review: [] }, helpful: {}, recent: [], seeded: false });
+const freshS = () => ({ rview: '3', nset: {}, notifs: null, pview: '3', inquiries: [], account: null, loggedIn: false, photos: [], bodyPhotoId: null, replies: {}, hiddenReplies: [], tutorialHide: false, bodyPhoto: null, body: null, bodyHistory: [], profile: { nick: '핏센스 유저', uid: 'fit_user01', styles: [], stylePub: true, img: null, gender: '여성', bio: '', showBody: true }, records: [], closet: [], likes: { brand: [], product: [], review: [] }, helpful: {}, recent: [], seeded: false });
 let S = freshS();
 try { const raw = localStorage.getItem(KEY); if (raw) S = Object.assign(freshS(), JSON.parse(raw)); } catch (e) { }
-S.profile = Object.assign(freshS().profile, S.profile); S.nset = S.nset || {};
+S.profile = Object.assign(freshS().profile, S.profile); S.nset = S.nset || {}; if (!['4', '3', 'list'].includes(S.rview)) S.rview = '3';
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) { } };
 
 /* ---------- 업로드 사진 보관함(전신·사이즈표·착용샷). 사진마다 따로 지울 수 있다 ---------- */
@@ -118,10 +118,16 @@ function recommend(cat, chart, bv, pref, pers = {}) {
   sc.sort((a, b) => a.score - b.score);
   return { best: sc[0].s, all: Object.fromEntries(sc.map(x => [x.s, x.score])), gap: sc[1] ? sc[1].score - sc[0].score : 9 };
 }
+/* 상품이 의도한 핏(슬림/오버)을 목표 여유분에 반영: 오버핏 상품은 일부러 크게 입는 옷이라 한 치수 작은 걸 권하지 않도록 */
+const FIT_K = { 슬림: -1, 레귤러: 0, 오버: 1.6 };
+function fitShift(prod, base) {
+  const o = { ...(base || {}) }, k = prod && prod.fit ? (FIT_K[prod.fit] || 0) : 0; if (!k) return o;
+  Object.keys(PREF_SCALE).forEach(p => { o[p] = (o[p] || 0) + k * (PREF_SCALE[p] || 2); }); return o;
+}
 function quickRec(prod) {
   if (!prod?.ch || !S.body) return null;
   const cat = prod.c, bv = bodyVals(S.body), pref = S.body.pref || '기본 핏';
-  try { return recommend(cat, prod.ch, bv, pref, persInfo().shift).best; } catch (e) { return null; }
+  try { return recommend(cat, prod.ch, bv, pref, fitShift(prod, persInfo().shift)).best; } catch (e) { return null; }
 }
 function buildAnalysis(d) {
   // d: 측정 초안. 우선순위 = 직접 입력 > 불러온 상품 > AI 샘플
@@ -138,11 +144,11 @@ function buildAnalysis(d) {
   else if (Object.keys(typed).length >= 2) { given = { [d.size]: typed }; source = 'manual'; }
   else { given = { M: SAMPLE_M[cat] }; source = 'sample'; }
   const { chart, ex } = fullChart(cat, given);
-  const bv = bodyVals(S.body), pref = S.body?.pref || '기본 핏', pi = persInfo(), rec = recommend(cat, chart, bv, pref, pi.shift);
+  const bv = bodyVals(S.body), pref = S.body?.pref || '기본 핏', pi = persInfo(), rec = recommend(cat, chart, bv, pref, fitShift(prod, pi.shift));
   return {
     id: 'A' + Date.now(), date: today(), cat, brandId: d.brandId, brandName: d.brandId ? brandById[d.brandId].n : (d.brandText || '직접 입력'),
     productId: d.productId || null, productName: prod ? prod.n : (d.name || ''), photoType: '사이즈표', link: d.link || '', hasPhoto: !!d.photo, source, chart, ex,
-    sel: rec.best, rec: rec.best, gap: rec.gap, body: { ...S.body }, pref, pers: pi, corrected: false, fb: null
+    sel: rec.best, rec: rec.best, gap: rec.gap, body: { ...S.body }, pref, pers: { ...pi, shift: fitShift(prod, pi.shift) }, corrected: false, fb: null
   };
 }
 function analysisView(A) { // 선택한 사이즈 기준 평가 + 추천 재계산
@@ -272,7 +278,7 @@ const ico = (n, cls = '') => `<svg class="${cls}" viewBox="0 0 24 24">${IC[n]}</
    피드백(분석 기록 피드백 + 직접 추가한 옷)에서 부위별 "타이트"가 많으면 그 부위의 선호 여유를 늘리고, "여유"가 많으면 줄인다.
    전체 핏이 작음/여유면 가슴·허리·힙에 절반 가중치로 반영. 보정폭은 부위 허용오차(TOL)의 최대 ±1배. */
 function persInfo() {
-  const items = [...S.records.filter(r => r.fb).map(r => r.fb), ...S.closet];
+  const items = [...S.records.filter(r => r.fb && !r.moved).map(r => r.fb), ...S.closet];
   const t = {}, l = {}, kwc = {};
   items.forEach(f => {
     Object.entries(f.parts || {}).forEach(([k, v]) => { if (v === '타이트') t[k] = (t[k] || 0) + 1; if (v === '여유') l[k] = (l[k] || 0) + 1; });
@@ -347,7 +353,7 @@ function kwOf(r) {
 /* ---------- 상품 점수: 내 핏 · 비슷한 체형 만족도 · 관심 속성 ---------- */
 function fitScore(p, shift) {
   if (!S.body || !p.ch) return null;
-  try { const r = recommend(p.c, p.ch, bodyVals(S.body), S.body.pref || '기본 핏', shift || {}); return r.all[r.best]; } catch (e) { return null; }
+  try { const r = recommend(p.c, p.ch, bodyVals(S.body), S.body.pref || '기본 핏', fitShift(p, shift)); return r.all[r.best]; } catch (e) { return null; }
 }
 function simStat(pid, tH = 8, tW = 10) {
   const b = S.body; if (!b) return null;
@@ -385,17 +391,23 @@ function affinityTags(A) {
   return A.n ? t : [];
 }
 /* 홈 맞춤 상품: 나와 가장 비슷한 체형의 유저(키·몸무게·선호 핏 거리)가 잘 맞게 입은 상품. 내 관심 속성이 겹치면 가산 */
+/* 내 성별(프로필)에 맞는 상품: 여성→여성·공용, 남성→남성·공용 */
+const genderOk = p => { const g = S.profile && S.profile.gender; return !g || !p.g || p.g === '공용' || p.g === g || !['여성', '남성'].includes(g); };
+/* 선택한 스타일과 상품 브랜드 스타일이 얼마나 겹치는지 0~1 */
+const styleMatch = p => { const my = (S.profile && S.profile.styles) || [], b = brandById[p.b]; return my.length && b ? b.st.filter(s => my.includes(s)).length / my.length : 0; };
 function personalProducts(n = 8) {
   const b = S.body; if (!b) return [];
+  const my = (S.profile && S.profile.styles) || [];
   const sims = Object.entries(DB.U).map(([id, u]) => ({ id, d: Math.abs(u[0] - b.h) / 6 + Math.abs(u[1] - b.w) / 7 + (u[2] === b.pref ? 0 : .4) })).filter(x => x.d <= 2.4);
   const A = styleAffinity(), agg = {};
   sims.forEach(({ id, d }) => (revByUser[id] || []).forEach(r => {
     if (!(r.op === '정사이즈' || r.rt >= 4)) return;
+    if (!genderOk(prodById[r.p] || {})) return;
     const a = (agg[r.p] ||= { score: 0, users: new Set(), sizes: {}, ok: 0 });
     a.score += (1 / (1 + d)) * (r.op === '정사이즈' ? 1 : .6) + (r.rt >= 5 ? .1 : 0); a.users.add(id); if (r.op === '정사이즈') a.ok++;
     const sz = r.op === '정사이즈' ? r.sz : r.fs; a.sizes[sz] = (a.sizes[sz] || 0) + 1;
   }));
-  return Object.entries(agg).map(([pid, a]) => { const p = prodById[pid]; return p && { p, users: a.users.size, ok: a.ok, size: topOf(a.sizes)[0][0], score: a.score * (1 + affinityScore(p, A)) }; }).filter(Boolean).sort((x, y) => y.score - x.score || x.p.id.localeCompare(y.p.id)).slice(0, n);
+  return Object.entries(agg).map(([pid, a]) => { const p = prodById[pid], sm = styleMatch(p); return p && { p, users: a.users.size, ok: a.ok, size: topOf(a.sizes)[0][0], sm, score: a.score * (1 + affinityScore(p, A)) * (my.length ? .35 + 2.2 * sm : 1) }; }).filter(Boolean).sort((x, y) => y.score - x.score || x.p.id.localeCompare(y.p.id)).slice(0, n);
 }
 
 /* ---------- 가로 스크롤 + 넘김(>) 버튼 ---------- */

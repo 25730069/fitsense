@@ -11,7 +11,7 @@
 <div class="stage">
   <div class="phone" id="phone">
     <header class="appbar" id="appbar"><button class="brandmark" data-a="goHome" aria-label="핏센스 홈"><span class="logo">FS</span><b>핏센스</b></button><span class="abr"><button class="ib heart" id="ab-likes" data-a="goLikes" aria-label="찜"><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.6-9-9.2C1.8 7 4 4 7 4c2 0 3.5 1 5 3 1.5-2 3-3 5-3 3 0 5.2 3 4 6.8C19 15.4 12 20 12 20z"/></svg></button><button class="ib" id="ab-notif" data-a="goNotifs" aria-label="알림"><svg viewBox="0 0 24 24"><path d="M6 17v-6a6 6 0 0 1 12 0v6l1.5 2h-15z"/><path d="M10 21h4"/></svg><i class="ndot" id="nfdot" hidden></i></button></span></header>
-    <main class="view" id="view"></main>
+    <main class="view" id="view"><div class="boot-msg" style="padding:96px 20px;text-align:center;color:#8a8f98;font-size:14px">불러오는 중…<noscript><br>이 페이지는 JavaScript가 필요해요. 브라우저에서 JavaScript를 켜 주세요.</noscript></div></main>
     <nav class="nav" id="nav" aria-label="하단 메뉴">
       <button data-tab="home" class="on"><svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg>홈</button>
       <button data-tab="brand"><svg viewBox="0 0 24 24"><path d="M20.6 13.4l-7.2 7.2a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8z"/><circle cx="7.5" cy="7.5" r="1.2"/></svg>브랜드</button>
@@ -21,15 +21,15 @@
     </nav>
   </div>
 </div>
-<script src="js/data.js"></script>
-<script src="js/check.js"></script>
+<script src="js/data.js?v=20261116112648"></script>
+<script src="js/check.js?v=20261116112648"></script>
 <script>
 (async () => {
   try {
     const raw = await fetchRaw();
     checkData(raw);
     window.DB = mapDB(raw);
-    for (const f of ["js/core.js", "js/home_measure.js", "js/browse.js", "js/records_my.js"]) await new Promise((ok, ko) => { const s = document.createElement('script'); s.src = f; s.onload = ok; s.onerror = () => ko(new Error(f + ' 로드 실패')); document.body.appendChild(s); });
+    for (const f of ["js/core.js", "js/home_measure.js", "js/browse.js", "js/records_my.js"]) await new Promise((ok, ko) => { const s = document.createElement('script'); s.src = f + '?v=' + DATA_VER; s.onload = ok; s.onerror = () => ko(new Error(f + ' 로드 실패')); document.body.appendChild(s); });
   } catch (e) {
     console.error(e);
     document.getElementById('view').innerHTML = '<div class="pad" style="text-align:center;padding-top:96px"><h1 class="big">데이터를 불러오지 못했어요</h1><p class="sm mute" style="margin-top:8px">GitHub Pages 주소로 열거나, 로컬에서는 <code>python -m http.server 8000</code> 으로 실행해 주세요.<br>(index.html을 더블클릭하면 브라우저가 JSON 읽기를 막아요)</p></div>';

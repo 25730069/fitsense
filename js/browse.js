@@ -8,7 +8,7 @@ ACT.like = t => {
 ACT.back = () => back();
 ACT.openBrand = t => { DF = { id: t.dataset.v, cat: '전체', q: '', sort: null, tab: 'prod' }; go('brandDetail', { id: t.dataset.v }); };
 ACT.openProduct = t => { openProduct(t.dataset.v); };
-const newLF = (sort = 'helpful') => ({ sort, sizes: [], h: null, w: null, op: null, similar: false, kw: [] });
+const newLF = (sort = 'helpful') => ({ sort, sizes: [], h: [], w: [], op: null, similar: false, kw: [] });
 function openProduct(id, tabName = 'info') {
   S.recent = [id, ...S.recent.filter(x => x !== id)].slice(0, 12); save();
   LF = newLF(); go('product', { id, tab: tabName });
@@ -51,8 +51,9 @@ function brandCatHTML() {
   if (!total) return emptyHTML(`${BF.g} 상품은 아직 없어요`, emptyBtn('askOpen', '상품 추가 요청하기', 'data-v="상품"'), '40px 16px');
   return `<div class="catwrap"><nav class="rail" aria-label="카테고리">${['전체', ...cs].map(c => `<button class="${rail === c ? 'on' : ''}" data-a="railGo" data-v="${c}">${c}</button>`).join('')}</nav><div class="catmain">${all ? `<button class="btn full flat s" ${plAttr({ g: BF.g === '전체' ? null : BF.g })} style="margin-bottom:6px">전체 상품 보기 ›</button>` : ''}${list.map(catSection).join('')}</div></div>`;
 }
+const gCnt = id => PR.filter(p => p.b === id && gOk(p.g)).length;   // 선택한 성별(공용 포함)의 상품 수 — 4개 미만인 브랜드는 그 성별 탭에서 숨겨요
 const brandItems = () => {
-  let items = BR.filter(x => (BF.g === '전체' || x.g.includes(BF.g)) && (!BF.liked || S.likes.brand.includes(String(x.id))) && (!BF.letter || initOf(x.n) === BF.letter));
+  let items = BR.filter(x => (BF.g === '전체' || gCnt(x.id) >= 4) && (!BF.liked || S.likes.brand.includes(String(x.id))) && (!BF.letter || initOf(x.n) === BF.letter));
   return BF.sort === 'abc' ? items.sort((x, y) => x.n.localeCompare(y.n, 'ko')) : items.sort((x, y) => brandStat(y.id).rv - brandStat(x.id).rv || x.n.localeCompare(y.n, 'ko'));
 };
 function brandListHTML() {
@@ -62,7 +63,7 @@ function brandListHTML() {
   items.forEach(x => {
     const ini = initOf(x.n), st = brandStat(x.id), sim = similarBrandPct(x.id, S.body), tn = brandTend(x.id);
     if (BF.sort === 'abc' && ini !== last) { rows += `<div class="ihead">${ini}</div>`; last = ini; }
-    rows += `<div class="brand-row" style="padding:12px 8px 12px 16px;border-bottom:1px solid var(--line)"><button class="row grow" style="background:none;border:0;text-align:left;padding:0;gap:12px;min-width:0" data-a="openBrand" data-v="${x.id}"><span class="logo im">이미지</span><span class="grow" style="min-width:0"><b>${esc(x.n)}</b> <span class="xs mute">${esc(x.en)}</span><span class="row" style="gap:6px;margin-top:4px;flex-wrap:wrap">${st.rv ? `<span class="pill ok">${sim ? '체형 일치' : '정사이즈'} ${sim ? sim.pct : st.pct}%</span>` : `<span class="pill gray">${NO_INFO}</span>`}<span class="pill ${tn.cls}">${tn.label}</span></span></span></button>${heartBtn('brand', String(x.id), 'ib heart')}</div>`;
+    rows += `<div class="brand-row" style="padding:12px 8px 12px 16px;border-bottom:1px solid var(--line)"><button class="row grow" style="background:none;border:0;text-align:left;padding:0;gap:12px;min-width:0" data-a="openBrand" data-v="${x.id}"><span class="logo im">이미지</span><span class="grow" style="min-width:0"><b>${esc(x.n)}</b>${BF.g !== '전체' ? ` <span class="xs mute">${BF.g} 상품 ${gCnt(x.id)}개</span>` : ''} <span class="xs mute">${esc(x.en)}</span><span class="row" style="gap:6px;margin-top:4px;flex-wrap:wrap">${st.rv ? `<span class="pill ok">${sim ? '체형 일치' : '정사이즈'} ${sim ? sim.pct : st.pct}%</span>` : `<span class="pill gray">${NO_INFO}</span>`}<span class="pill ${tn.cls}">${tn.label}</span></span></span></button>${heartBtn('brand', String(x.id), 'ib heart')}</div>`;
   });
   return `${idx}<div class="row between" style="padding:10px 16px 4px"><span class="sm mute">브랜드 ${items.length}개</span><button class="sorttg" data-a="bSort" aria-label="정렬 바꾸기">${BF.sort === 'pop' ? '인기순' : '가나다순'} ⇅</button></div>${rows || emptyHTML('', emptyBtn('bfReset', '필터 초기화') + ' ' + emptyBtn('askOpen', '추가 요청하기', 'data-v="브랜드"'))}`;
 }
@@ -159,61 +160,67 @@ ACT.dfCat = t => { DF.cat = t.dataset.v; reRender(); };
 CHG.dfSort = t => { DF.sort = t.value; reRender(); };
 /* ---------- 후기 목록 · 필터 ---------- */
 let LF = newLF();
-const HR = [['~155', 0, 155], ['155~160', 155, 160], ['160~165', 160, 165], ['165~', 165, 999]], WR = [['~45kg', 0, 45], ['45~50kg', 45, 50], ['50~55kg', 50, 55], ['55kg~', 55, 999]];
+const bins = (from, to, step, unit) => { const o = [[`~${from}${unit}`, 0, from]]; for (let a = from; a < to; a += step) o.push([`${a}~${a + step}${unit}`, a, a + step]); o.push([`${to}${unit}~`, to, 999]); return o; };
+const HR = bins(150, 185, 5, 'cm'), WR = bins(40, 90, 5, 'kg');   // 키 5cm 단위 · 몸무게 5kg 단위(여러 구간 선택 가능)
 const OPCLS = { '작은 편': 'tight', '정사이즈': 'ok', '큰 편': 'loose' }, FDCLS = { '타이트': 'tight', '적당': 'ok', '여유': 'loose', '짧은 편': 'short', '긴 편': 'long' };
 const helpN = r => helpfulBase(r) + (S.helpful[r.id] ? 1 : 0), likeN = r => likeBase(r) + (S.likes.review.includes(r.id) ? 1 : 0);
 function filterReviews(pid) {
   let rs = (revByProd[pid] || []).slice(); const U = r => DB.U[r.u];
   if (LF.sizes.length) rs = rs.filter(r => LF.sizes.includes(r.sz));
-  if (LF.h) { const x = HR.find(a => a[0] === LF.h); rs = rs.filter(r => U(r)[0] >= x[1] && U(r)[0] < x[2]); }
-  if (LF.w) { const x = WR.find(a => a[0] === LF.w); rs = rs.filter(r => U(r)[1] >= x[1] && U(r)[1] < x[2]); }
+  if (LF.h.length) { const xs = HR.filter(a => LF.h.includes(a[0])); rs = rs.filter(r => xs.some(x => U(r)[0] >= x[1] && U(r)[0] < x[2])); }
+  if (LF.w.length) { const xs = WR.filter(a => LF.w.includes(a[0])); rs = rs.filter(r => xs.some(x => U(r)[1] >= x[1] && U(r)[1] < x[2])); }
   if (LF.op) rs = rs.filter(r => r.op === LF.op);
   if (LF.kw.length) rs = rs.filter(r => LF.kw.every(k => kwOf(r).includes(k)));
   if (LF.similar && S.body) rs = rs.filter(r => Math.abs(U(r)[0] - S.body.h) <= 6 && Math.abs(U(r)[1] - S.body.w) <= 7);
   const s = { helpful: (a, b) => helpN(b) - helpN(a), recent: (a, b) => (b.d || '').localeCompare(a.d || ''), high: (a, b) => b.rt - a.rt, low: (a, b) => a.rt - b.rt }[LF.sort];
   return rs.sort(s);
 }
-const activeFilters = () => [...LF.sizes.map(s => ['sizes', s, '구매 ' + s]), ...(LF.h ? [['h', LF.h, '키 ' + LF.h]] : []), ...(LF.w ? [['w', LF.w, '몸무게 ' + LF.w]] : []), ...(LF.op ? [['op', LF.op, LF.op]] : []), ...LF.kw.map(k => ['kw', k, '#' + k]), ...(LF.similar ? [['similar', 1, '내 체형 후기']] : [])];
+const activeFilters = () => [...LF.sizes.map(s => ['sizes', s, '구매 ' + s]), ...LF.h.map(x => ['h', x, '키 ' + x]), ...LF.w.map(x => ['w', x, '몸무게 ' + x]), ...(LF.op ? [['op', LF.op, LF.op]] : []), ...LF.kw.map(k => ['kw', k, '#' + k]), ...(LF.similar ? [['similar', 1, '내 체형 후기']] : [])];
 const kwTop = (rs, n = 10) => topOf(rs.flatMap(kwOf).reduce((m, k) => (m[k] = (m[k] || 0) + 1, m), {})).slice(0, n);
 const repN = r => repliesOf(r).length;
+const PILL_PARTS = r => Object.entries(r.fd || {}).filter(([k, v]) => v !== '적당' && k !== '총장').slice(0, 2);
 function reviewCard(r) {
-  const u = DB.U[r.u], helped = !!S.helpful[r.id], liked = S.likes.review.includes(r.id);
+  const u = DB.U[r.u], liked = S.likes.review.includes(r.id), lo = r.lo && r.lo !== '적당' ? r.lo : '';
   return `<div class="rv" role="button" tabindex="0" data-a="openReview" data-v="${r.id}">
-  <div class="row between"><span class="row" style="gap:8px;min-width:0"><span class="avatar sm">이미지</span><span style="min-width:0"><b class="sm">${esc(nickOfU(r.u))}</b> <span class="xs mute">${uidOf(r.u)}</span><span class="xs mute" style="display:block">${r.d || NO_INFO}${r.real ? '<span class="tag-real">실제 후기</span>' : ''}</span></span></span>${stars(r.rt)}</div>
-  <div class="sm mt8" style="margin-top:6px"><b>키 ${u[0]}cm · ${u[1]}kg</b> <span class="mute">· 구매 ${r.sz} → 추천 ${r.fs}</span></div>
-  <div class="chips mt8" style="margin-top:6px"><span class="pill ${OPCLS[r.op]}">${r.op}</span>${r.fd ? Object.entries(r.fd).slice(0, 3).map(([k, v]) => `<span class="pill ${FDCLS[v]}">${k} ${v}</span>`).join('') : ''}</div>
-  <div class="kws">${kwOf(r).slice(0, 4).map(k => `<span class="kw">#${esc(k)}</span>`).join('')}</div>
+  <div class="rv-top"><span class="avatar sm">이미지</span><span class="rv-who"><b class="sm">${esc(nickOfU(r.u))}</b><span class="xs mute"> ${uidOf(r.u)}</span></span><span class="xs mute">${r.d || NO_INFO}${r.real ? '<span class="tag-real">실제 후기</span>' : ''}</span></div>
+  <div class="rv-rate">${stars(r.rt)}${r.col ? `<span class="xs mute">${esc(r.col)}</span>` : ''}</div>
+  <div class="rv-info"><span><i>체형</i><b>${u[0]}cm · ${u[1]}kg</b></span><span><i>구매</i><b>${esc(r.sz)}</b></span><span><i>추천</i><b>${esc(r.fs)}</b></span></div>
+  <div class="chips rv-pills"><span class="pill ${OPCLS[r.op]}">${r.op}</span>${lo ? `<span class="pill ${FDCLS[lo] || ''}">${esc(lo)}</span>` : ''}${PILL_PARTS(r).map(([k, v]) => `<span class="pill ${FDCLS[v]}">${k} ${v}</span>`).join('')}</div>
   <div class="txt">${esc(r.t)}</div>
-  <div class="row" style="gap:8px"><button class="act heart ${liked ? 'on' : ''}" data-a="like" data-k="review" data-v="${r.id}">${ico('heart')}${likeN(r)}</button><span class="act" style="pointer-events:none">${ico('chat')}답글 ${repN(r)}</span></div></div>`;
+  ${kwOf(r).length ? `<div class="rv-kw">${kwOf(r).slice(0, 3).map(k => '#' + esc(k)).join('  ')}</div>` : ''}
+  <div class="rv-ft"><button class="act heart ${liked ? 'on' : ''}" data-a="like" data-k="review" data-v="${r.id}">${ico('heart')}${likeN(r)}</button><span class="act" style="pointer-events:none">${ico('chat')}답글 ${repN(r)}</span></div></div>`;
 }
+const RV_SORTS = [['helpful', '도움순'], ['recent', '최신순'], ['high', '별점 높은순'], ['low', '별점 낮은순']];
 function reviewBlock(pid) {
   const all = revByProd[pid] || [], rs = filterReviews(pid), n = all.length, avg = n ? all.reduce((a, r) => a + r.rt, 0) / n : 0;
-  const d = o => n ? Math.round(all.filter(r => r.op === o).length / n * 100) : 0, af = activeFilters(), kt = kwTop(all, 8);
-  return `<div class="pad"><div class="row" style="gap:18px"><div style="text-align:center"><div style="font-size:30px;font-weight:800">${n ? avg.toFixed(1) : '–'}</div>${stars(Math.round(avg))}<div class="xs mute">후기 ${n}건</div></div>
-  <div class="grow">${['작은 편', '정사이즈', '큰 편'].map(o => `<div class="row" style="gap:8px;margin:3px 0"><span class="xs" style="width:48px">${o}</span><div class="bar"><i style="width:${d(o)}%"></i></div><span class="xs num mute" style="width:32px;text-align:right">${d(o)}%</span></div>`).join('')}</div></div>
-  ${kt.length ? `<div class="sublabel" style="margin-top:14px">자주 나온 키워드</div><div class="chips">${kt.map(([k, c]) => `<button class="chip kwc ${LF.kw.includes(k) ? 'on' : ''}" data-a="rvKw" data-v="${esc(k)}">#${esc(k)} <span class="mute">${c}</span></button>`).join('')}</div>` : ''}</div>
-  <div style="padding:0 16px 10px;border-bottom:1px solid var(--line)"><div class="chips scroll"><button class="chip ${af.length ? 'on' : ''}" data-a="openFilter">필터${af.length ? ' ' + af.length : ''} ▾</button>${af.map(([k, v, l]) => `<button class="chip x" data-a="rmFilter" data-k="${k}" data-v="${esc(v)}">${esc(l)}</button>`).join('')}</div>
-  <div class="chips scroll mt8" style="margin-top:8px">${[['helpful', '도움순'], ['recent', '최신순'], ['high', '별점 높은순'], ['low', '별점 낮은순']].map(([k, l]) => `<button class="chip ${LF.sort === k ? 'on' : ''}" data-a="rvSort" data-v="${k}">${l}</button>`).join('')}</div>
-  <div class="xs mute mt8" style="margin-top:8px">${rs.length}건 ${af.length ? `(전체 ${n}건 중)` : ''}</div></div>
+  const d = o => n ? Math.round(all.filter(r => r.op === o).length / n * 100) : 0, af = activeFilters(), kt = kwTop(all, 6);
+  return `<div class="pad"><div class="rv-sum"><div class="rv-score"><div class="rv-avg">${n ? avg.toFixed(1) : '–'}</div>${stars(Math.round(avg))}<div class="xs mute">후기 ${n}건</div></div>
+  <div class="grow">${['작은 편', '정사이즈', '큰 편'].map(o => `<div class="row" style="gap:8px;margin:4px 0"><span class="xs" style="width:48px">${o}</span><div class="bar"><i style="width:${d(o)}%"></i></div><span class="xs num mute" style="width:32px;text-align:right">${d(o)}%</span></div>`).join('')}</div></div>
+  ${kt.length ? `<div class="chips scroll mt12" style="margin-top:12px">${kt.map(([k, c]) => `<button class="chip kwc ${LF.kw.includes(k) ? 'on' : ''}" data-a="rvKw" data-v="${esc(k)}">#${esc(k)} <span class="mute">${c}</span></button>`).join('')}</div>` : ''}</div>
+  <div class="rv-bar"><div class="row between"><button class="chip ${af.length ? 'on' : ''}" data-a="openFilter">필터${af.length ? ' ' + af.length : ''} ▾</button><span class="row" style="gap:8px"><span class="xs mute">${rs.length}건${af.length ? ` / 전체 ${n}건` : ''}</span><select class="inp sortsel" data-c="rvSortSel" aria-label="후기 정렬">${RV_SORTS.map(([k, l]) => `<option value="${k}" ${LF.sort === k ? 'selected' : ''}>${l}</option>`).join('')}</select></span></div>
+  ${af.length ? `<div class="chips scroll" style="margin-top:8px">${af.map(([k, v, l]) => `<button class="chip x" data-a="rmFilter" data-k="${k}" data-v="${esc(v)}">${esc(l)}</button>`).join('')}</div>` : ''}</div>
   ${rs.length ? rs.map(reviewCard).join('') : emptyHTML('', emptyBtn('rvReset', '필터 초기화'))}`;
 }
+CHG.rvSortSel = t => { LF.sort = t.value; reRender(); };
 ACT.helpful = t => { const id = t.dataset.v; if (S.helpful[id]) delete S.helpful[id]; else S.helpful[id] = 1; save(); reRender(); };
 ACT.rvSort = t => { LF.sort = t.dataset.v; reRender(); };
 ACT.rvReset = () => { LF = newLF(LF.sort); reRender(); };
 ACT.rvKw = t => { const k = t.dataset.v; LF.kw = LF.kw.includes(k) ? LF.kw.filter(x => x !== k) : [...LF.kw, k]; reRender(); };
-ACT.rmFilter = t => { const k = t.dataset.k, v = t.dataset.v; if (k === 'sizes') LF.sizes = LF.sizes.filter(x => x !== v); else if (k === 'kw') LF.kw = LF.kw.filter(x => x !== v); else if (k === 'similar') LF.similar = false; else LF[k] = null; reRender(); };
+ACT.rmFilter = t => { const k = t.dataset.k, v = t.dataset.v; if (k === 'sizes') LF.sizes = LF.sizes.filter(x => x !== v); else if (k === 'h' || k === 'w') LF[k] = LF[k].filter(x => x !== v); else if (k === 'kw') LF.kw = LF.kw.filter(x => x !== v); else if (k === 'similar') LF.similar = false; else LF[k] = null; reRender(); };
 let LFt = null;
 ACT.openFilter = () => { LFt = JSON.parse(JSON.stringify(LF)); filterSheet(); };
 function filterSheet() {
   const pid = stack.at(-1).p.id, keep = LF; LF = LFt; const n = filterReviews(pid).length; LF = keep;
-  const grp = (title, body) => `<div class="field"><label class="f">${title}</label><div class="chips">${body}</div></div>`;
-  const ch = (arr, cur, k) => arr.map(x => `<button class="chip ${(Array.isArray(cur) ? cur.includes(x) : cur === x) ? 'on' : ''}" data-a="fT" data-k="${k}" data-v="${esc(x)}">${esc(x)}</button>`).join('');
-  const kt = kwTop(revByProd[pid] || [], 16).map(x => x[0]);
-  sheet(`<h3>후기 필터</h3><div class="mt16">${grp('구매 사이즈', ch(SZ, LFt.sizes, 'sizes'))}${grp('키', ch(HR.map(a => a[0]), LFt.h, 'h'))}${grp('몸무게', ch(WR.map(a => a[0]), LFt.w, 'w'))}${grp('사이즈감', ch(['작은 편', '정사이즈', '큰 편'], LFt.op, 'op'))}${kt.length ? grp('키워드', ch(kt, LFt.kw, 'kw')) : ''}
-  <div class="row between card fill" style="padding:12px 14px"><div><b class="sm">내 체형과 비슷한 후기만</b><div class="xs mute">${S.body ? `키 ±6cm · 몸무게 ±7kg (${S.body.h}cm·${S.body.w}kg)` : '신체 사이즈를 입력하면 쓸 수 있어요'}</div></div><button class="sw ${LFt.similar ? 'on' : ''}" data-a="fT" data-k="similar" data-v="1" role="switch" aria-checked="${LFt.similar}" aria-label="내 체형 후기만" ${S.body ? '' : 'disabled'}></button></div></div>
+  const all = revByProd[pid] || [], cnt = {}; all.forEach(r => kwOf(r).forEach(k => { cnt[k] = (cnt[k] || 0) + 1; }));
+  const grp = (title, body, note = '') => `<div class="field"><label class="f">${title}${note ? ` <span class="xs mute" style="font-weight:400">${note}</span>` : ''}</label><div class="chips">${body}</div></div>`;
+  const ch = (arr, cur, k, lab) => arr.map(x => `<button class="chip ${(Array.isArray(cur) ? cur.includes(x) : cur === x) ? 'on' : ''}" data-a="fT" data-k="${k}" data-v="${esc(x)}">${esc(lab ? lab(x) : x)}</button>`).join('');
+  const kwGroups = KW.map(g => ({ g: g.g, ks: g.k.filter(k => cnt[k]) })).filter(g => g.ks.length);
+  sheet(`<h3>후기 필터</h3><div class="mt16">${grp('구매 사이즈', ch(SZ, LFt.sizes, 'sizes'), '여러 개 선택')}${grp('키', ch(HR.map(a => a[0]), LFt.h, 'h'), '5cm 단위 · 여러 개 선택')}${grp('몸무게', ch(WR.map(a => a[0]), LFt.w, 'w'), '5kg 단위 · 여러 개 선택')}${grp('사이즈감', ch(['작은 편', '정사이즈', '큰 편'], LFt.op, 'op'))}
+  ${kwGroups.length ? `<div class="field"><label class="f">키워드 <span class="xs mute" style="font-weight:400">선택한 키워드가 모두 있는 후기</span></label>${kwGroups.map(g => `<div class="sublabel" style="margin-top:10px">${g.g}</div><div class="chips">${g.ks.map(k => `<button class="chip ${LFt.kw.includes(k) ? 'on' : ''}" data-a="fT" data-k="kw" data-v="${esc(k)}">#${esc(k)} <span class="mute">${cnt[k]}</span></button>`).join('')}</div>`).join('')}</div>` : ''}
+  <div class="row between card fill" style="padding:12px 14px"><div><b class="sm">내 체형과 비슷한 후기만</b><div class="xs mute">${S.body ? `키 ±6cm · 몸무게 ±7kg (${S.body.h}cm·${S.body.w}kg)` : '신체 사이즈를 입력하면 쓸 수 있어요'}</div></div><button class="sw ${LFt.similar ? 'on' : ''}" data-a="fT" data-k="similar" data-v="1" role="switch" aria-checked="${LFt.similar}" aria-label="내 체형 후기만"></button></div></div>
   <div class="row mt16"><button class="btn flat" data-a="fReset" style="width:96px">초기화</button><button class="btn pri grow" data-a="fApply">${n}건 보기</button></div>`);
 }
-ACT.fT = t => { const k = t.dataset.k, v = t.dataset.v; if (k === 'sizes' || k === 'kw') LFt[k] = LFt[k].includes(v) ? LFt[k].filter(x => x !== v) : [...LFt[k], v]; else if (k === 'similar') LFt.similar = !LFt.similar; else LFt[k] = LFt[k] === v ? null : v; const sc = $('#scrim .sheet'), y = sc ? sc.scrollTop : 0; filterSheet(); const s2 = $('#scrim .sheet'); if (s2) s2.scrollTop = y; };
+ACT.fT = t => { const k = t.dataset.k, v = t.dataset.v; if (['sizes', 'kw', 'h', 'w'].includes(k)) LFt[k] = LFt[k].includes(v) ? LFt[k].filter(x => x !== v) : [...LFt[k], v]; else if (k === 'similar') LFt.similar = !LFt.similar; else LFt[k] = LFt[k] === v ? null : v; const sc = $('#scrim .sheet'), y = sc ? sc.scrollTop : 0; filterSheet(); const s2 = $('#scrim .sheet'); if (s2) s2.scrollTop = y; };
 ACT.fReset = () => { LFt = newLF(LF.sort); filterSheet(); };
 ACT.fApply = () => { LF = LFt; closeSheet(); reRender(); };
 

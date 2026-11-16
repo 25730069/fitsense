@@ -3,7 +3,7 @@
    data/products.json 상품 (product_id, brand_id, name, category, sub_category, gender, fit_type, sleeve_type, stretch, price, colors, sizes, size_chart, release_date, product_url, meta)
    data/reviews.json  후기 (review_id, product_id, reviewer_id, reviewer_nick, reviewer_handle, height_cm, weight_kg, purchased_size, size_opinion, … meta)
    필드 설명과 허용값은 docs/DATA_SPEC.md 참고 */
-const DATA_VER = '20261116105759'; // 빌드 시각: 예전 JSON·JS가 브라우저에 남아 새 파일과 섞이는 것을 막아요
+const DATA_VER = '20261116112648'; // 빌드 시각: 예전 JSON·JS가 브라우저에 남아 새 파일과 섞이는 것을 막아요
 const DATA_FILES = { brands: 'data/brands.json', products: 'data/products.json', reviews: 'data/reviews.json' };
 async function fetchRaw() {
   const out = {};
